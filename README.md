@@ -1,35 +1,29 @@
 ﻿# PHP84 CORRAD User Manual
 
-Dokumentasi ini dibina menggunakan VitePress dengan struktur Markdown yang jelas.
+Manual ini dibina sebagai laman dokumentasi statik menggunakan Markdown.
 
 ## Struktur projek
 
-- `package.json` - skrip pembangunan.
-- `docs/` - sumber dokumentasi berasaskan Markdown.
-- `docs/.vitepress/` - konfigurasi VitePress dan tema.
+- `index.html` — laman utama dokumentasi.
+- `style.css` — gaya reka bentuk.
+- `script.js` — pemuatan Markdown, sidebar, carian dan navigasi.
+- `docs/` — sumber Markdown untuk setiap halaman manual.
 
 ## Cara jalankan secara lokal
 
-```bash
-npm install
-npm run docs:dev
-```
+1. Buka `index.html` menggunakan VS Code Live Server.
+2. Atau buka `index.html` secara terus dalam penyemak imbas.
 
-Buka `http://localhost:4173` untuk melihat dokumentasi.
-
-## Cara bina untuk produksi
-
-```bash
-npm run docs:build
-```
+> Jika halaman tidak dimuatkan apabila dibuka terus, gunakan Live Server untuk menyelesaikan sekatan fetch fail tempatan.
 
 ## Deploy ke Vercel
 
-1. Hubungkan repositori ini ke Vercel.
-2. Tetapkan build command: `npm install && npm run docs:build`.
-3. Tetapkan output directory kepada `docs/.vitepress/dist` jika Vercel tidak mengesan secara automatik.
+1. Sambungkan repositori ini ke Vercel.
+2. Tiada build command diperlukan.
+3. Vercel akan menerbitkan `index.html` secara automatik.
 
 ## Cara edit
 
-- Edit setiap halaman Markdown dalam `docs/`.
-- Tambah halaman baru dan kemas kini `docs/.vitepress/config.ts` jika perlu.
+- Ubah kandungan halaman di dalam folder `docs/`.
+- Tambah halaman baru dalam folder yang sesuai.
+- Kemaskini `script.js` jika anda mahu mengubah susunan sidebar.
