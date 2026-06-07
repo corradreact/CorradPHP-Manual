@@ -1,0 +1,12 @@
+{
+  "name": "corrad-php-manual",
+  "private": true,
+  "scripts": {
+    "docs:sidebar": "node scripts/generate-sidebar.js",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}
