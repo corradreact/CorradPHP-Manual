@@ -1,76 +1,175 @@
+﻿const pages = [
+  {
+    category: 'Core Manual',
+    items: [
+      { title: 'Introduction', path: 'manual/introduction.md' },
+      { title: 'Login Guide', path: 'manual/login-guide.md' },
+      { title: 'Dashboard Overview', path: 'manual/dashboard-overview.md' },
+      { title: 'Navigation Menu', path: 'manual/navigation-menu.md' },
+      { title: 'Main Modules', path: 'manual/main-modules.md' },
+      { title: 'Create New Record', path: 'manual/create-new-record.md' },
+      { title: 'Edit Existing Record', path: 'manual/edit-existing-record.md' },
+      { title: 'View Details', path: 'manual/view-details.md' },
+      { title: 'Search and Filter', path: 'manual/search-and-filter.md' },
+      { title: 'Upload Attachment', path: 'manual/upload-attachment.md' },
+      { title: 'Approval Flow', path: 'manual/approval-flow.md' },
+      { title: 'Reports', path: 'manual/reports.md' },
+      { title: 'Common Errors', path: 'manual/common-errors.md' },
+      { title: 'FAQ', path: 'manual/faq.md' },
+      { title: 'Contact Support', path: 'manual/contact-support.md' }
+    ]
+  },
+  {
+    category: 'Profile',
+    items: [
+      { title: 'Profile Overview', path: 'manual/profile/overview.md' },
+      { title: 'Edit Profile', path: 'manual/profile/edit-profile.md' },
+      { title: 'Change Password', path: 'manual/profile/change-password.md' },
+      { title: 'Forgot Password', path: 'manual/profile/forgot-password.md' },
+      { title: 'Active Sessions', path: 'manual/profile/active-sessions.md' }
+    ]
+  }
+];
+
+const sidebarNav = document.getElementById('sidebarNav');
+const contentBody = document.getElementById('contentBody');
 const searchInput = document.getElementById('searchInput');
-const navLinks = Array.from(document.querySelectorAll('.sidebar-list a'));
-const sections = Array.from(document.querySelectorAll('.content-section'));
 const backToTopButton = document.getElementById('backToTop');
-const sidebarItems = Array.from(document.querySelectorAll('.sidebar-list li'));
+let currentItem = null;
 
-function scrollToSection(event) {
+function createSidebar() {
+  pages.forEach((group) => {
+    const label = document.createElement('li');
+    label.className = 'sidebar-category';
+    label.textContent = group.category;
+    sidebarNav.appendChild(label);
+
+    group.items.forEach((item) => {
+      const entry = document.createElement('li');
+      entry.className = 'sidebar-item';
+      const link = document.createElement('a');
+      link.href = #;
+      link.textContent = item.title;
+      link.dataset.path = item.path;
+      link.addEventListener('click', handleNavClick);
+      entry.appendChild(link);
+      sidebarNav.appendChild(entry);
+    });
+  });
+}
+
+function handleNavClick(event) {
   event.preventDefault();
-  const targetId = event.currentTarget.getAttribute('href').slice(1);
-  const section = document.getElementById(targetId);
-
-  if (section) {
-    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
+  const link = event.currentTarget;
+  loadPage(link.dataset.path, link.href.split('#')[1]);
 }
 
-navLinks.forEach((link) => link.addEventListener('click', scrollToSection));
-
-function updateActiveNav() {
-  const offset = window.scrollY + window.innerHeight * 0.25;
-  let activeId = sections[0].id;
-
-  sections.forEach((section) => {
-    const rect = section.getBoundingClientRect();
-    const sectionTop = window.scrollY + rect.top;
-    if (offset >= sectionTop) {
-      activeId = section.id;
-    }
-  });
-
-  navLinks.forEach((link) => {
-    const isActive = link.getAttribute('href') === `#${activeId}`;
+function setActiveLink(hash) {
+  const links = sidebarNav.querySelectorAll('a');
+  links.forEach((link) => {
+    const isActive = link.href.endsWith(#);
     link.classList.toggle('active', isActive);
+    if (isActive) {
+      currentItem = link;
+    }
   });
 }
 
-function filterSections() {
-  const query = searchInput.value.trim().toLowerCase();
-  let matchedCount = 0;
-
-  sections.forEach((section, index) => {
-    const title = section.querySelector('h2')?.textContent.toLowerCase() || '';
-    const text = section.textContent.toLowerCase();
-    const match = title.includes(query) || text.includes(query);
-
-    if (query === '' || match) {
-      section.style.display = 'block';
-      sidebarItems[index].style.display = 'block';
-      matchedCount += 1;
-    } else {
-      section.style.display = 'none';
-      sidebarItems[index].style.display = 'none';
+async function loadPage(path, hash) {
+  try {
+    const response = await fetch(path);
+    if (!response.ok) {
+      throw new Error('Page not found');
     }
-  });
-
-  if (matchedCount === 0) {
-    if (!document.querySelector('.no-results')) {
-      const noResults = document.createElement('div');
-      noResults.className = 'no-results';
-      noResults.textContent = 'No matching sections found. Please try another keyword.';
-      document.querySelector('.content-area').prepend(noResults);
-    }
-  } else {
-    const existing = document.querySelector('.no-results');
-    if (existing) existing.remove();
+    const text = await response.text();
+    contentBody.innerHTML = convertMarkdown(text);
+    document.title = PHP84 CORRAD User Manual — ;
+    setActiveLink(hash);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } catch (err) {
+    contentBody.innerHTML = <div class="no-content">Halaman tidak boleh dimuatkan. Sila semak sambungan atau struktur fail.</div>;
   }
 }
 
-function toggleBackToTop() {
-  if (window.scrollY > 360) {
-    backToTopButton.style.display = 'block';
-  } else {
-    backToTopButton.style.display = 'none';
+function formatInline(text) {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong></strong>')
+    .replace(/\*(.*?)\*/g, '<em></em>')
+    .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="" target="_blank" rel="noreferrer"></a>');
+}
+
+function convertMarkdown(markdown) {
+  const lines = markdown.replace(/\r\n/g, '\n').split('\n');
+  let html = '';
+  let listType = null;
+
+  const closeList = () => {
+    if (listType === 'ul') html += '</ul>';
+    if (listType === 'ol') html += '</ol>';
+    listType = null;
+  };
+
+  lines.forEach((line) => {
+    if (/^#{1,6}\s/.test(line)) {
+      closeList();
+      const level = line.match(/^#+/)[0].length;
+      const content = line.slice(level).trim();
+      html += <h></h>;
+    } else if (/^>\s/.test(line)) {
+      closeList();
+      html += <blockquote></blockquote>;
+    } else if (/^\d+\.\s/.test(line)) {
+      if (listType !== 'ol') {
+        closeList();
+        html += '<ol>';
+        listType = 'ol';
+      }
+      html += <li></li>;
+    } else if (/^[-*]\s/.test(line)) {
+      if (listType !== 'ul') {
+        closeList();
+        html += '<ul>';
+        listType = 'ul';
+      }
+      html += <li></li>;
+    } else if (line.trim() === '') {
+      closeList();
+    } else {
+      closeList();
+      html += <p></p>;
+    }
+  });
+
+  closeList();
+  return html;
+}
+
+function filterSidebar() {
+  const query = searchInput.value.trim().toLowerCase();
+  const items = sidebarNav.querySelectorAll('.sidebar-item');
+  items.forEach((item) => {
+    const link = item.querySelector('a');
+    const text = link.textContent.toLowerCase();
+    const match = text.includes(query);
+    item.style.display = match || query === '' ? 'block' : 'none';
+  });
+}
+
+function checkHash() {
+  const hash = window.location.hash.replace('#', '');
+  if (!hash) {
+    const first = sidebarNav.querySelector('a');
+    if (first) {
+      const path = first.dataset.path;
+      const currentHash = first.href.split('#')[1];
+      loadPage(path, currentHash);
+      history.replaceState(null, '', #);
+    }
+    return;
+  }
+  const target = sidebarNav.querySelector([href$="#"]);
+  if (target) {
+    loadPage(target.dataset.path, hash);
   }
 }
 
@@ -79,10 +178,11 @@ backToTopButton.addEventListener('click', () => {
 });
 
 window.addEventListener('scroll', () => {
-  updateActiveNav();
-  toggleBackToTop();
+  backToTopButton.style.display = window.scrollY > 320 ? 'block' : 'none';
 });
 
-searchInput.addEventListener('input', filterSections);
+window.addEventListener('hashchange', checkHash);
+searchInput.addEventListener('input', filterSidebar);
 
-updateActiveNav();
+createSidebar();
+checkHash();
