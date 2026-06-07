@@ -2,13 +2,5 @@
   "name": "corrad-php-manual",
   "version": "1.0.0",
   "private": true,
-  "description": "PHP84 CORRAD User Manual documentation site.",
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress preview docs"
-  },
-  "devDependencies": {
-    "vitepress": "^1.6.4"
-  }
+  "description": "Static markdown-based user manual for PHP84 CORRAD."
 }
