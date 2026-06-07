@@ -1,14 +1,7 @@
 {
   "name": "corrad-php-manual",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "docs:sidebar": "node scripts/generate-sidebar.js",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "devDependencies": {
-    "vitepress": "^1.6.4"
-  }
+  "private": true,
+  "description": "Static HTML user manual for PHP84 CORRAD.",
+  "homepage": "."
 }

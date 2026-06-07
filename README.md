@@ -1,58 +1,34 @@
 # PHP84 CORRAD User Manual
 
-Template manual pengguna ini dibina menggunakan VitePress.
+Laman manual pengguna statik ini dibina sebagai projek HTML/CSS/JS mudah.
 
 ## Struktur projek
 
-- `package.json` - skrip pembangunan dan pembinaan.
-- `docs/` - kandungan manual markdown.
-- `docs/.vitepress/` - konfigurasi VitePress dan gaya tersuai.
+- `index.html` - halaman utama manual.
+- `style.css` - gaya reka bentuk.
+- `script.js` - fungsi carian, smooth scroll dan active menu.
+- `assets/` - ruang untuk simpan imej atau ikon jika diperlukan.
 
 ## Cara jalankan secara lokal
 
-1. Pasang dependencies:
+1. Buka `index.html` terus dalam pelayar.
+2. Atau guna VS Code Live Server untuk pratonton segera.
+3. Boleh juga gunakan Python server jika mahu:
 
 ```powershell
-npm install
+python -m http.server 8000
 ```
 
-2. Jalankan dokumentasi secara lokal:
+## Deploy ke Vercel
 
-```powershell
-npm run docs:dev
-```
+1. Pastikan `index.html` berada di root projek.
+2. Deploy repositori ke Vercel seperti projek statik biasa.
+3. Tiada build command diperlukan.
 
-3. Buka `http://localhost:4173` dalam pelayar.
+> Vercel akan terus menghidangkan `index.html` dari root, jadi tiada konfigurasi build khusus diperlukan.
 
-## Cara bina untuk produksi
+## Penyuntingan mudah
 
-```powershell
-npm run docs:build
-```
-
-## Cara deploy ke Vercel
-
-1. Pastikan anda mempunyai akaun Vercel.
-2. Hubungkan repositori ini di Vercel.
-3. Tetapkan folder build sebagai `docs/.vitepress/dist` jika perlu.
-4. Gunakan arahan build berikut dalam tetapan Vercel:
-
-```bash
-npm install
-npm run docs:build
-```
-
-> Nota: VitePress biasanya mengesan `docs` sebagai direktori sumber. Jika Vercel memerlukan tetapan khusus, gunakan `npm run docs:build` dan tetapkan folder keluaran.
-
-## Pengeditan mudah
-
-- Tambah tangkapan skrin ke dalam fail markdown menggunakan placeholder:
-
-```markdown
-::: tip Screenshot placeholder
-[Insert screenshot here]
-:::
-```
-
-- Ubah kandungan setiap seksyen di `docs/*.md`.
-- Tambah halaman baru dan kemas kini `docs/.vitepress/sidebar.json` untuk mengemaskini menu sisi.
+- Tambah atau kemas kini kandungan terus dalam `index.html`.
+- Untuk screenshot placeholder, gantikan teks di dalam kotak `"[Insert screenshot here]"`.
+- Ubah gaya dalam `style.css` dan tingkatan fungsi carian dalam `script.js`.
