@@ -36,13 +36,6 @@ export default defineConfig({
         ]
       },
       {
-        text: 'System Administrator',
-        collapsed: false,
-        items: [
-          { text: 'Overview', link: '/system-administrator/overview' }
-        ]
-      },
-      {
         text: 'System Settings',
         collapsed: false,
         items: [
