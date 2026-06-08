@@ -2,271 +2,122 @@ import { defineConfig } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
 export default defineConfig({
-  lang: 'ms-MY',
-  title: 'Smart Training',
-  description: 'Manual Pengguna Kakitangan dan Admin untuk Sistem Latihan',
+  lang: 'en-US',
+  title: 'Corrad PHP84 Manual',
+  description: 'User manual for Corrad PHP84 system',
+  cleanUrls: true,
 
   head: [
-    ['link', { href: '/elatihan-logo.png' }]
+    ['link', { rel: 'icon', href: '/elatihan-logo.png' }]
   ],
 
   themeConfig: {
     logo: '/elatihan-logo.png',
 
-    // nav sengaja kosong – entry guna index.md
-    // nav: [],
+    search: {
+      provider: 'local'
+    },
 
-    sidebar: {
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Corrad System', link: 'https://php84.corrad.my/' }
+    ],
 
-      /* =======================
-         KAKITANGAN
-         ======================= */
-      '/kakitangan/': [
-        {
-          text: 'Dashboard (Latihan Luaran / Dalaman)',
-          items: [
-            { text: 'Daftar Kedatangan (Hadir)', link: '/kakitangan/latihan/daftar-kedatangan' },
-            { text: 'Daftar Ketidakhadiran (Tidak Hadir)', link: '/kakitangan/latihan/daftar-ketidakhadiran' },
-            { text: 'Senarai Latihan Terlibat', link: '/kakitangan/latihan/senarai-latihan' }
-          ]
-        },
-        {
-          text: 'Pengurusan Permohonan',
-          items: [
-            { text: 'Permohonan Latihan Luaran', link: '/kakitangan/pengurusan-permohonan/permohonan-latihan-luaran' },
-            { text: 'Senarai Permohonan', link: '/kakitangan/pengurusan-permohonan/senarai-permohonan' }
-          ]
-        },
-        {
-          text: 'Penilaian Latihan & Cetakan Sijil',
-          items: [
-            { text: 'Penilaian Latihan (Dalaman)', link: '/kakitangan/latihan/penilaian-latihan' },
-            { text: 'Cetak Sijil Penyertaan (Dalaman)', link: '/kakitangan/latihan/cetak-sijil' }
-          ]
-        }
-      ],
+    sidebar: [
+      {
+        text: 'Profile',
+        collapsed: false,
+        items: [
+          { text: 'Edit Profile', link: '/profile/edit-profile' },
+          { text: 'Change Password', link: '/profile/change-password' },
+          { text: 'Forgot Password', link: '/profile/forgot-password' },
+          { text: 'Reset Password', link: '/profile/reset-password' },
+          { text: 'Active Sessions', link: '/profile/active-sessions' }
+        ]
+      },
+      {
+        text: 'System Administrator',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/system-administrator/overview' }
+        ]
+      },
+      {
+        text: 'System Settings',
+        collapsed: false,
+        items: [
+          { text: 'System Configuration', link: '/system-settings/system-configuration' },
+          { text: 'Database Connections', link: '/system-settings/database-connections' },
+          { text: 'Reference Data', link: '/system-settings/reference-data' },
+          { text: 'LDAP Editor', link: '/system-settings/ldap-editor' },
+          { text: 'JWT Server', link: '/system-settings/jwt-server' }
+        ]
+      },
+      {
+        text: 'Editors & Tools',
+        collapsed: false,
+        items: [
+          { text: 'Message Editor', link: '/editors-tools/message-editor' },
+          { text: 'Translation Editor', link: '/editors-tools/translation-editor' },
+          { text: 'SMTP Editor', link: '/editors-tools/smtp-editor' },
+          { text: 'Migration Manager', link: '/editors-tools/migration-manager' }
+        ]
+      },
+      {
+        text: 'Pages & Navigation',
+        collapsed: false,
+        items: [
+          { text: 'Menu Editor', link: '/pages-navigation/menu-editor' },
+          { text: 'Page Studio', link: '/pages-navigation/page-studio' },
+          { text: 'Page Editor', link: '/pages-navigation/page-editor' },
+          { text: 'Control / Trigger Editor', link: '/pages-navigation/control-trigger-editor' }
+        ]
+      },
+      {
+        text: 'Logic & API',
+        collapsed: false,
+        items: [
+          { text: 'BI Editor v5', link: '/logic-api/bi-editor-v5' },
+          { text: 'BI Editor (F & BE)', link: '/logic-api/bi-editor-f-be' },
+          { text: 'API Workspace', link: '/logic-api/api-workspace' }
+        ]
+      },
+      {
+        text: 'Data & Monitoring',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/data-monitoring/overview' }
+        ]
+      },
+      {
+        text: 'User Administrator',
+        collapsed: false,
+        items: [
+          { text: 'User Management', link: '/user-administrator/user-management' },
+          { text: 'Roles & Permissions', link: '/user-administrator/roles-permissions' },
+          { text: 'Session Monitor', link: '/user-administrator/session-monitor' }
+        ]
+      },
+      {
+        text: 'Showcase',
+        collapsed: false,
+        items: [
+          { text: 'Input Types Showcase', link: '/showcase/input-types-showcase' },
+          { text: 'Component Showcase', link: '/showcase/component-showcase' },
+          { text: 'Showcase Product Dashboard', link: '/showcase/product-dashboard' },
+          { text: 'Showcase Product Dashboard 2', link: '/showcase/product-dashboard-2' }
+        ]
+      }
+    ],
 
-      /* =======================
-         ADMIN IT
-         ======================= */
-      '/adminit/': [
-        {
-          text: 'Pengurusan Pengguna',
-          items: [
-            { text: 'Tambah Pengguna', link: '/adminit/pengurusan-pengguna/tambah-pengguna' },
-            { text: 'Kemaskini Pengguna', link: '/adminit/pengurusan-pengguna/kemaskini-pengguna' }
-          ]
-        },
-        {
-          text: 'Laporan Latihan',
-          items: [
-            { text: 'Pengurusan Peserta', link: '/adminit/laporan-latihan/pengurusan-peserta' },
-            { text: 'Pengurusan Penceramah (Dalaman)', link: '/adminit/laporan-latihan/pengurusan-penceramah' },
-            { text: 'Pengurusan Penilaian', link: '/adminit/laporan-latihan/pengurusan-penilaian' }
-          ]
-        },
-        {
-          text: 'Pengurusan Permohonan',
-          items: [
-            { text: 'Lihat Senarai Permohonan', link: '/adminit/pengurusan-permohonan/senarai-permohonan' }
-          ]
-        }
-      ],
+    outline: {
+      level: [2, 3],
+      label: 'On this page'
+    },
 
-      /* =======================
-         ADMIN JABATAN
-         ======================= */
-      '/adminjab/': [
-        {
-          text: 'Dashboard Admin',
-          items: [
-            { text: 'Mengisi Anggaran Perbelanjaan', link: '/adminjab/tugasan/anggaran-perbelanjaan' },
-            { text: 'Daftar Peserta Latihan', link: '/adminjab/tugasan/peserta-latihan' }
-          ]
-        },
-        {
-          text: 'Laporan Latihan',
-          items: [
-            { text: 'Pengurusan Peserta', link: '/adminjab/laporan-latihan/pengurusan-peserta' },
-            { text: 'Pengurusan Penceramah (Dalaman)', link: '/adminjab/laporan-latihan/pengurusan-penceramah' },
-            { text: 'Pengurusan Penilaian', link: '/adminjab/laporan-latihan/pengurusan-penilaian' }
-          ]
-        },
-        {
-          text: 'Pengurusan Permohonan',
-          items: [
-            { text: 'Lihat Senarai Permohonan', link: '/adminjab/pengurusan-permohonan/senarai-permohonan' }
-          ]
-        },
-        {
-          text: 'Tetapan & Pengurusan Emel',
-          items: [
-            { text: 'Urus Tempoh Permohonan', link: '/adminjab/pengurusan-emel/tempoh-permohonan' },
-            { text: 'Urus Template Emel', link: '/adminjab/pengurusan-emel/template-emel' },
-            { text: 'Penghantaran Emel Jemputan', link: '/adminjab/pengurusan-emel/Penghantaran-emel' }
-          ]
-        }
-      ],
-
-      /* =======================
-         PENGARAH JABATAN (PJ)
-         ======================= */
-      '/pj/': [
-        {
-          text: 'Dashboard Tugasan',
-          items: [
-            { text: 'Sokong Permohonan Latihan Luaran', link: '/pj/tugasan/permohonan-latihan' },
-            { text: 'Sokong Ketidakhadiran', link: '/pj/tugasan/ketidakhadiran' }
-          ]
-        },
-        {
-          text: 'Latihan Saya (Luaran / Dalaman)',
-          items: [
-            { text: 'Daftar Kedatangan (Hadir)', link: '/pj/latihan/daftar-kedatangan' },
-            { text: 'Daftar Ketidakhadiran (Tidak Hadir)', link: '/pj/latihan/daftar-ketidakhadiran' },
-            { text: 'Senarai Latihan Terlibat', link: '/pj/latihan/senarai-latihan' }
-          ]
-        },
-        {
-          text: 'Pengurusan Permohonan',
-          items: [
-            { text: 'Permohonan Latihan Luaran', link: '/pj/pengurusan-permohonan/permohonan-latihan-luaran' },
-            { text: 'Senarai Permohonan', link: '/pj/pengurusan-permohonan/senarai-permohonan' }
-          ]
-        },
-        {
-          text: 'Penilaian Latihan & Cetakan Sijil',
-          items: [
-            { text: 'Penilaian Latihan (Dalaman)', link: '/pj/penilaian/penilaian-latihan' },
-            { text: 'Cetak Sijil Penyertaan', link: '/pj/penilaian/cetak-sijil' }
-          ]
-        }
-      ],
-
-       '/kblk/': [
-        {
-          text: 'Dashboard Tugasan',
-           items: [
-            { text: 'Ulasan Permohonan Latihan', link: '/kblk/kblk/ulasan-permohonan-latihan' },
-             { text: 'Sokong Ketidakhadiran', link: '/kblk/tugasan/ketidakhadiran' }
-          ]
-        },
-        {
-          text: 'Latihan Saya (Luaran / Dalaman)',
-          items: [
-            { text: 'Daftar Kedatangan (Hadir)', link: '/kblk/latihan/daftar-kedatangan' },
-            { text: 'Daftar Ketidakhadiran (Tidak Hadir)', link: '/kblk/latihan/daftar-ketidakhadiran' },
-            { text: 'Senarai Latihan Terlibat', link: '/kblk/latihan/senarai-latihan' }
-          ]
-        },
-        {
-          text: 'Pengurusan Permohonan',
-          items: [
-            { text: 'Permohonan Latihan Luaran', link: '/kblk/pengurusan-permohonan/permohonan-latihan-luaran' },
-            { text: 'Senarai Permohonan', link: '/kblk/pengurusan-permohonan/senarai-permohonan' }
-          ]
-        },
-        {
-          text: 'Penilaian Latihan & Cetakan Sijil',
-          items: [
-            { text: 'Penilaian Latihan (Dalaman)', link: '/kblk/penilaian/penilaian-latihan' },
-            { text: 'Cetak Sijil Penyertaan', link: '/kblk/penilaian/cetak-sijil' }
-          ]
-        }
-      ],
-      '/jkp/': [
-        {
-          text: 'Dashboard Tugasan',
-           items: [
-            { text: 'Sokong Permohonan Latihan', link: '/jkp/jkp/sokong-permohonan' }
-          ]
-        },
-        {
-          text: 'Latihan Saya (Luaran / Dalaman)',
-          items: [
-            { text: 'Daftar Kedatangan (Hadir)', link: '/jkp/latihan/daftar-kedatangan' },
-            { text: 'Daftar Ketidakhadiran (Tidak Hadir)', link: '/jkp/latihan/daftar-ketidakhadiran' },
-            { text: 'Senarai Latihan Terlibat', link: '/jkp/latihan/senarai-latihan' }
-          ]
-        },
-        {
-          text: 'Pengurusan Permohonan',
-          items: [
-            { text: 'Permohonan Latihan Luaran', link: '/jkp/pengurusan-permohonan/permohonan-latihan-luaran' },
-            { text: 'Senarai Permohonan', link: '/jkp/pengurusan-permohonan/senarai-permohonan' }
-          ]
-        },
-        {
-          text: 'Penilaian Latihan & Cetakan Sijil',
-          items: [
-            { text: 'Penilaian Latihan (Dalaman)', link: '/jkp/penilaian/penilaian-latihan' },
-            { text: 'Cetak Sijil Penyertaan', link: '/jkp/penilaian/cetak-sijil' }
-          ]
-        }
-      ],
-       '/ydp/': [
-        {
-         text: 'Dashboard Tugasan',
-          items: [
-            { text: 'Kelulusan Latihan', link: '/ydp/ydp/kelulusan-latihan' }
-          ]
-        }
-
-        // },
-        // {
-        //   text: 'Latihan Saya (Luaran / Dalaman)',
-        //   items: [
-        //     { text: 'Daftar Kedatangan (Hadir)', link: '/ydp/latihan/daftar-kedatangan' },
-        //     { text: 'Daftar Ketidakhadiran (Tidak Hadir)', link: '/ydp/latihan/daftar-ketidakhadiran' },
-        //     { text: 'Senarai Latihan Terlibat', link: '/ydp/latihan/senarai-latihan' }
-        //   ]
-        // },
-        // {
-        //   text: 'Pengurusan Permohonan',
-        //   items: [
-        //     { text: 'Permohonan Latihan Luaran', link: '/ydp/pengurusan-permohonan/permohonan-latihan-luaran' },
-        //     { text: 'Senarai Permohonan', link: '/ydp/pengurusan-permohonan/senarai-permohonan' }
-        //   ]
-        // },
-        // {
-        //   text: 'Penilaian Latihan & Cetakan Sijil',
-        //   items: [
-        //     { text: 'Penilaian Latihan (Dalaman)', link: '/ydp/penilaian/penilaian-latihan' },
-        //     { text: 'Cetak Sijil Penyertaan', link: '/ydp/penilaian/cetak-sijil' }
-        //   ]
-        // }
-      ],
-       '/tydp/': [
-        {
-        text: 'TYDP',
-          items: [
-            { text: 'Kelulusan Latihan', link: '/tydp/tydp/kelulusan-latihan' },
-            { text: 'Pengarah Jabatan', link: '/tydp/tydp/pengarah-jabatan' }
-          ]
-        }
-        // {
-        //   text: 'Latihan Saya (Luaran / Dalaman)',
-        //   items: [
-        //     { text: 'Daftar Kedatangan (Hadir)', link: '/tydp/latihan/daftar-kedatangan' },
-        //     { text: 'Daftar Ketidakhadiran (Tidak Hadir)', link: '/tydp/latihan/daftar-ketidakhadiran' },
-        //     { text: 'Senarai Latihan Terlibat', link: '/tydp/latihan/senarai-latihan' }
-        //   ]
-        // },
-        // {
-        //   text: 'Pengurusan Permohonan',
-        //   items: [
-        //     { text: 'Permohonan Latihan Luaran', link: '/tydp/pengurusan-permohonan/permohonan-latihan-luaran' },
-        //     { text: 'Senarai Permohonan', link: '/tydp/pengurusan-permohonan/senarai-permohonan' }
-        //   ]
-        // },
-        // {
-        //   text: 'Penilaian Latihan & Cetakan Sijil',
-        //   items: [
-        //     { text: 'Penilaian Latihan (Dalaman)', link: '/tydp/penilaian/penilaian-latihan' },
-        //     { text: 'Cetak Sijil Penyertaan', link: '/tydp/penilaian/cetak-sijil' }
-        //   ]
-        // }
-      ],
+    footer: {
+      message: 'Corrad PHP84 User Manual',
+      copyright: '© 2026 Corrad PHP84'
     }
   }
 })
