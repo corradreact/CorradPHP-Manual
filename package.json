@@ -1,25 +1,17 @@
 {
-  "name": "vitepress-project",
+  "name": "corrad-php-manual",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.28",
-    "vue": "3.2.44"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
-    }
+    "vitepress": "^1.6.4"
   },
   "dependencies": {
-    "html2pdf.js": "^0.12.1",
-    "puppeteer": "^24.32.1"
+    "html2pdf.js": "^0.12.1"
   }
 }
