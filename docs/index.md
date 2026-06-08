@@ -3,9 +3,9 @@ layout: home
 title: Smart Training
 
 hero:
-  name: Smart Training
-  text: Manual Pengguna Sistem Pengurusan Latihan Online (Smart Training)
-  tagline: Panduan lengkap penggunaan Sistem Pengurusan Latihan Online (Smart Training) untuk Kaki dan admin.
+  name: Corrad PhP 84
+  text: Manual Pengguna Corrad PHP84
+  tagline: Panduan lengkap penggunaan Sistem Corrad Framework
   image:
     src: /elatihan-logo.png
     alt: Logo Majlis Perbandaran Selayang
