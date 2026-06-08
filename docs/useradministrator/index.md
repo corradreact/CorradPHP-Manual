@@ -8,32 +8,32 @@ Halaman ini mengandungi panduan untuk pengguna admin yang mengurus modul latihan
 
 ## Ringkasan Modul Admin
 
-- **Laporan Latihan**: Pengurusan peserta, pengurusan penceramah, laporan penilaian
-- **Pengurusan Permohonan**: Semak permohonan, tetapkan tempoh permohonan
-- **Pengurusan Pengguna (Admin IT)**: Tambah/kemaskini akaun admin jabatan
-- **Pengurusan Emel**: Tambah template emel, hantar Penghantaran emel
+- **Laporan Latihan**: Pengurusan peserta, penceramah dan penilaian.
+- **Pengurusan Permohonan**: Semak permohonan, tetapkan tempoh permohonan.
+- **Pengurusan Pengguna (Admin IT)**: Tambah/kemaskini akaun admin jabatan.
+- **Pengurusan Emel**: Tambah template emel, hantar penghantaran emel.
+- **Roles & Permissions**: Tetapkan peranan dan kebenaran pengguna.
+- **Session**: Semak dan tamatkan sesi pengguna.
 
 ---
 
-## Laporan Latihan
+## Modul Admin Pentadbiran
 
-- [Pengurusan Peserta]
-- [Pengurusan Penceramah]
-- [Pengurusan Penilaian]
+- [Pengurusan Pengguna (User Management)](./usermngmt.md)
+- [Roles & Permissions](./rolespermission.md)
+- [Session](./session.md)
 
-## Pengurusan Permohonan
+## Langkah Panduan
 
-- [Lihat Senarai Permohonan]
-- [Tetapkan Tempoh Permohonan Latihan Luaran]
+Setiap pautan di atas membawa anda ke halaman panduan yang mengandungi langkah-langkah terperinci:
 
-## Pengurusan Pengguna (Admin IT)
+- **Pengurusan Pengguna**: langkah tambah, edit, dan padam pengguna.
+- **Roles & Permissions**: langkah tambah peranan, tetapkan pengguna kepada peranan, dan urus kebenaran menu.
+- **Session**: langkah lihat sesi aktif, cari/tapis sesi, dan tamatkan sesi.
 
-- [Tambah Pengguna Admin]
-- [Kemaskini Pengguna]
+## Perlu Diperhatikan
 
-## Pengurusan Emel
-
-- [Tambah Template Emel]
-- [Penghantaran Emel]
+- Klik pada pautan modul untuk membaca langkah penuh.
+- Jika pautan tiada di dalam menu, halaman mungkin belum tersedia atau sedang dibangunkan.
 
 Untuk sokongan lanjut, hubungi Admin Sistem.
