@@ -1,0 +1,329 @@
+/* Import font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ======================================
+   GLOBAL VARIABLES & FONT
+   ====================================== */
+:root {
+  --vp-font-family-base: 'Inter', sans-serif;
+  --vp-font-family-mono: 'Inter', monospace;
+
+  /* warna brand – ikut warna biru MyReCourt */
+  --vp-c-brand: #2563eb;
+  --vp-c-brand-light: #3b82f6;
+  --vp-c-brand-lighter: #60a5fa;
+
+  /* =============== CUSTOM BLOCK: INFO (TUJUAN) – KELABU =============== */
+  --vp-custom-block-info-bg: #f3f4f6;      /* background kelabu lembut */
+  --vp-custom-block-info-border: #e5e7eb;  /* border kelabu nipis */
+  --vp-custom-block-info-text: #111827;    /* teks gelap */
+
+  /* =============== CUSTOM BLOCK: NOTE (::: note) – BIRU =============== */
+  --vp-custom-block-note-bg: #eef2ff;
+  --vp-custom-block-note-border: #4f46e5;
+  --vp-custom-block-note-text: #111827;
+
+  /* =============== CUSTOM BLOCK: TIP (::: tip) – BIRU LEMBUT =============== */
+  --vp-custom-block-tip-bg: #eef2ff;       /* biru lembut */
+  --vp-custom-block-tip-border: #3b82f6;   /* biru terang */
+  --vp-custom-block-tip-text: #1e3a8a;     /* biru gelap */
+}
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* ======================================
+   NAVBAR LOGO + TITLE
+   ====================================== */
+
+.VPNavBarTitle {
+   pointer-events: none;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  gap: 8px;   /* jarak antara logo dan teks */
+}
+
+.VPNavBarTitle img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* ======================================
+   HERO UTAMA
+   ====================================== */
+
+.hero-utama {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+.hero-text {
+  max-width: 40rem;
+}
+
+.hero-eyebrow {
+  color: #f97316; /* oren MyReCourt */
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin: 0 0 0.25rem;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  max-width: 32rem;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.hero-logo img {
+  width: 220px;
+  max-width: 40vw;
+  border-radius: 999px;
+}
+
+/* Butang */
+.VPNavBarTitle a {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+}
+.hero-actions {
+  margin-top: 1.75rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.6rem;
+  border-radius: 999px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.hero-btn-primary {
+  background: #facc15;        /* kuning */
+  color: #111827;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.hero-btn-secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.hero-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+}
+
+.hero-btn-secondary:hover {
+  background: #d1d5db;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-utama {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .hero-logo img {
+    width: 160px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-eyebrow {
+    font-size: 2rem;
+  }
+}
+
+/* ======================================
+   SIDEBAR
+   ====================================== */
+
+.VPSidebar {
+  border-right: none !important;
+}
+
+/* Tajuk gro
+/* Tajuk group */
+.VPSidebar .group .title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+/* Arrow for dropdown */
+.VPSidebar .group .title::after {
+  content: '▾'; /* boleh tukar ke ▼ atau ▸ */
+  font-size: 0.75rem;
+  opacity: 0.7;
+  transition: transform 0.2s ease;
+}
+
+/* Arrow rotate when collapsed */
+.VPSidebar .group.collapsed .title::after {
+  transform: rotate(-90deg);
+}
+
+
+/* Arrow rotate bila collapse */
+.VPSidebar .group.collapsed .title::after {
+  transform: rotate(-90deg);
+}
+
+/* Arrow rotate bila collapse */
+.VPSidebar .group.collapsed .title::after {
+  transform: rotate(-90deg);
+}
+
+
+
+/* Active item */
+.VPSidebar .VPSidebarItem .link.active {
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border-left: 3px solid var(--vp-c-brand-1);
+  padding-left: 6px;
+}
+
+/* Hover effect */
+.VPSidebar .VPSidebarItem .link:hover {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-brand-1);
+}
+
+/* Active item (sedang buka page tu) */
+.VPSidebar .VPSidebarItem .link.active {
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border-left: 3px solid var(--vp-c-brand-1);
+  padding-left: 6px;
+}
+
+/* ======================================
+   CUSTOM BLOCKS
+   ====================================== */
+
+/* INFO – untuk "Tujuan" (kelabu) */
+.custom-block.info {
+  background-color: var(--vp-custom-block-info-bg);
+  border: 1px solid var(--vp-custom-block-info-border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.custom-block.info .custom-block-title {
+  color: var(--vp-custom-block-info-text);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* NOTE – biru lembut */
+.custom-block.note {
+  background-color: var(--vp-custom-block-note-bg);
+  border-color: var(--vp-custom-block-note-border);
+}
+
+.custom-block.note .custom-block-title {
+  color: var(--vp-custom-block-note-text);
+}
+
+/* TIP – untuk "Langkah 1" (biru lembut) */
+.custom-block.tip {
+  background-color: var(--vp-custom-block-tip-bg);
+  border: 1px solid var(--vp-custom-block-tip-border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  color: var(--vp-custom-block-tip-text);
+}
+
+.custom-block.tip .custom-block-title {
+  color: var(--vp-custom-block-tip-text);
+  font-weight: 600;
+}
+
+/* ======================================
+   FEATURE CARDS + BADGES (add color accents)
+   ====================================== */
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.features .feature {
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 20px rgba(2,6,23,0.04);
+  border: 1px solid rgba(15,23,42,0.04);
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.features .feature .icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--vp-c-brand-light), var(--vp-c-brand));
+  flex-shrink: 0;
+}
+
+.features .feature h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.features .feature p {
+  margin: 0;
+  color: #475569;
+}
+
+/* status badges */
+.status-pill { display: inline-block; padding: 0.25rem 0.6rem; border-radius: 999px; font-size: 0.85rem; color: #fff; background: #10b981; }
+.status-pill.info { background: var(--vp-c-brand-light); }
+.status-pill.warn { background: #f97316; }
+.status-pill.danger { background: #ef4444; }
+
+/* small utilities */
+.card-accent { border-left: 4px solid var(--vp-c-brand); }
+
+/* links accent */
+a { color: var(--vp-c-brand); }
+
