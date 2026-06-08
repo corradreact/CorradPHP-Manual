@@ -8,11 +8,11 @@ export default defineConfig({
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/elatihan-logo.png' }]
+    ['link', { rel: 'icon', href: '/images.png' }]
   ],
 
   themeConfig: {
-    logo: '/elatihan-logo.png',
+    logo: '/images.png',
 
     search: {
       provider: 'local'
