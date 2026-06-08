@@ -12,11 +12,11 @@ hero:
 
 features:
   - icon: ⚙️
-    title: System Administrator
+    title: Profile
     details: Panduan penggunaan menu System Administrator termasuk Active Sessions dan tetapan pentadbiran sistem.
 
   - icon: 🛠️
-    title: System Settings
+    title: System Administrator
     details: Panduan untuk System Configuration, Database Connections, Reference Data, LDAP Editor dan JWT Server.
 
   - icon: ✏️
