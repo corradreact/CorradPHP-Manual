@@ -93,9 +93,9 @@ export default defineConfig({
         text: 'User Administrator',
         collapsed: false,
         items: [
-          { text: 'User Management', link: '/user-administrator/user-management' },
-          { text: 'Roles & Permissions', link: '/user-administrator/roles-permissions' },
-          { text: 'Session Monitor', link: '/user-administrator/session-monitor' }
+          { text: 'User Management', link: '/useradministrator/usermngmt' },
+          { text: 'Roles & Permissions', link: '/useradministrator/rolespermission' },
+          { text: 'Session Monitor', link: '/useradministrator/session' }
         ]
       },
       {
