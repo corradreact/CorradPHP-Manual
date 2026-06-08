@@ -79,7 +79,13 @@ export default defineConfig({
         text: 'Data & Monitoring',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/data-monitoring/overview' }
+          { text: 'Import Export v2', link: '/data-monitoring/import-export-v2' },
+          { text: 'Audit Trail', link: '/data-monitoring/audit-trail' },
+          { text: 'Application Logs', link: '/data-monitoring/application-logs' },
+          { text: 'Log Access', link: '/data-monitoring/log-access' },
+          { text: 'Job Queue', link: '/data-monitoring/job-queue' },
+          { text: 'Structured Logs', link: '/data-monitoring/structured-logs' },
+          { text: 'Test Results', link: '/data-monitoring/test-results' }
         ]
       },
       {
