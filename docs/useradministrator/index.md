@@ -17,23 +17,23 @@ Halaman ini mengandungi panduan untuk pengguna admin yang mengurus modul latihan
 
 ## Laporan Latihan
 
-- [Pengurusan Peserta](/admin/laporan-latihan/pengurusan-peserta)
-- [Pengurusan Penceramah](/admin/laporan-latihan/pengurusan-penceramah)
-- [Pengurusan Penilaian](/admin/laporan-latihan/pengurusan-penilaian)
+- [Pengurusan Peserta]
+- [Pengurusan Penceramah]
+- [Pengurusan Penilaian]
 
 ## Pengurusan Permohonan
 
-- [Lihat Senarai Permohonan](/admin/pengurusan-permohonan/lihat-senarai)
-- [Tetapkan Tempoh Permohonan Latihan Luaran](/admin/pengurusan-permohonan/tempoh-permohonan)
+- [Lihat Senarai Permohonan]
+- [Tetapkan Tempoh Permohonan Latihan Luaran]
 
 ## Pengurusan Pengguna (Admin IT)
 
-- [Tambah Pengguna Admin](/admin/pengurusan-pengguna/tambah-pengguna)
-- [Kemaskini Pengguna](/admin/pengurusan-pengguna/kemaskini-pengguna)
+- [Tambah Pengguna Admin]
+- [Kemaskini Pengguna]
 
 ## Pengurusan Emel
 
-- [Tambah Template Emel](/admin/pengurusan-emel/template-emel)
-- [Penghantaran Emel](/admin/pengurusan-emel/Penghantaran-emel)
+- [Tambah Template Emel]
+- [Penghantaran Emel]
 
 Untuk sokongan lanjut, hubungi Admin Sistem.
