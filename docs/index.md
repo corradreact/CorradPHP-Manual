@@ -7,7 +7,7 @@ hero:
   text: Manual Pengguna Corrad PHP84
   tagline: Panduan lengkap penggunaan Sistem Corrad
   image:
-    src: /elatihan-logo.png
+    src: /corrad-logo.png
     alt: Logo Corrad PHP84
 
 features:
