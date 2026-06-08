@@ -5,7 +5,7 @@ title: Smart Training
 hero:
   name: Corrad PhP 84
   text: Manual Pengguna Corrad PHP84
-  tagline: Panduan lengkap penggunaan Sistem Corrad Framework
+  tagline: Panduan lengkap penggunaan Sistem Corrad
   image:
     src: /elatihan-logo.png
     alt: Logo Majlis Perbandaran Selayang
@@ -14,7 +14,7 @@ hero:
   #     text: Manual Kakitangan
   #     link: /kakitangan/
 
-# # 👉 features letak sambung sini, jangan ada '---' lain
+# 👉 features letak sambung sini, jangan ada '---' lain
 # features:
 #   - icon: 👤
 #     title: Pengurusan Akaun
