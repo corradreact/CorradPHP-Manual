@@ -67,7 +67,6 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Overview', link: '/pages-navigation/page-studio/' },
-               { text: 'Penggunaan Page Studio', link: '/pages-navigation/page-studio/index' },
               { text: 'Scenario 1: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
               { text: 'Scenario 2: Membina Form Page', link: '/pages-navigation/page-studio/form-page' },
               { text: 'Scenario 3: Membina CRUD Page', link: '/pages-navigation/page-studio/crud-page' },
