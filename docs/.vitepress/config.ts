@@ -20,6 +20,8 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'BM', link: '/ms/' },
+      { text: 'English', link: '/' },
       { text: 'Corrad System', link: 'https://php84.corrad.my/login.php' }
     ],
 
