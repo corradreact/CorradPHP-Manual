@@ -1,33 +1,36 @@
-## Scenario 1: Create a New Page
 
-Use this when you want to create a new frontend page inside the system.
+## Scenario 1: Create Page Baharu
 
-### Steps
+Gunakan langkah ini apabila anda ingin membuat page baharu dalam sistem.
 
-1. Open the sidebar menu.
-2. Go to **Pages & Navigation**.
-3. Click **Page Studio**.
-4. Click the **New** button.
-5. Enter the menu/page information in the right panel.
-6. Fill in the required fields such as:
+### Langkah-langkah
+
+1. Buka menu **Pages & Navigation**.
+2. Klik **Page Studio**.
+3. Klik button **New**.
+4. Masukkan maklumat menu/page di panel sebelah kanan.
+5. Isi maklumat yang diperlukan seperti:
    - Menu Title
    - Page Title
    - Breadcrumb
    - Status
-   - Icon, if required
-7. Click **Save**.
-8. Confirm that the new page appears in the left page/menu list.
+   - Icon, jika perlu
+6. Susun page mengikut keperluan.
+7. Klik **Save**.
+8. Pastikan page baharu muncul dalam senarai menu/page di panel kiri.
 
 ### Screenshot
 
 [Insert screenshot here]
 
-### Expected Result
+### Hasil Yang Dijangka
 
-A new page is created and listed under the selected menu structure.
+Page baharu berjaya dibuat dan dipaparkan dalam senarai menu/page.
 
-### Important Notes
+### Nota Penting
 
-- Make sure the page title is clear and meaningful.
-- Use proper breadcrumb naming so users know where they are in the system.
-- If the page does not appear in the sidebar, check the menu status and access permission.
+- Pastikan nama page jelas dan mudah difahami.
+- Gunakan breadcrumb yang sesuai supaya user tahu lokasi page tersebut.
+- Jika page tidak muncul dalam menu, semak status page dan permission user.
+
+---

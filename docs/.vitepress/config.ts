@@ -67,6 +67,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Overview', link: '/pages-navigation/page-studio/' },
+               { text: 'Penggunaan Page Studio', link: '/pages-navigation/page-studio/index' },
               { text: 'Scenario 1: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
               { text: 'Scenario 2: Membina Form Page', link: '/pages-navigation/page-studio/form-page' },
               { text: 'Scenario 3: Membina CRUD Page', link: '/pages-navigation/page-studio/crud-page' },
@@ -86,8 +87,8 @@ export default defineConfig({
         text: 'Logic & API',
         collapsed: false,
         items: [
-          { text: 'BI Editor v5', link: '/logic-api/bi-editor-v5' },
-          { text: 'BI Editor (F & BE)', link: '/logic-api/bi-editor-f-be' },
+          { text: 'BL Editor v5', link: '/logic-api/bi-editor-v5' },
+          { text: 'BL Editor (F & BE)', link: '/logic-api/bi-editor-f-be' },
           { text: 'API Workspace', link: '/logic-api/api-workspace' }
         ]
       },
