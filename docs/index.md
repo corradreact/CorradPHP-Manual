@@ -3,41 +3,35 @@ layout: home
 title: Smart Training
 
 hero:
-  name: Corrad PhP 84
+  name: Corrad PHP 84
   text: Manual Pengguna Corrad PHP84
   tagline: Panduan lengkap penggunaan Sistem Corrad
   image:
     src: /elatihan-logo.png
-    alt: Logo Majlis Perbandaran Selayang
-  # actions:
-  #   - theme: brand
-  #     text: Manual Kakitangan
-  #     link: /kakitangan/
+    alt: Logo Corrad PHP84
 
-# 👉 features letak sambung sini, jangan ada '---' lain
-# features:
-#   - icon: 👤
-#     title: Pengurusan Akaun
-#     details: Daftar akaun,log masuk dan lihat profil dengan mudah melalui integrasi dengan Sistem SIM.​
-#   - icon: 📝
-#     title: Pengurusan Permohonan
-#     details: Mohon dan hantar permohonan dengan langkah-langkah yang jelas.
+features:
+  - icon: ⚙️
+    title: System Administrator
+    details: Panduan penggunaan menu System Administrator termasuk Active Sessions dan tetapan pentadbiran sistem.
 
-#   - icon: ✅
-#     title: Daftar Kehadiran 
-#     details: Urus kehadiran peserta atau kakitangan secara sistematik dan mudah.
-    
-#   - icon: 📊
-#     title: Laporan Latihan
-#     details: Laporan Latihan (Pengguna Admin sahaja).
+  - icon: 🛠️
+    title: System Settings
+    details: Panduan untuk System Configuration, Database Connections, Reference Data, LDAP Editor dan JWT Server.
 
-#   - icon: 👩🏻‍💻
-#     title: Pengurusan Pengguna
-#     details: Pengurusan Pengguna (Admin IT sahaja)
-   
+  - icon: ✏️
+    title: Editors & Tools
+    details: Panduan penggunaan Message Editor, Translation Editor, SMTP Editor dan Migration Manager.
 
-#   - icon: 📩
-#     title: Penghantaran Emel
-#     details: Penghantaran Emel (Pengguna Admin sahaja)​.
+  - icon: 🧭
+    title: Pages & Navigation
+    details: Panduan mengurus Menu Editor, Page Studio, Page Editor dan Control / Trigger Editor.
 
+  - icon: 🔌
+    title: Logic & API
+    details: Panduan konfigurasi API, business logic dan integration settings dalam sistem Corrad.
+
+  - icon: 👥
+    title: User Administrator
+    details: Panduan pengurusan pengguna, roles, permissions dan access control.
 ---
