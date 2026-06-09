@@ -1,8 +1,8 @@
-# Scenario 2: Membina Form Page
+# Senario 2: Membina Form Page
 
-## Tujuan Scenario
+## Tujuan Senario
 
-Scenario ini digunakan apabila user ingin membina page yang mempunyai form input.
+Senario ini digunakan apabila user ingin membina page yang mempunyai form input.
 
 Contoh form:
 

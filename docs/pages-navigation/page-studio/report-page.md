@@ -1,8 +1,8 @@
-# Scenario 5: Membina Report Page
+# Senario 5: Membina Report Page
 
-## Tujuan Scenario
+## Tujuan Senario
 
-Scenario ini digunakan apabila user ingin membina page report yang mempunyai filter, table dan fungsi export/download.
+Senario ini digunakan apabila user ingin membina page report yang mempunyai filter, table dan fungsi export/download.
 
 Contoh report:
 

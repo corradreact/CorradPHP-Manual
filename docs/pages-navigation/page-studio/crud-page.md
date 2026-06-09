@@ -1,8 +1,8 @@
-# Scenario 3: Membina CRUD Page
+# Senario 3: Membina CRUD Page
 
-## Tujuan Scenario
+## Tujuan Senario
 
-Scenario ini digunakan apabila user ingin membina page yang boleh mengurus data.
+Senario ini digunakan apabila user ingin membina page yang boleh mengurus data.
 
 CRUD bermaksud:
 

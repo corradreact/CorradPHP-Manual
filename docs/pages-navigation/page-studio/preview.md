@@ -1,7 +1,7 @@
 
-# Scenario 6: Menggunakan Preview
+# Senario 6: Menggunakan Preview
 
-## Tujuan Scenario
+## Tujuan Senario
 
 Preview digunakan untuk melihat paparan page sebelum page digunakan oleh user.
 

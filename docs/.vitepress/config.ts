@@ -74,10 +74,10 @@ export default defineConfig({
               { text: 'Senario 3: Membina Form Page', link: '/pages-navigation/page-studio/form-page' },
               { text: 'Senario 4: Membina CRUD Page', link: '/pages-navigation/page-studio/crud-page' },
               { text: 'Senario 5: Component & Control', link: '/pages-navigation/page-studio/component-control' }
-              // { text: 'Scenario 5: Membina Dashboard Page', link: '/pages-navigation/page-studio/dashboard-page' },
-              // { text: 'Scenario 6: Membina Report Page', link: '/pages-navigation/page-studio/report-page' },
-              // { text: 'Scenario 7: Menggunakan Preview', link: '/pages-navigation/page-studio/preview' },
-              // { text: 'Scenario 8: Duplicate Page', link: '/pages-navigation/page-studio/duplicate-page' }
+              // { text: 'Senario 5: Membina Dashboard Page', link: '/pages-navigation/page-studio/dashboard-page' },
+              // { text: 'Senario 6: Membina Report Page', link: '/pages-navigation/page-studio/report-page' },
+              // { text: 'Senario 7: Menggunakan Preview', link: '/pages-navigation/page-studio/preview' },
+              // { text: 'Senario 8: Duplicate Page', link: '/pages-navigation/page-studio/duplicate-page' }
             ]
           },
 

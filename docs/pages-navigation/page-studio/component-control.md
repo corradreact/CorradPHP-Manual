@@ -1,6 +1,6 @@
-# Scenario 8: Menambah Component dan Control
+# Senario 8: Menambah Component dan Control
 
-## Tujuan Scenario
+## Tujuan Senario
 
 Component dan Control digunakan untuk membina struktur dan kandungan page.
 
