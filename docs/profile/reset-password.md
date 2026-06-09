@@ -10,14 +10,14 @@ Apabila anda klik pautan reset dari email, sistem akan membawa anda ke halaman *
 
 ## 2. Isi Kata Laluan Baharu
 
-Pada halaman ini, isi medan berikut:
+Pada halaman ini, isi ruangan berikut:
 - **KATA LALUAN BAHARU / NEW PASSWORD**: taip kata laluan baharu.
 - **SAHKAN KATA LALUAN / CONFIRM PASSWORD**: taip semula kata laluan baharu untuk mengesahkan.
 
 ::: tip Langkah 1
-1) Taip kata laluan baharu di medan pertama.
-2) Taip semula kata laluan yang sama di medan kedua.
-3) Semak semula kedua-dua medan untuk memastikan padanan.
+1) Taip kata laluan baharu di ruangan pertama.
+2) Taip semula kata laluan yang sama di ruangan kedua.
+3) Semak semula kedua-dua ruangan untuk memastikan padanan.
 :::
 
 ## 3. Syarat Kata Laluan Selamat
@@ -41,5 +41,4 @@ Pastikan kata laluan baharu memenuhi kriteria keselamatan berikut:
 ::: warning Nota
 - Pastikan kedua-dua kata laluan sama sebelum klik **Reset Password**.
 - Jika anda terlupa kata laluan baharu, ulang proses lupa kata laluan.
-- Jangan kongsi kata laluan baru dengan orang lain.
 :::

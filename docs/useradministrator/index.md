@@ -6,11 +6,8 @@ title: Manual Pengguna Admin
 
 Halaman ini mengandungi panduan untuk pengguna admin yang mengurus modul latihan dan pentadbiran sistem.
 
-## Ringkasan Modul Admin
+## 
 
-- **Laporan Latihan**: Pengurusan peserta, penceramah dan penilaian.
-- **Pengurusan Permohonan**: Semak permohonan, tetapkan tempoh permohonan.
-- **Pengurusan Pengguna (Admin IT)**: Tambah/kemaskini akaun admin jabatan.
 - **Pengurusan Emel**: Tambah template emel, hantar penghantaran emel.
 - **Roles & Permissions**: Tetapkan peranan dan kebenaran pengguna.
 - **Session**: Semak dan tamatkan sesi pengguna.

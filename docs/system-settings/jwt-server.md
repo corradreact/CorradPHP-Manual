@@ -1,12 +1,8 @@
 # JWT Server
 
 ::: info Tujuan
-Membantu pentadbir menyediakan JWT Server untuk membenarkan sistem luaran mengakses API CORRAD secara selamat menggunakan token ditandatangani. Panduan ringkas ini menerangkan pendaftaran aplikasi, penerbitan token, penggunaan header API dan nota keselamatan.
+JWT (JSON Web Token) Server membolehkan sistem luar mengakses CORRAD API dengan selamat menggunakan token yang telah ditandatangani. Akses kepada API dikawal melalui empat HTTP header yang wajib disertakan dalam setiap request.
 :::
-
-## Overview
-
-JWT Server membolehkan anda mengeluarkan token JSON Web Token (JWT) yang digunakan oleh aplikasi luaran untuk memanggil API CORRAD. Aplikasi didaftarkan (Applications) dan token diuruskan (Tokens). Token tersebut sah sehingga tarikh luput yang ditetapkan.
 
 ## Langkah Ringkas (Setup Flow)
 
@@ -25,7 +21,7 @@ JWT Server membolehkan anda mengeluarkan token JSON Web Token (JWT) yang digunak
 - Klik **+ New Token** untuk menerbitkan token kepada aplikasi terdaftar.
 - Pilih `Application`, `Algorithm` (contoh: `HS256`), dan `Expiry` (dalam saat).
 - Token dihasilkan sebagai `TOKEN_STR` dan boleh disalin dari senarai token. Token boleh digunakan sehingga ia tamat tempoh atau dibatalkan.
-- Disyorkan menggunakan tempoh luput panjang (contoh sehingga 1 tahun) untuk integrasi mesin-ke-mesin tanpa aliran log masuk pengguna, dan jana token baru sebelum tempoh tamat untuk kesinambungan perkhidmatan.
+- Disyorkan menggunakan tempoh luput panjang (contoh sehingga 1 tahun).
 
 ## Token Fields & Algoritma
 
@@ -60,8 +56,3 @@ curl -X POST https://your-corrad-host/api_gateway.php \
 2. Salin `Client Secret` dan simpan di tempat selamat.
 3. Jana token (`+ New Token`) pilih algoritma dan tempoh luput.
 4. Hantar token dalam header `Corrad-Jwt-Token` pada setiap panggilan API.
-
-::: warning Nota
-- Memadam aplikasi akan merevoke semua token yang dikeluarkan untuk aplikasi tersebut.
-- Jangan berikan token kepada pihak yang tidak dipercayai; gunakan tempoh luput dan revocation jika perlu.
-:::

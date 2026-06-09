@@ -1,7 +1,7 @@
 # LDAP Editor
 
 ::: info Tujuan
-Membantu pentadbir menyambungkan Corrad kepada direktori seperti Microsoft Active Directory (LDAP). Panduan ini menerangkan konfigurasi sambungan, menguji koneksi, dan mengimport pengguna dari LDAP ke sistem.
+Membantu pentadbir menyambungkan Corrad kepada direktori seperti Microsoft Active Directory (LDAP).
 :::
 
 ## Overview

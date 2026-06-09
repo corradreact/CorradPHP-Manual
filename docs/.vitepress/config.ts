@@ -72,11 +72,11 @@ export default defineConfig({
               { text: 'Scenario 1: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
               { text: 'Scenario 2: Membina Form Page', link: '/pages-navigation/page-studio/form-page' },
               { text: 'Scenario 3: Membina CRUD Page', link: '/pages-navigation/page-studio/crud-page' },
-              { text: 'Scenario 4: Membina Dashboard Page', link: '/pages-navigation/page-studio/dashboard-page' },
-              { text: 'Scenario 5: Membina Report Page', link: '/pages-navigation/page-studio/report-page' },
-              { text: 'Scenario 6: Menggunakan Preview', link: '/pages-navigation/page-studio/preview' },
-              { text: 'Scenario 7: Duplicate Page', link: '/pages-navigation/page-studio/duplicate-page' },
-              { text: 'Scenario 8: Component & Control', link: '/pages-navigation/page-studio/component-control' }
+              { text: 'Scenario 4: Component & Control', link: '/pages-navigation/page-studio/component-control' }
+              // { text: 'Scenario 5: Membina Dashboard Page', link: '/pages-navigation/page-studio/dashboard-page' },
+              // { text: 'Scenario 6: Membina Report Page', link: '/pages-navigation/page-studio/report-page' },
+              // { text: 'Scenario 7: Menggunakan Preview', link: '/pages-navigation/page-studio/preview' },
+              // { text: 'Scenario 8: Duplicate Page', link: '/pages-navigation/page-studio/duplicate-page' }
             ]
           },
 
@@ -89,7 +89,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'BL Editor v5', link: '/logic-api/bi-editor-v5' },
-          { text: 'BL Editor (F & BE)', link: '/logic-api/bi-editor-f-be' },
+          { text: 'BL Editor (FE & BE)', link: '/logic-api/bi-editor-f-be' },
           { text: 'API Workspace', link: '/logic-api/api-workspace' }
         ]
       },
