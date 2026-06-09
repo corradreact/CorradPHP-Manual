@@ -38,7 +38,7 @@ Tambah Komponen apabila anda ingin:
 Contoh: Customer Form
 
 9. Pilih jenis komponen pada ruangan Type.
-Contoh:Form (2 Columns)
+Contoh: Form (2 Columns)
 
 10. Klik butang **Add** untuk menambah komponen ke dalam page.
 
@@ -57,12 +57,12 @@ Contoh:Form (2 Columns)
 ::: info Keterangan Ruangan
 | Ruangan | Penerangan |
 |---|---|
-| Title | Nama komponen yang. |
+| Title | Nama component yang akan dipaparkan dalam page. |
 | Type | Jenis komponen yang menentukan fungsi dan layout Komponen tersebut. |
 
 :::
 ### Panduan Memilih Komponen
-::: info Panduan Memilih Komponen
+::: info
 Gunakan jadual di bawah untuk memilih Komponen berdasarkan tujuan page.
 | Penggunaan                                   | Komponen yang sesuai                  |
 | -------------------------------------------- | -------------------------------------- |
