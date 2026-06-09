@@ -2,7 +2,7 @@
 
 ::: info Tujuan
 
-Control digunakan untuk menambah butang tindakan pada page. Control biasanya dipaparkan pada bahagian atas atau bawah page dan digunakan untuk menjalankan tindakan seperti simpan data, reset form, kembali ke page sebelumnya, cetak, submit, delete, membuka pop-up, export PDF/CSV atau menjalankan trigger tertentu.
+Kontrol digunakan untuk menambah butang tindakan pada page. kontrol biasanya dipaparkan pada bahagian atas atau bawah page dan digunakan untuk menjalankan tindakan seperti simpan data, reset form, kembali ke page sebelumnya, cetak, submit, delete, membuka pop-up, export PDF/CSV atau menjalankan trigger tertentu.
 
 Gunakan senario ini selepas page dan komponen berjaya dibuat.
 
@@ -36,14 +36,14 @@ Tambah control apabila anda ingin:
 
 6. Paparan pop-up **Add Control** akan dipaparkan.
 7. Masukkan nama butang pada ruangan **Button Label**.
-8. Pilih jenis control pada ruangan **Control Type**
+8. Pilih jenis kontrol pada ruangan **Control Type**
 9. Pilih kedudukan butang pada ruangan **Position**
 10. Klik butang **Add** untuk menambah kontrol ke dalam page.
 
 :::
 ::: tip Langkah 3
 
-11. Selepas control berjaya ditambah, panel kanan akan memaparkan tetapan control tersebut.
+11. Selepas kontrol berjaya ditambah, panel kanan akan memaparkan tetapan control tersebut.
 
 12. Semak maklumat pada bahagian ****GENERAL** seperti:
 - Label
@@ -58,19 +58,19 @@ Tambah control apabila anda ingin:
 - CSS Class
 - Notes
 - Hints
-15. Jika control memerlukan tindakan tambahan, tambah konfigurasi pada bahagian TRIGGERS.
+15. Jika kontrol memerlukan tindakan tambahan, tambah konfigurasi pada bahagian TRIGGERS.
 16. Klik **Save****** selepas selesai membuat perubahan.
-17. Klik **Preview** untuk menguji butang control.
+17. Klik **Preview** untuk menguji butang kontrol.
 
 :::
 
-### Panduan Memilih Control Type
+### Panduan Memilih Kontrol Type
 
-::: info Panduan Memilih Control
+::: info Panduan Memilih Kontrol
 
-Gunakan jadual di bawah untuk memilih control berdasarkan tujuan butang.
+Gunakan jadual di bawah untuk memilih kontrol berdasarkan tujuan butang.
 
-| Jika anda ingin...                      | Control Type yang sesuai |
+| Jika anda ingin...                      | Kontrol Type yang sesuai |
 | --------------------------------------- | ------------------------ |
 | Menyimpan data form                     | Save Button              |
 | Mengosongkan semula input form          | Reset Button             |
@@ -91,7 +91,7 @@ Gunakan jadual di bawah untuk memilih control berdasarkan tujuan butang.
 ::: tip Kategori 1: Basic Form Action
 
 Kategori ini digunakan untuk tindakan asas pada form
-| Control Type    | Kegunaan                                                             |
+| Kontrol Type    | Kegunaan                                                             |
 | --------------- | -------------------------------------------------------------------- |
 | Save Button     | Menyimpan data yang dimasukkan atau dikemaskini dalam form.          |
 | Reset Button    | Mengosongkan atau mengembalikan semula input form kepada nilai asal. |
@@ -104,7 +104,7 @@ Kategori ini digunakan untuk tindakan asas pada form
 
 Kategori ini digunakan untuk navigasi atau pergerakan antara page.
 
-| Control Type     | Kegunaan                                        |
+| Kontrol Type     | Kegunaan                                        |
 | ---------------- | ----------------------------------------------- |
 | Back Button      | Membawa pengguna kembali ke page sebelumnya.    |
 | New Popup - GET  | Membuka paparan pop-up menggunakan kaedah GET.  |
@@ -114,7 +114,7 @@ Kategori ini digunakan untuk navigasi atau pergerakan antara page.
 ::: tip Kategori 3: Output / Export Action
 
 Kategori ini digunakan untuk cetakan atau export data.
-| Control Type | Kegunaan                                   |
+| Kontrol Type | Kegunaan                                   |
 | ------------ | ------------------------------------------ |
 | Print Button | Mencetak paparan page semasa.              |
 | PDF Button   | Menghasilkan output dalam format PDF.      |
@@ -125,24 +125,23 @@ Kategori ini digunakan untuk cetakan atau export data.
 ### Perbezaan New Popup - GET dan New Popup - POST
 
 ::: info Panduan Pop-up
-| Control Type     | Kegunaan                                                                                            |
+| Kontrol Type     | Kegunaan                                                                                            |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
 | New Popup - GET  | Sesuai digunakan apabila pop-up hanya perlu membuka page atau mengambil data berdasarkan parameter. |
 | New Popup - POST | Sesuai digunakan apabila pop-up perlu menghantar data atau membawa input tertentu untuk diproses.   |
 
 :::
 
-## Hasil Yang Dijangka
-
 ::: info Hasil Yang Dijangka
 
-- Control berjaya ditambah ke dalam page.
+- Kontrol berjaya ditambah ke dalam page.
 - Butang yang dipilih dipaparkan pada toolbar page.
-- Pengguna boleh menguji fungsi control melalui Preview.
-Jika diperlukan, control boleh dihubungkan kepada komponen, redirect URL atau trigger.
+- Pengguna boleh menguji fungsi kontrol melalui Preview.
+Jika diperlukan, kontrol boleh dihubungkan kepada komponen, redirect URL atau trigger.
 
-## Nota Penting
+:::
 
+::: warning Nota Penting
 - Gunakan komponen untuk susun page dengan lebih kemas.
-- Gunakan control mengikut jenis data yang ingin dikumpul.
-- Jangan campur terlalu 
+- Gunakan kontrol mengikut jenis data yang ingin dikumpul.
+:::
