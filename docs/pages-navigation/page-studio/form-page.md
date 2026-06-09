@@ -1,53 +1,102 @@
-# Senario 2: Membina Form Page
+# Senario 3: Menambah Component Dalam Page
 
-## Tujuan Senario
+::: info Tujuan
 
-Senario ini digunakan apabila user ingin membina page yang mempunyai form input.
+Component digunakan untuk membina struktur utama dalam page. Setiap component mempunyai fungsi yang berbeza seperti membina form, memaparkan senarai data, membina dashboard, menyediakan report, atau membuat layout khas.
 
-Contoh form:
+Gunakan senario ini selepas page berjaya dibuat dan paparan page masih kosong dengan mesej **No components yet**.
 
-- Form customer
-- Form permohonan
-- Form registration
-- Form update profile
-- Form maklumat transaksi
+:::
+
+::: Nota Penting
+Tambah component apabila anda ingin:
+- Membina struktur page
+- Membina form input
+- Memaparkan senarai data
+- Membina dashboard
+- Membina report
+- Menambah layout khas dalam page
+- Menyediakan kawasan untuk control atau ruangan input
+:::
 
 ## Langkah-langkah
+::: tip Langkah 1
 
-1. Buka **Page Studio**.
-2. Pilih page yang ingin diedit atau create page baharu.
-3. Pada main canvas, klik **Component** untuk tambah section atau layout.
-4. Klik **Control** untuk tambah field input.
-5. Pilih jenis field yang diperlukan seperti:
-   - Text
-   - Textarea
-   - Dropdown
-   - Date
-   - Datetime
-   - Checkbox
-   - File Upload
-6. Masukkan label field yang sesuai.
-7. Tetapkan field name mengikut keperluan mapping.
-8. Susun field dalam section yang sesuai.
-9. Tetapkan setting field seperti:
-   - Required
-   - Readonly
-   - Hidden
-   - Editable
-10. Klik **Save**.
-11. Klik **Preview** untuk semak paparan form.
+1. Buka menu Halaman & Navigasi.
+2. Klik Page Studio.
+3. Pilih menu atau page yang ingin dikemaskini.
+4. Pastikan page telah berjaya dibuat.
+5. Jika page masih kosong, sistem akan memaparkan mesej No components yet.
 
-## Screenshot
+6. Klik butang Component pada toolbar atas.
 
-[Insert screenshot here]
+:::
+::: tip Langkah 2
 
-## Hasil Yang Dijangka
+7. Paparan pop-up Add Component akan dipaparkan.
+8. Masukkan nama component pada ruangan Title.
+Contoh: Customer Form
 
-Form page dipaparkan dengan field yang lengkap dan tersusun.
+9. Pilih jenis component pada ruangan Type.
+Contoh:Form (2 Columns)
 
-## Nota Penting
+10. Klik butang **Add** untuk menambah component ke dalam page.
 
-- Gunakan label field yang mudah difahami oleh user.
-- Jangan letak terlalu banyak field dalam satu section.
-- Jika form perlu menyimpan data, backend logic atau API perlu dikonfigurasi.
-- Pastikan field name selari dengan mapping backend jika data perlu disimpan.
+:::
+::: tip Langkah 3
+
+11. Selepas component berjaya ditambah, component tersebut akan dipaparkan pada main canvas.
+
+12. Semak nama dan jenis component yang telah ditambah.
+13. Jika perlu, tambah Control ke dalam component tersebut.
+14. Klik **Save** selepas selesai membuat perubahan.
+15. Klik **Preview** untuk melihat paparan page.
+
+:::
+
+::: info Keterangan Ruangan
+| Ruangan | Penerangan |
+|---|---|
+| Title | Nama component yang. |
+| Type | Jenis component yang menentukan fungsi dan layout component tersebut. |
+
+:::
+### Panduan Memilih Component
+::: info Panduan Memilih Component
+Gunakan jadual di bawah untuk memilih component berdasarkan tujuan page.
+| Jika anda ingin...                           | Component yang sesuai                  |
+| -------------------------------------------- | -------------------------------------- |
+| Membina borang atau form input               | Form (1 Column), Form (2 Columns)      |
+| Memaparkan senarai data                      | Datatable, Tabular                     |
+| Membina report                               | Report                                 |
+| Membina dashboard ringkasan                  | Stats / KPI Cards, Chart, Card Gallery |
+| Membina proses berperingkat                  | Multi-Step Wizard                      |
+| Import data daripada fail                    | Data Import Wizard                     |
+| Memaparkan kandungan luar                    | iFrame                                 |
+| Menambah paparan khas                        | Custom HTML                            |
+| Memaparkan maklumat profil atau detail rekod | Profile / Detail Card                  |
+| Memaparkan data berbentuk hierarki           | Tree / Hierarchy Browser               |
+| Membina aliran kerja                         | Workflow                               |
+| Membina paparan master-detail                | Master-Detail Split View               |
+
+:::
+
+### Kategori Komponen
+::: tip Kategori 1: Form Layout
+Kategori ini digunakan untuk membina form atau borang input.
+| Komponen        | Kegunaan                                                                           |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| Form (1 Column)  | Sesuai untuk form ringkas yang mempunyai sedikit ruangan input.                    |
+| Form (2 Columns) | Sesuai untuk form yang mempunyai banyak ruangan dan perlu disusun dalam dua lajur. |
+:::
+
+::: tip Kategori 2: Data Display
+Kategori ini digunakan untuk memaparkan data dalam bentuk senarai atau jadual
+| Component | Kegunaan                                                                      |
+| --------- | ----------------------------------------------------------------------------- |
+| Datatable | Sesuai untuk memaparkan senarai data yang boleh dicari, ditapis atau disusun. |
+| Tabular   | Sesuai untuk paparan data dalam bentuk jadual ringkas.                        |
+| Report    | Sesuai untuk laporan yang mempunyai filter dan hasil carian.                  |
+
+:::
+
