@@ -77,8 +77,8 @@ Contoh pilihan **CSS Class**:
 
 ::: tip Langkah  3
 10. Klik **Save** jika terdapat perubahan pada maklumat - page.
-11. Selepas page dibuat, anda boleh mula menambah component atau control menggunakan button:
-- Component
+11. Selepas page dibuat, anda boleh mula menambah komponen atau control menggunakan button:
+- Komponen
 - Control
 
 

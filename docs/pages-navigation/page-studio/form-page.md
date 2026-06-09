@@ -1,15 +1,15 @@
-# Senario 3: Menambah Component Dalam Page
+# Senario 3: Menambah Komponen Dalam Page
 
 ::: info Tujuan
 
-Component digunakan untuk membina struktur utama dalam page. Setiap component mempunyai fungsi yang berbeza seperti membina form, memaparkan senarai data, membina dashboard, menyediakan report, atau membuat layout khas.
+Komponen digunakan untuk membina struktur utama dalam page. Setiap Komponen mempunyai fungsi yang berbeza seperti membina form, memaparkan senarai data, membina dashboard, menyediakan report, atau membuat layout khas.
 
-Gunakan senario ini selepas page berjaya dibuat dan paparan page masih kosong dengan mesej **No components yet**.
+Gunakan senario ini selepas page berjaya dibuat dan paparan page masih kosong dengan mesej **No Component yet**.
 
 :::
 
 ::: warning Nota Penting
-Tambah component apabila anda ingin:
+Tambah Komponen apabila anda ingin:
 - Membina struktur page
 - Membina form input
 - Memaparkan senarai data
@@ -26,29 +26,29 @@ Tambah component apabila anda ingin:
 2. Klik **Page Studio**.
 3. Pilih menu atau page yang ingin dikemaskini.
 4. Pastikan page telah berjaya dibuat.
-5. Jika page masih kosong, sistem akan memaparkan mesej No components yet.
+5. Jika page masih kosong, sistem akan memaparkan mesej No Komponens yet.
 
-6. Klik butang Component pada toolbar atas.
+6. Klik butang komponen pada toolbar atas.
 
 :::
 ::: tip Langkah 2
 
-7. Paparan pop-up **Add Component** akan dipaparkan.
-8. Masukkan nama component pada ruangan **Title**.
+7. Paparan pop-up **Add Komponen** akan dipaparkan.
+8. Masukkan nama komponen pada ruangan **Title**.
 Contoh: Customer Form
 
-9. Pilih jenis component pada ruangan Type.
+9. Pilih jenis komponen pada ruangan Type.
 Contoh:Form (2 Columns)
 
-10. Klik butang **Add** untuk menambah component ke dalam page.
+10. Klik butang **Add** untuk menambah komponen ke dalam page.
 
 :::
 ::: tip Langkah 3
 
-11. Selepas component berjaya ditambah, component tersebut akan dipaparkan pada main canvas.
+11. Selepas Komponen berjaya ditambah, Komponen tersebut akan dipaparkan pada main canvas.
 
-12. Semak nama dan jenis component yang telah ditambah.
-13. Jika perlu, tambah Control ke dalam component tersebut.
+12. Semak nama dan jenis Komponen yang telah ditambah.
+13. Jika perlu, tambah Control ke dalam komponen tersebut.
 14. Klik **Save** selepas selesai membuat perubahan.
 15. Klik **Preview** untuk melihat paparan page.
 
@@ -57,14 +57,14 @@ Contoh:Form (2 Columns)
 ::: info Keterangan Ruangan
 | Ruangan | Penerangan |
 |---|---|
-| Title | Nama component yang. |
-| Type | Jenis component yang menentukan fungsi dan layout component tersebut. |
+| Title | Nama komponen yang. |
+| Type | Jenis komponen yang menentukan fungsi dan layout Komponen tersebut. |
 
 :::
-### Panduan Memilih Component
-::: info Panduan Memilih Component
-Gunakan jadual di bawah untuk memilih component berdasarkan tujuan page.
-| Jika anda ingin...                           | Component yang sesuai                  |
+### Panduan Memilih Komponen
+::: info Panduan Memilih Komponen
+Gunakan jadual di bawah untuk memilih Komponen berdasarkan tujuan page.
+| Penggunaan                                   | Komponen yang sesuai                  |
 | -------------------------------------------- | -------------------------------------- |
 | Membina borang atau form input               | Form (1 Column), Form (2 Columns)      |
 | Memaparkan senarai data                      | Datatable, Tabular                     |
@@ -92,7 +92,7 @@ Kategori ini digunakan untuk membina form atau borang input.
 
 ::: tip Kategori 2: Data Display
 Kategori ini digunakan untuk memaparkan data dalam bentuk senarai atau jadual
-| Component | Kegunaan                                                                      |
+| Komponen | Kegunaan                                                                      |
 | --------- | ----------------------------------------------------------------------------- |
 | Datatable | Sesuai untuk memaparkan senarai data yang boleh dicari, ditapis atau disusun. |
 | Tabular   | Sesuai untuk paparan data dalam bentuk jadual ringkas.                        |
@@ -101,7 +101,7 @@ Kategori ini digunakan untuk memaparkan data dalam bentuk senarai atau jadual
 :::
 ::: tip Kategori 3: Dashboard
 Kategori ini digunakan untuk membina dashboard atau paparan ringkasan data
-| Component         | Kegunaan                                                   |
+| Komponen         | Kegunaan                                                   |
 | ----------------- | ---------------------------------------------------------- |
 | Stats / KPI Cards | Sesuai untuk memaparkan jumlah, status atau KPI ringkas.   |
 | Chart             | Sesuai untuk memaparkan data dalam bentuk graf atau carta. |
@@ -118,7 +118,7 @@ Contoh penggunaan:
 
 ::: tip Kategori 4: Special Layout
 Kategori ini digunakan untuk page yang memerlukan layout atau aliran khas.
-| Component                | Kegunaan                                                           |
+| Komponen                | Kegunaan                                                           |
 | ------------------------ | ------------------------------------------------------------------ |
 | Master-Detail Split View | Sesuai untuk paparan senarai dan maklumat detail dalam satu page.  |
 | Multi-Step Wizard        | Sesuai untuk proses yang mempunyai beberapa langkah.               |
@@ -132,9 +132,9 @@ Contoh penggunaan:
 - Paparan rekod dan detail
 
 :::
-::: tip Kategori 5: Advanced Component
+::: tip Kategori 5: Advanced Komponen
 Kategori ini digunakan untuk keperluan lebih teknikal atau khas.
-| Component          | Kegunaan                                                        |
+| Komponen          | Kegunaan                                                        |
 | ------------------ | --------------------------------------------------------------- |
 | Data Import Wizard | Sesuai untuk proses import data menggunakan fail.               |
 | Workflow           | Sesuai untuk proses yang melibatkan aliran kerja atau approval. |
@@ -151,9 +151,9 @@ Contoh penggunaan:
 - Paparan peta lokasi
 :::
 
-:: tip Kategori 6: Profile / Detail
+::: tip Kategori 6: Profile / Detail
 Kategori ini digunakan untuk memaparkan maklumat detail atau profil rekod
-| Component                | Kegunaan                                                                    |
+| Komponen                | Kegunaan                                                                    |
 | ------------------------ | --------------------------------------------------------------------------- |
 | Profile / Detail Card    | Sesuai untuk memaparkan maklumat detail dalam bentuk kad.                   |
 | Tree / Hierarchy Browser | Sesuai untuk memaparkan data berbentuk hierarki atau struktur parent-child. |
@@ -169,11 +169,11 @@ Contoh penggunaan:
 
 ::: info Hasil Yang Dijangka
 
-- Component berjaya ditambah ke dalam page.
-- Component yang dipilih dipaparkan pada main canvas.
+- Komponen berjaya ditambah ke dalam page.
+- Komponen yang dipilih dipaparkan pada main canvas.
 - Page mempunyai struktur asas untuk membina form, table, dashboard, report atau layout lain.
-- Pengguna boleh meneruskan proses seterusnya seperti menambah Control, menetapkan layout, atau menyambungkan component kepada data source.
-- Page boleh dipreview untuk memastikan paparan component adalah betul.
+- Pengguna boleh meneruskan proses seterusnya seperti menambah Control, menetapkan layout, atau menyambungkan komponen kepada data source.
+- Page boleh dipreview untuk memastikan paparan komponen adalah betul.
 
 :::
 
@@ -182,17 +182,17 @@ Contoh penggunaan:
 - Untuk page senarai data, gunakan Datatable.
 - Untuk dashboard, gunakan Stats / KPI Cards, Chart atau Card Gallery.
 - Untuk proses panjang yang mempunyai beberapa langkah, gunakan Multi-Step Wizard.
-- Jangan tambah terlalu banyak component dalam satu page kerana ia boleh menyebabkan paparan menjadi terlalu padat dan sukar digunakan.
-- Pastikan component diuji menggunakan Preview sebelum page digunakan oleh pengguna sebenar.
+- Jangan tambah terlalu banyak komponen dalam satu page kerana ia boleh menyebabkan paparan menjadi terlalu padat dan sukar digunakan.
+- Pastikan komponen diuji menggunakan Preview sebelum page digunakan oleh pengguna sebenar.
 
 :::
 
 ::: danger Isu Biasa
-Component tidak muncul selepas klik Add
+Komponen tidak muncul selepas klik Add
 Kemungkinan punca:
 
-- Component belum berjaya disimpan.
+- Komponen belum berjaya disimpan.
 - Page belum refresh.
-- Terdapat ralat pada konfigurasi component.
-- Jenis component belum dipilih dengan betul.
+- Terdapat ralat pada konfigurasi komponen.
+- Jenis komponen belum dipilih dengan betul.
 :::
