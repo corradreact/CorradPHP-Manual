@@ -69,10 +69,11 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Overview', link: '/pages-navigation/page-studio/' },
-              { text: 'Scenario 1: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
-              { text: 'Scenario 2: Membina Form Page', link: '/pages-navigation/page-studio/form-page' },
-              { text: 'Scenario 3: Membina CRUD Page', link: '/pages-navigation/page-studio/crud-page' },
-              { text: 'Scenario 4: Component & Control', link: '/pages-navigation/page-studio/component-control' }
+               { text: 'Senario 1: Membina Menu Baharu', link: '/pages-navigation/page-studio/menu-page' },
+              { text: 'Senario 2: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
+              { text: 'Senario 3: Membina Form Page', link: '/pages-navigation/page-studio/form-page' },
+              { text: 'Senario 4: Membina CRUD Page', link: '/pages-navigation/page-studio/crud-page' },
+              { text: 'Senario 5: Component & Control', link: '/pages-navigation/page-studio/component-control' }
               // { text: 'Scenario 5: Membina Dashboard Page', link: '/pages-navigation/page-studio/dashboard-page' },
               // { text: 'Scenario 6: Membina Report Page', link: '/pages-navigation/page-studio/report-page' },
               // { text: 'Scenario 7: Menggunakan Preview', link: '/pages-navigation/page-studio/preview' },
