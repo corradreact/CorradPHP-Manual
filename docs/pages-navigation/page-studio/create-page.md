@@ -1,10 +1,11 @@
 
 ## Senario 2: Membina Page
-
+::: info
 Gunakan senario ini selepas menu baharu berjaya dicipta. Page perlu dibina supaya menu tersebut mempunyai paparan yang boleh digunakan oleh pengguna.
+::: 
 
 ### Langkah-langkah
-
+::: tip
 1. Buka menu **Halaman & Navigasi**.
 2. Klik **Page Studio**.
 3. Pilih menu yang telah dibuat pada panel kiri.
@@ -12,6 +13,7 @@ Gunakan senario ini selepas menu baharu berjaya dicipta. Page perlu dibina supay
 Contoh:
 customer management
 :::
+
 4. Jika menu tersebut belum mempunyai page, sistem akan memaparkan mesej:
 ![Menu belum mempunyai page](/image/pagestudio/no-create-page.png)
 No page for this menu.
@@ -55,8 +57,9 @@ Contoh pilihan:
 13. Selepas page dibuat, anda boleh mula menambah component atau control menggunakan button:
 - Component
 - Control
+:::
 
-# Keterangan Ruangan Menu
+## Keterangan Ruangan Menu
 
 | Ruangan | Penerangan |
 |---|---|
@@ -65,7 +68,7 @@ Contoh pilihan:
 | Icon | Icon menu untuk paparan menu utama, jika diperlukan. |
 | Notes | Catatan tambahan berkaitan menu tersebut. |
 
-# Keterangan Ruangan Page
+## Keterangan Ruangan Page
 
 | Ruangan | Penerangan |
 |---|---|
@@ -76,7 +79,7 @@ Contoh pilihan:
 | Post-Process | Proses yang dijalankan selepas tindakan tertentu, jika dikonfigurasikan. |
 | CSS Class | Tetapan layout atau gaya paparan page. |
 
-# Keterangan CSS Class
+## Keterangan CSS Class
 
 | CSS Class | Penerangan |
 |---|---|
@@ -88,13 +91,13 @@ Contoh pilihan:
 | Dashboard | Digunakan untuk page berbentuk dashboard. |
 
 ### Hasil Yang Dijangka
-
+:: info
 Page baharu berjaya dibuat dan dipaparkan dalam senarai menu/page.
+:::
 
-### Nota Penting
-
+:::warning Nota
 - Pastikan nama page jelas dan mudah difahami.
 - Gunakan breadcrumb yang sesuai supaya user tahu lokasi page tersebut.
 - Jika page tidak muncul dalam menu, semak status page dan permission user.
-
+:::
 ---
