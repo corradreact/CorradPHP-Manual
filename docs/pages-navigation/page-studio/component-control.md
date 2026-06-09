@@ -1,34 +1,148 @@
-# Senario 8: Menambah Component dan Control
+# Senario 4: Menambah Control Dalam Page
 
-## Tujuan Senario
+::: info Tujuan
 
-Component dan Control digunakan untuk membina struktur dan kandungan page.
+Control digunakan untuk menambah butang tindakan pada page. Control biasanya dipaparkan pada bahagian atas atau bawah page dan digunakan untuk menjalankan tindakan seperti simpan data, reset form, kembali ke page sebelumnya, cetak, submit, delete, membuka pop-up, export PDF/CSV atau menjalankan trigger tertentu.
 
-Component biasanya digunakan untuk layout atau section.  
-Control pula digunakan untuk field, button atau input tertentu.
+Gunakan senario ini selepas page dan komponen berjaya dibuat.
 
+:::
+
+:::warning Nota Penting
+Tambah control apabila anda ingin:
+
+- Menambah butang Save
+- Menambah butang Reset
+- Menambah butang Back
+- Menambah butang Print
+- Menambah butang Submit
+- Menambah butang Delete
+- Membuka pop-up menggunakan New Popup - GET atau New Popup - POST
+- Menambah butang export seperti PDF Button atau CSV Button
+- Menetapkan tindakan tambahan melalui Triggers
+
+:::
 ## Langkah-langkah
+::: tip Langkah 1
 
-1. Buka **Page Studio**.
-2. Pilih page yang ingin diedit.
-3. Klik **Component** untuk tambah section atau layout.
-4. Klik **Control** untuk tambah field atau button.
-5. Pilih jenis control yang diperlukan.
-6. Masukkan label dan setting control.
-7. Susun control dalam component yang sesuai.
-8. Klik **Save**.
-9. Klik **Preview** untuk semak paparan.
+1. Buka menu **Halaman & Navigasi**.
+2. Klik **Page Studio**.
+3. Pilih page yang ingin dikemaskini.
+4. Pastikan page telah mempunyai komponen atau struktur asas.
+5. Klik butang **Control** pada toolbar atas.
 
-## Screenshot
+:::
+::: tip Langkah 2
 
-[Insert screenshot here]
+6. Paparan pop-up **Add Control** akan dipaparkan.
+7. Masukkan nama butang pada ruangan **Button Label**.
+8. Pilih jenis control pada ruangan **Control Type**
+9. Pilih kedudukan butang pada ruangan **Position**
+10. Klik butang **Add** untuk menambah kontrol ke dalam page.
+
+:::
+::: tip Langkah 3
+
+11. Selepas control berjaya ditambah, panel kanan akan memaparkan tetapan control tersebut.
+
+12. Semak maklumat pada bahagian ****GENERAL** seperti:
+- Label
+- Name
+- Type
+- Position
+- Status
+13. Semak maklumat pada bahagian ****BINDING** seperti:
+- komponen
+- Redirect URL
+14. Jika perlu, isi maklumat pada bahagian EXTRA seperti:
+- CSS Class
+- Notes
+- Hints
+15. Jika control memerlukan tindakan tambahan, tambah konfigurasi pada bahagian TRIGGERS.
+16. Klik **Save****** selepas selesai membuat perubahan.
+17. Klik **Preview** untuk menguji butang control.
+
+:::
+
+### Panduan Memilih Control Type
+
+::: info Panduan Memilih Control
+
+Gunakan jadual di bawah untuk memilih control berdasarkan tujuan butang.
+
+| Jika anda ingin...                      | Control Type yang sesuai |
+| --------------------------------------- | ------------------------ |
+| Menyimpan data form                     | Save Button              |
+| Mengosongkan semula input form          | Reset Button             |
+| Kembali ke page sebelumnya              | Back Button              |
+| Mencetak page                           | Print Button             |
+| Menghantar form atau permohonan         | Submit Button            |
+| Memadam rekod                           | Delete Button            |
+| Membuka pop-up menggunakan request GET  | New Popup - GET          |
+| Membuka pop-up menggunakan request POST | New Popup - POST         |
+| Membatalkan submit                      | Unsubmit Button          |
+| Export page/report kepada PDF           | PDF Button               |
+| Export data kepada CSV                  | CSV Button               |
+
+:::
+
+### Kategori Control
+
+::: tip Kategori 1: Basic Form Action
+
+Kategori ini digunakan untuk tindakan asas pada form
+| Control Type    | Kegunaan                                                             |
+| --------------- | -------------------------------------------------------------------- |
+| Save Button     | Menyimpan data yang dimasukkan atau dikemaskini dalam form.          |
+| Reset Button    | Mengosongkan atau mengembalikan semula input form kepada nilai asal. |
+| Submit Button   | Menghantar form untuk proses seterusnya.                             |
+| Delete Button   | Memadam rekod yang dipilih.                                          |
+| Unsubmit Button | Membatalkan status submit, jika proses tersebut dibenarkan.          |
+
+:::
+::: tip Kategori 2: Navigation Action
+
+Kategori ini digunakan untuk navigasi atau pergerakan antara page.
+
+| Control Type     | Kegunaan                                        |
+| ---------------- | ----------------------------------------------- |
+| Back Button      | Membawa pengguna kembali ke page sebelumnya.    |
+| New Popup - GET  | Membuka paparan pop-up menggunakan kaedah GET.  |
+| New Popup - POST | Membuka paparan pop-up menggunakan kaedah POST. |
+
+:::
+::: tip Kategori 3: Output / Export Action
+
+Kategori ini digunakan untuk cetakan atau export data.
+| Control Type | Kegunaan                                   |
+| ------------ | ------------------------------------------ |
+| Print Button | Mencetak paparan page semasa.              |
+| PDF Button   | Menghasilkan output dalam format PDF.      |
+| CSV Button   | Menghasilkan output data dalam format CSV. |
+
+:::
+
+### Perbezaan New Popup - GET dan New Popup - POST
+
+::: info Panduan Pop-up
+| Control Type     | Kegunaan                                                                                            |
+| ---------------- | --------------------------------------------------------------------------------------------------- |
+| New Popup - GET  | Sesuai digunakan apabila pop-up hanya perlu membuka page atau mengambil data berdasarkan parameter. |
+| New Popup - POST | Sesuai digunakan apabila pop-up perlu menghantar data atau membawa input tertentu untuk diproses.   |
+
+:::
 
 ## Hasil Yang Dijangka
 
-Component dan control berjaya ditambah dalam page.
+::: info Hasil Yang Dijangka
+
+- Control berjaya ditambah ke dalam page.
+- Butang yang dipilih dipaparkan pada toolbar page.
+- Pengguna boleh menguji fungsi control melalui Preview.
+Jika diperlukan, control boleh dihubungkan kepada komponen, redirect URL atau trigger.
 
 ## Nota Penting
 
-- Gunakan component untuk susun page dengan lebih kemas.
+- Gunakan komponen untuk susun page dengan lebih kemas.
 - Gunakan control mengikut jenis data yang ingin dikumpul.
 - Jangan campur terlalu 
