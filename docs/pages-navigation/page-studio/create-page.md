@@ -1,27 +1,26 @@
 
 ## Senario 2: Membina Page
-::: info
+::: info Tujuan
 Gunakan senario ini selepas menu baharu berjaya dicipta. Page perlu dibina supaya menu tersebut mempunyai paparan yang boleh digunakan oleh pengguna.
 ::: 
 
 ### Langkah-langkah
-::: tip
+::: tip Langkah 1
 1. Buka menu **Halaman & Navigasi**.
 2. Klik **Page Studio**.
 3. Pilih menu yang telah dibuat pada panel kiri.
-::: warning Nota
 Contoh:
 customer management
+
 :::
 
+::: tip Langkah 2
 4. Jika menu tersebut belum mempunyai page, sistem akan memaparkan mesej:
 ![Menu belum mempunyai page](/image/pagestudio/no-create-page.png)
 No page for this menu.
 
 5. Klik button **Create Page**
 6. Selepas page berjaya dibuat, panel kanan akan memaparkan bahagian Menu & Page.
-![Page berjaya dibuat](/image/pagestudio/page-created-toolbar.png)
-
 7. Semak maklumat pada bahagian MENU seperti:
 - Menu Title
 - Status
@@ -53,10 +52,14 @@ Contoh pilihan:
 - Centered
 - Dashboard
 
+:::
+
+::: tip Langkah  3
 12. Klik **Save** jika terdapat perubahan pada maklumat - page.
 13. Selepas page dibuat, anda boleh mula menambah component atau control menggunakan button:
 - Component
 - Control
+
 :::
 
 ## Keterangan Ruangan Menu
@@ -90,8 +93,7 @@ Contoh pilihan:
 | Centered | Meletakkan kandungan page di tengah. Sesuai untuk form kecil atau page ringkas. |
 | Dashboard | Digunakan untuk page berbentuk dashboard. |
 
-### Hasil Yang Dijangka
-:: info
+::: info Hasil Yang Dijangka
 Page baharu berjaya dibuat dan dipaparkan dalam senarai menu/page.
 :::
 
