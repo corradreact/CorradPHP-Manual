@@ -8,7 +8,7 @@ Gunakan senario ini selepas page berjaya dibuat dan paparan page masih kosong de
 
 :::
 
-::: Nota Penting
+::: warning Nota Penting
 Tambah component apabila anda ingin:
 - Membina struktur page
 - Membina form input
@@ -22,8 +22,8 @@ Tambah component apabila anda ingin:
 ## Langkah-langkah
 ::: tip Langkah 1
 
-1. Buka menu Halaman & Navigasi.
-2. Klik Page Studio.
+1. Buka menu **Halaman & Navigasi**.
+2. Klik **Page Studio**.
 3. Pilih menu atau page yang ingin dikemaskini.
 4. Pastikan page telah berjaya dibuat.
 5. Jika page masih kosong, sistem akan memaparkan mesej No components yet.
@@ -33,8 +33,8 @@ Tambah component apabila anda ingin:
 :::
 ::: tip Langkah 2
 
-7. Paparan pop-up Add Component akan dipaparkan.
-8. Masukkan nama component pada ruangan Title.
+7. Paparan pop-up **Add Component** akan dipaparkan.
+8. Masukkan nama component pada ruangan **Title**.
 Contoh: Customer Form
 
 9. Pilih jenis component pada ruangan Type.
@@ -99,4 +99,100 @@ Kategori ini digunakan untuk memaparkan data dalam bentuk senarai atau jadual
 | Report    | Sesuai untuk laporan yang mempunyai filter dan hasil carian.                  |
 
 :::
+::: tip Kategori 3: Dashboard
+Kategori ini digunakan untuk membina dashboard atau paparan ringkasan data
+| Component         | Kegunaan                                                   |
+| ----------------- | ---------------------------------------------------------- |
+| Stats / KPI Cards | Sesuai untuk memaparkan jumlah, status atau KPI ringkas.   |
+| Chart             | Sesuai untuk memaparkan data dalam bentuk graf atau carta. |
+| Card Gallery      | Sesuai untuk memaparkan maklumat dalam bentuk kad.         |
 
+Contoh penggunaan:
+
+- Total customer
+- Jumlah permohonan
+- Status summary
+- Chart transaksi
+- KPI dashboard
+:::
+
+::: tip Kategori 4: Special Layout
+Kategori ini digunakan untuk page yang memerlukan layout atau aliran khas.
+| Component                | Kegunaan                                                           |
+| ------------------------ | ------------------------------------------------------------------ |
+| Master-Detail Split View | Sesuai untuk paparan senarai dan maklumat detail dalam satu page.  |
+| Multi-Step Wizard        | Sesuai untuk proses yang mempunyai beberapa langkah.               |
+| Timeline                 | Sesuai untuk memaparkan aktiviti atau sejarah secara turutan masa. |
+
+Contoh penggunaan:
+
+- Page detail customer
+- Proses permohonan berperingkat
+- Sejarah status permohonan
+- Paparan rekod dan detail
+
+:::
+::: tip Kategori 5: Advanced Component
+Kategori ini digunakan untuk keperluan lebih teknikal atau khas.
+| Component          | Kegunaan                                                        |
+| ------------------ | --------------------------------------------------------------- |
+| Data Import Wizard | Sesuai untuk proses import data menggunakan fail.               |
+| Workflow           | Sesuai untuk proses yang melibatkan aliran kerja atau approval. |
+| iFrame             | Sesuai untuk memaparkan halaman atau kandungan luar dalam page. |
+| Custom HTML        | Sesuai untuk menambah kandungan HTML khas.                      |
+| Geographic Map     | Sesuai untuk memaparkan data berkaitan lokasi atau peta.        |
+
+Contoh penggunaan:
+
+- Import data customer
+- Approval workflow
+- Paparan sistem luar
+- HTML custom layout
+- Paparan peta lokasi
+:::
+
+:: tip Kategori 6: Profile / Detail
+Kategori ini digunakan untuk memaparkan maklumat detail atau profil rekod
+| Component                | Kegunaan                                                                    |
+| ------------------------ | --------------------------------------------------------------------------- |
+| Profile / Detail Card    | Sesuai untuk memaparkan maklumat detail dalam bentuk kad.                   |
+| Tree / Hierarchy Browser | Sesuai untuk memaparkan data berbentuk hierarki atau struktur parent-child. |
+
+Contoh penggunaan:
+
+- Profil pengguna
+- Detail customer
+- Detail transaksi
+- Struktur organisasi
+- Struktur menu atau kategori
+:::
+
+::: info Hasil Yang Dijangka
+
+- Component berjaya ditambah ke dalam page.
+- Component yang dipilih dipaparkan pada main canvas.
+- Page mempunyai struktur asas untuk membina form, table, dashboard, report atau layout lain.
+- Pengguna boleh meneruskan proses seterusnya seperti menambah Control, menetapkan layout, atau menyambungkan component kepada data source.
+- Page boleh dipreview untuk memastikan paparan component adalah betul.
+
+:::
+
+::: warning Nota
+- Untuk page form biasa, gunakan Form (1 Column) atau Form (2 Columns).
+- Untuk page senarai data, gunakan Datatable.
+- Untuk dashboard, gunakan Stats / KPI Cards, Chart atau Card Gallery.
+- Untuk proses panjang yang mempunyai beberapa langkah, gunakan Multi-Step Wizard.
+- Jangan tambah terlalu banyak component dalam satu page kerana ia boleh menyebabkan paparan menjadi terlalu padat dan sukar digunakan.
+- Pastikan component diuji menggunakan Preview sebelum page digunakan oleh pengguna sebenar.
+
+:::
+
+::: danger Isu Biasa
+Component tidak muncul selepas klik Add
+Kemungkinan punca:
+
+- Component belum berjaya disimpan.
+- Page belum refresh.
+- Terdapat ralat pada konfigurasi component.
+- Jenis component belum dipilih dengan betul.
+:::
