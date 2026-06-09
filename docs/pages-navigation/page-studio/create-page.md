@@ -15,53 +15,76 @@ customer management
 :::
 
 ::: tip Langkah 2
-4. Jika menu tersebut belum mempunyai page, sistem akan memaparkan mesej:
+
+4. Jika menu tersebut belum mempunyai page, sistem akan memaparkan mesej **No page for this menu** dan butang **Create Page**.
+
 ![Menu belum mempunyai page](/image/pagestudio/no-create-page.png)
-No page for this menu.
 
-5. Klik button **Create Page**
-6. Selepas page berjaya dibuat, panel kanan akan memaparkan bahagian Menu & Page.
-7. Semak maklumat pada bahagian MENU seperti:
-- Menu Title
-- Status
-- Icon
-- Notes
-8. Semak maklumat pada bahagian PAGE seperti:
+5. Klik butang **Create Page**.
 
-- Page Title
-- Breadcrumbs
-- Description
-- Pre-Process
-- Post-Process
-- CSS Class
+6. Selepas page berjaya dibuat, panel kanan akan memaparkan bahagian **Menu & Page**.
 
-9. Pastikan Page Title dan Breadcrumbs adalah betul.
+---
+
+**Bahagian MENU**
+
+Semak maklumat pada bahagian **MENU** seperti berikut:
+
+| Ruangan | Penerangan |
+|---|---|
+| Menu Title | Nama menu yang dipaparkan dalam sistem. |
+| Status | Status menu sama ada aktif atau tidak aktif. |
+| Icon | Icon menu, jika diperlukan. |
+| Notes | Catatan tambahan berkaitan menu. |
+
+---
+
+**Bahagian PAGE**
+
+Semak maklumat pada bahagian **PAGE** seperti berikut:
+
+| Ruangan | Penerangan |
+|---|---|
+| Page Title | Tajuk page yang akan dipaparkan kepada pengguna. |
+| Breadcrumbs | Laluan navigasi page dalam sistem. |
+| Description | Penerangan ringkas tentang fungsi page. |
+| Pre-Process | Proses yang dijalankan sebelum page dimuatkan, jika dikonfigurasi. |
+| Post-Process | Proses yang dijalankan selepas tindakan tertentu, jika dikonfigurasi. |
+| CSS Class | Tetapan layout atau gaya paparan page. |
+
+7. Pastikan **Page Title** dan **Breadcrumbs** adalah betul.
+
 ![Tetapan Menu dan Page](/image/pagestudio/menu-page-settings.png)
 
-10. Jika perlu, masukkan penerangan ringkas pada ruangan Description.
+8. Jika perlu, masukkan penerangan ringkas pada ruangan **Description**.
 
-11. Pilih CSS Class yang sesuai mengikut jenis page.
+9. Pilih **CSS Class** yang sesuai mengikut jenis page.
+
 ![Pilihan CSS Class Page](/image/pagestudio/css-class-options.png)
 
-Contoh pilihan:
+Contoh pilihan **CSS Class**:
 
-- Narrow
-- Wide
-- No Padding
-- Compact
-- Centered
-- Dashboard
+| CSS Class | Kegunaan |
+|---|---|
+| Narrow | Sesuai untuk form ringkas atau page yang tidak memerlukan ruang lebar. |
+| Wide | Sesuai untuk page yang mempunyai banyak maklumat atau table. |
+| No Padding | Sesuai untuk layout khas yang memerlukan ruang penuh. |
+| Compact | Sesuai untuk page yang mempunyai banyak ruangan tetapi ingin dipaparkan secara padat. |
+| Centered | Sesuai untuk form kecil yang ingin diletakkan di tengah page. |
+| Dashboard | Sesuai untuk page berbentuk dashboard, card, chart atau ringkasan data. |
+:::
+
 
 :::
 
 ::: tip Langkah  3
-12. Klik **Save** jika terdapat perubahan pada maklumat - page.
-13. Selepas page dibuat, anda boleh mula menambah component atau control menggunakan button:
+10. Klik **Save** jika terdapat perubahan pada maklumat - page.
+11. Selepas page dibuat, anda boleh mula menambah component atau control menggunakan button:
 - Component
 - Control
 
 :::
-
+<!-- 
 ## Keterangan Ruangan Menu
 
 | Ruangan | Penerangan |
@@ -91,7 +114,7 @@ Contoh pilihan:
 | No Padding| Membuang padding page. Sesuai untuk layout khas atau dashboard tertentu. |
 | Compact | Menjadikan paparan lebih padat. Sesuai untuk page yang memempunya banyak ruangan. |
 | Centered | Meletakkan kandungan page di tengah. Sesuai untuk form kecil atau page ringkas. |
-| Dashboard | Digunakan untuk page berbentuk dashboard. |
+| Dashboard | Digunakan untuk page berbentuk dashboard. | -->
 
 ::: info Hasil Yang Dijangka
 Page baharu berjaya dibuat dan dipaparkan dalam senarai menu/page.
