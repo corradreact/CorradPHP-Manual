@@ -1,60 +1,111 @@
-/* Import font Inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;750;800&display=swap');
 
 /* ======================================
-   GLOBAL VARIABLES & FONT
+   GLOBAL VARIABLES
    ====================================== */
+
 :root {
   --vp-font-family-base: 'Inter', sans-serif;
   --vp-font-family-mono: 'Inter', monospace;
 
-  /* warna brand – ikut warna biru MyReCourt */
+  /* Brand Color */
   --vp-c-brand: #2563eb;
-  --vp-c-brand-light: #3b82f6;
-  --vp-c-brand-lighter: #60a5fa;
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #60a5fa;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.12);
 
-  /* =============== CUSTOM BLOCK: INFO (TUJUAN) – KELABU =============== */
-  --vp-custom-block-info-bg: #f3f4f6;      /* background kelabu lembut */
-  --vp-custom-block-info-border: #e5e7eb;  /* border kelabu nipis */
-  --vp-custom-block-info-text: #111827;    /* teks gelap */
+  /* Manual Custom Color */
+  --manual-blue-bg: #eef4ff;
+  --manual-blue-border: #3b82f6;
+  --manual-blue-text: #1e40af;
 
-  /* =============== CUSTOM BLOCK: NOTE (::: note) – BIRU =============== */
-  --vp-custom-block-note-bg: #eef2ff;
-  --vp-custom-block-note-border: #4f46e5;
-  --vp-custom-block-note-text: #111827;
+  --manual-yellow-bg: #fff7df;
+  --manual-yellow-border: #f6c453;
+  --manual-yellow-text: #8a5a00;
 
-  /* =============== CUSTOM BLOCK: TIP (::: tip) – BIRU LEMBUT =============== */
-  --vp-custom-block-tip-bg: #eef2ff;       /* biru lembut */
-  --vp-custom-block-tip-border: #3b82f6;   /* biru terang */
-  --vp-custom-block-tip-text: #1e3a8a;     /* biru gelap */
+  --manual-grey-bg: #f8fafc;
+  --manual-grey-border: #d9e2ec;
+  --manual-grey-text: #1e293b;
+
+  --manual-red-bg: #fff1f2;
+  --manual-red-border: #fb7185;
+  --manual-red-text: #9f1239;
+
+  --manual-radius: 12px;
+  --manual-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
 }
 
+html,
 body {
   font-family: 'Inter', sans-serif !important;
+  scroll-behavior: smooth;
 }
 
 /* ======================================
-   NAVBAR LOGO + TITLE
+   NAVBAR
    ====================================== */
 
+.VPNav {
+  border-bottom: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.04);
+}
+
 .VPNavBarTitle {
-   pointer-events: none;
+  pointer-events: none;
   cursor: default;
   display: flex;
   align-items: center;
-  gap: 8px;   /* jarak antara logo dan teks */
+  gap: 8px;
+}
+
+.VPNavBarTitle a {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
 }
 
 .VPNavBarTitle img {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
 }
 
+.VPNavBarTitle .title {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
 /* ======================================
-   HERO UTAMA
+   HOMEPAGE HERO
    ====================================== */
 
+.VPHero .name {
+  color: #2563eb !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.04em;
+}
+
+.VPHero .text {
+  color: #0f172a !important;
+  font-weight: 750 !important;
+}
+
+.VPHero .tagline {
+  color: #475569 !important;
+  font-size: 1.05rem !important;
+}
+
+.VPHero .image-src {
+  max-width: 220px !important;
+  max-height: 220px !important;
+  border-radius: 24px;
+  filter: drop-shadow(0 18px 35px rgba(15, 23, 42, 0.12));
+}
+
+/* Custom hero kalau ada guna class sendiri */
 .hero-utama {
   display: flex;
   align-items: center;
@@ -64,42 +115,40 @@ body {
 }
 
 .hero-text {
-  max-width: 40rem;
+  max-width: 42rem;
 }
 
 .hero-eyebrow {
-  color: #f97316; /* oren MyReCourt */
-  font-weight: 700;
+  color: #2563eb;
+  font-weight: 800;
   font-size: 2.4rem;
   margin: 0 0 0.25rem;
+  letter-spacing: -0.03em;
 }
 
 .hero-text h1 {
-  font-size: 2.8rem;
+  font-size: 2.9rem;
   line-height: 1.1;
   margin: 0 0 1rem;
-  font-weight: 700;
+  font-weight: 800;
+  color: #0f172a;
 }
 
 .hero-subtitle {
-  max-width: 32rem;
+  max-width: 34rem;
   font-size: 1rem;
-  color: #4b5563;
+  color: #475569;
+  line-height: 1.8;
 }
 
 .hero-logo img {
   width: 220px;
   max-width: 40vw;
-  border-radius: 999px;
+  border-radius: 24px;
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.12);
 }
 
-/* Butang */
-.VPNavBarTitle a {
-  pointer-events: none;
-  cursor: default;
-  text-decoration: none;
-  color: inherit;
-}
+/* Hero buttons */
 .hero-actions {
   margin-top: 1.75rem;
   display: flex;
@@ -111,183 +160,83 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.65rem 1.6rem;
+  padding: 0.72rem 1.55rem;
   border-radius: 999px;
-  font-weight: 500;
+  font-weight: 650;
   font-size: 0.95rem;
   text-decoration: none;
+  transition: all 0.18s ease;
 }
 
 .hero-btn-primary {
-  background: #facc15;        /* kuning */
-  color: #111827;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  background: #2563eb;
+  color: #ffffff !important;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.25);
 }
 
 .hero-btn-secondary {
-  background: #e5e7eb;
-  color: #111827;
+  background: #f1f5f9;
+  color: #0f172a !important;
+  border: 1px solid #e2e8f0;
 }
 
 .hero-btn-primary:hover {
   transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.3);
 }
 
 .hero-btn-secondary:hover {
-  background: #d1d5db;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-utama {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
-
-  .hero-logo img {
-    width: 160px;
-  }
-
-  .hero-text h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero-eyebrow {
-    font-size: 2rem;
-  }
+  background: #e2e8f0;
 }
 
 /* ======================================
-   SIDEBAR
+   HOMEPAGE FEATURE CARDS
    ====================================== */
 
-.VPSidebar {
-  border-right: none !important;
+.VPFeature {
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 16px !important;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%) !important;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
-/* Tajuk gro
-/* Tajuk group */
-.VPSidebar .group .title {
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  padding: 4px 0;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  cursor: pointer;
+.VPFeature:hover {
+  transform: translateY(-3px);
+  border-color: #bfdbfe !important;
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.09);
 }
 
-/* Arrow for dropdown */
-.VPSidebar .group .title::after {
-  content: '▾'; /* boleh tukar ke ▼ atau ▸ */
-  font-size: 0.75rem;
-  opacity: 0.7;
-  transition: transform 0.2s ease;
+.VPFeature .icon {
+  background: #eef4ff !important;
+  color: #2563eb !important;
+  border-radius: 12px !important;
 }
 
-/* Arrow rotate when collapsed */
-.VPSidebar .group.collapsed .title::after {
-  transform: rotate(-90deg);
+.VPFeature .title {
+  color: #0f172a !important;
+  font-weight: 750 !important;
 }
 
-
-/* Arrow rotate bila collapse */
-.VPSidebar .group.collapsed .title::after {
-  transform: rotate(-90deg);
+.VPFeature .details {
+  color: #475569 !important;
+  line-height: 1.7 !important;
 }
 
-/* Arrow rotate bila collapse */
-.VPSidebar .group.collapsed .title::after {
-  transform: rotate(-90deg);
-}
-
-
-
-/* Active item */
-.VPSidebar .VPSidebarItem .link.active {
-  font-weight: 600;
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  border-left: 3px solid var(--vp-c-brand-1);
-  padding-left: 6px;
-}
-
-/* Hover effect */
-.VPSidebar .VPSidebarItem .link:hover {
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-brand-1);
-}
-
-/* Active item (sedang buka page tu) */
-.VPSidebar .VPSidebarItem .link.active {
-  font-weight: 600;
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  border-left: 3px solid var(--vp-c-brand-1);
-  padding-left: 6px;
-}
-
-/* ======================================
-   CUSTOM BLOCKS
-   ====================================== */
-
-/* INFO – untuk "Tujuan" (kelabu) */
-.custom-block.info {
-  background-color: var(--vp-custom-block-info-bg);
-  border: 1px solid var(--vp-custom-block-info-border);
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
-}
-
-.custom-block.info .custom-block-title {
-  color: var(--vp-custom-block-info-text);
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-/* NOTE – biru lembut */
-.custom-block.note {
-  background-color: var(--vp-custom-block-note-bg);
-  border-color: var(--vp-custom-block-note-border);
-}
-
-.custom-block.note .custom-block-title {
-  color: var(--vp-custom-block-note-text);
-}
-
-/* TIP – untuk "Langkah 1" (biru lembut) */
-.custom-block.tip {
-  background-color: var(--vp-custom-block-tip-bg);
-  border: 1px solid var(--vp-custom-block-tip-border);
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
-  color: var(--vp-custom-block-tip-text);
-}
-
-.custom-block.tip .custom-block-title {
-  color: var(--vp-custom-block-tip-text);
-  font-weight: 600;
-}
-
-/* ======================================
-   FEATURE CARDS + BADGES (add color accents)
-   ====================================== */
-
+/* Custom features kalau guna class sendiri */
 .features {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 1rem;
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 .features .feature {
-  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
-  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  border-radius: 16px;
   padding: 1.25rem;
-  box-shadow: 0 8px 20px rgba(2,6,23,0.04);
-  border: 1px solid rgba(15,23,42,0.04);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+  border: 1px solid #e2e8f0;
   display: flex;
   gap: 1rem;
   align-items: flex-start;
@@ -296,35 +245,311 @@ body {
 .features .feature .icon {
   width: 48px;
   height: 48px;
-  border-radius: 10px;
+  border-radius: 12px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  background: linear-gradient(135deg, var(--vp-c-brand-light), var(--vp-c-brand));
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
   flex-shrink: 0;
 }
 
 .features .feature h3 {
   margin: 0 0 0.25rem;
   font-size: 1.05rem;
+  color: #0f172a;
+  font-weight: 750;
 }
 
 .features .feature p {
   margin: 0;
   color: #475569;
+  line-height: 1.7;
 }
-/* WARNING BLOCK - Nota */
+
+/* ======================================
+   SIDEBAR
+   ====================================== */
+
+.VPSidebar {
+  border-right: 1px solid #e5e7eb !important;
+  background: #fbfdff !important;
+}
+
+.VPSidebar .group {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.VPSidebar .group .title {
+  font-size: 0.82rem;
+  font-weight: 750;
+  color: #334155;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+}
+
+.VPSidebar .group .title::after {
+  content: '▾';
+  font-size: 0.72rem;
+  opacity: 0.65;
+  transition: transform 0.2s ease;
+  margin-left: auto;
+}
+
+.VPSidebar .group.collapsed .title::after {
+  transform: rotate(-90deg);
+}
+
+.VPSidebar .VPSidebarItem .link {
+  border-radius: 8px;
+  padding: 5px 8px;
+  transition: all 0.16s ease;
+}
+
+.VPSidebar .VPSidebarItem .link:hover {
+  background: #eef4ff;
+  color: #2563eb;
+}
+
+.VPSidebar .VPSidebarItem .link.active {
+  font-weight: 700;
+  color: #1d4ed8 !important;
+  background: #eaf2ff !important;
+  border-left: 3px solid #2563eb;
+  padding-left: 8px;
+}
+
+/* ======================================
+   DOC CONTENT POLISH
+   ====================================== */
+
+.VPDoc .content-container {
+  max-width: 980px !important;
+}
+
+/* Main title */
+.VPDoc h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  color: #0f172a;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Section title */
+.VPDoc h2 {
+  margin-top: 2.4rem;
+  font-size: 1.45rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  color: #1e293b;
+}
+
+.VPDoc h3 {
+  margin-top: 1.6rem;
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #334155;
+}
+
+.VPDoc h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+/* Paragraph and list */
+.VPDoc p,
+.VPDoc li {
+  font-size: 0.96rem;
+  line-height: 1.85;
+}
+
+.VPDoc p {
+  color: #334155;
+}
+
+.VPDoc li {
+  color: #334155;
+}
+
+.VPDoc ul,
+.VPDoc ol {
+  padding-left: 1.35rem;
+}
+
+.VPDoc li + li {
+  margin-top: 0.3rem;
+}
+
+/* Link */
+.VPDoc a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.VPDoc a:hover {
+  text-decoration: underline;
+}
+
+/* Inline code */
+.VPDoc :not(pre) > code {
+  background: #eef4ff;
+  color: #1e40af;
+  border: 1px solid #dbeafe;
+  border-radius: 6px;
+  padding: 0.15rem 0.38rem;
+  font-size: 0.86em;
+  font-weight: 650;
+}
+
+/* Code block */
+.VPDoc div[class*='language-'] {
+  border-radius: 12px !important;
+  border: 1px solid #1e293b;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+}
+
+/* Screenshot */
+.VPDoc img {
+  border: 1px solid #dbe3ef;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+  margin: 1rem 0 1.25rem;
+  background: #ffffff;
+}
+
+/* Horizontal line */
+.VPDoc hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+/* ======================================
+   TABLE STYLE
+   ====================================== */
+
+.VPDoc table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  margin: 1.25rem 0;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+}
+
+.VPDoc th {
+  background: #f8fafc;
+  color: #0f172a;
+  font-weight: 750;
+}
+
+.VPDoc td,
+.VPDoc th {
+  border: none;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0.85rem 1rem;
+}
+
+.VPDoc tr:last-child td {
+  border-bottom: none;
+}
+
+.VPDoc tr:nth-child(even) td {
+  background: #fbfdff;
+}
+
+/* ======================================
+   CUSTOM BLOCKS - MANUAL STYLE
+   ====================================== */
+
+.VPDoc .custom-block {
+  border-radius: 14px !important;
+  padding: 1.1rem 1.3rem !important;
+  margin: 1.35rem 0 !important;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.045);
+}
+
+.VPDoc .custom-block .custom-block-title {
+  font-size: 0.92rem;
+  font-weight: 800 !important;
+  margin-bottom: 0.8rem !important;
+  letter-spacing: 0.01em;
+}
+
+.VPDoc .custom-block p {
+  margin: 0.55rem 0;
+}
+
+.VPDoc .custom-block ul,
+.VPDoc .custom-block ol {
+  margin: 0.55rem 0;
+}
+
+.VPDoc .custom-block li {
+  margin: 0.35rem 0;
+}
+
+.VPDoc .custom-block img {
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+/* INFO - Tujuan / Hasil Yang Dijangka */
+.VPDoc .custom-block.info {
+  background: #f8fafc !important;
+  border: 1px solid #d9e2ec !important;
+  color: #1e293b !important;
+}
+
+.VPDoc .custom-block.info .custom-block-title {
+  color: #0f172a !important;
+}
+
+.VPDoc .custom-block.info p,
+.VPDoc .custom-block.info li,
+.VPDoc .custom-block.info strong {
+  color: #1e293b !important;
+}
+
+/* TIP - Langkah */
+.VPDoc .custom-block.tip {
+  background: linear-gradient(180deg, #eef4ff 0%, #f5f8ff 100%) !important;
+  border: 1px solid #3b82f6 !important;
+  color: #1e40af !important;
+}
+
+.VPDoc .custom-block.tip .custom-block-title {
+  color: #1d4ed8 !important;
+}
+
+.VPDoc .custom-block.tip p,
+.VPDoc .custom-block.tip li,
+.VPDoc .custom-block.tip strong {
+  color: #1e40af !important;
+}
+
+/* WARNING - Nota */
 .VPDoc .custom-block.warning {
-  background-color: #fff7df !important;
-  border: 1px solid #f6d46b !important;
-  border-radius: 8px !important;
+  background: linear-gradient(180deg, #fff7df 0%, #fffaf0 100%) !important;
+  border: 1px solid #f6c453 !important;
   color: #8a5a00 !important;
 }
 
 .VPDoc .custom-block.warning .custom-block-title {
   color: #9a6400 !important;
-  font-weight: 700 !important;
 }
 
 .VPDoc .custom-block.warning p,
@@ -332,15 +557,196 @@ body {
 .VPDoc .custom-block.warning strong {
   color: #8a5a00 !important;
 }
-/* status badges */
-.status-pill { display: inline-block; padding: 0.25rem 0.6rem; border-radius: 999px; font-size: 0.85rem; color: #fff; background: #10b981; }
-.status-pill.info { background: var(--vp-c-brand-light); }
-.status-pill.warn { background: #f97316; }
-.status-pill.danger { background: #ef4444; }
 
-/* small utilities */
-.card-accent { border-left: 4px solid var(--vp-c-brand); }
+/* DANGER - Amaran / Risiko */
+.VPDoc .custom-block.danger {
+  background: linear-gradient(180deg, #fff1f2 0%, #fff7f8 100%) !important;
+  border: 1px solid #fb7185 !important;
+  color: #9f1239 !important;
+}
 
-/* links accent */
-a { color: var(--vp-c-brand); }
+.VPDoc .custom-block.danger .custom-block-title,
+.VPDoc .custom-block.danger p,
+.VPDoc .custom-block.danger li,
+.VPDoc .custom-block.danger strong {
+  color: #9f1239 !important;
+}
 
+/* DETAILS block kalau guna ::: details */
+.VPDoc details.custom-block {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.VPDoc details.custom-block summary {
+  font-weight: 750;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+/* ======================================
+   BADGES / PILLS
+   ====================================== */
+
+.status-pill {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 650;
+  color: #ffffff;
+  background: #10b981;
+}
+
+.status-pill.info {
+  background: #2563eb;
+}
+
+.status-pill.warn {
+  background: #f97316;
+}
+
+.status-pill.danger {
+  background: #ef4444;
+}
+
+.card-accent {
+  border-left: 4px solid #2563eb;
+}
+
+/* ======================================
+   RESPONSIVE
+   ====================================== */
+
+@media (max-width: 768px) {
+  .hero-utama {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .hero-logo img {
+    width: 150px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero-eyebrow {
+    font-size: 1.9rem;
+  }
+
+  .VPDoc h1 {
+    font-size: 1.65rem;
+  }
+
+  .VPDoc h2 {
+    font-size: 1.25rem;
+  }
+
+  .VPDoc .custom-block {
+    padding: 1rem !important;
+    border-radius: 12px !important;
+  }
+
+  .VPDoc img {
+    border-radius: 9px;
+  }
+
+  .VPDoc table {
+    font-size: 0.9rem;
+  }
+
+  .VPDoc td,
+  .VPDoc th {
+    padding: 0.7rem 0.75rem;
+  }
+}
+
+/* ======================================
+   DARK MODE SUPPORT
+   ====================================== */
+
+.dark .VPDoc h1,
+.dark .VPDoc h2,
+.dark .VPDoc h3,
+.dark .VPDoc h4 {
+  color: #f8fafc;
+}
+
+.dark .VPDoc p,
+.dark .VPDoc li {
+  color: #cbd5e1;
+}
+
+.dark .VPSidebar {
+  background: #0f172a !important;
+  border-right: 1px solid #1e293b !important;
+}
+
+.dark .VPSidebar .group .title {
+  color: #e2e8f0;
+}
+
+.dark .VPSidebar .VPSidebarItem .link:hover {
+  background: rgba(59, 130, 246, 0.14);
+}
+
+.dark .VPSidebar .VPSidebarItem .link.active {
+  background: rgba(59, 130, 246, 0.2) !important;
+  color: #93c5fd !important;
+}
+
+.dark .VPDoc table {
+  border-color: #334155;
+}
+
+.dark .VPDoc th {
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+.dark .VPDoc td {
+  border-bottom-color: #334155;
+}
+
+.dark .VPDoc tr:nth-child(even) td {
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.dark .VPDoc .custom-block.info {
+  background: #111827 !important;
+  border-color: #334155 !important;
+}
+
+.dark .VPDoc .custom-block.info .custom-block-title,
+.dark .VPDoc .custom-block.info p,
+.dark .VPDoc .custom-block.info li,
+.dark .VPDoc .custom-block.info strong {
+  color: #e5e7eb !important;
+}
+
+.dark .VPDoc .custom-block.tip {
+  background: rgba(37, 99, 235, 0.14) !important;
+  border-color: #3b82f6 !important;
+}
+
+.dark .VPDoc .custom-block.tip .custom-block-title,
+.dark .VPDoc .custom-block.tip p,
+.dark .VPDoc .custom-block.tip li,
+.dark .VPDoc .custom-block.tip strong {
+  color: #bfdbfe !important;
+}
+
+.dark .VPDoc .custom-block.warning {
+  background: rgba(245, 158, 11, 0.13) !important;
+  border-color: #f59e0b !important;
+}
+
+.dark .VPDoc .custom-block.warning .custom-block-title,
+.dark .VPDoc .custom-block.warning p,
+.dark .VPDoc .custom-block.warning li,
+.dark .VPDoc .custom-block.warning strong {
+  color: #fde68a !important;
+}
