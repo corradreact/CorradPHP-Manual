@@ -314,7 +314,24 @@ body {
   margin: 0;
   color: #475569;
 }
+/* WARNING BLOCK - Nota */
+.VPDoc .custom-block.warning {
+  background-color: #fff7df !important;
+  border: 1px solid #f6d46b !important;
+  border-radius: 8px !important;
+  color: #8a5a00 !important;
+}
 
+.VPDoc .custom-block.warning .custom-block-title {
+  color: #9a6400 !important;
+  font-weight: 700 !important;
+}
+
+.VPDoc .custom-block.warning p,
+.VPDoc .custom-block.warning li,
+.VPDoc .custom-block.warning strong {
+  color: #8a5a00 !important;
+}
 /* status badges */
 .status-pill { display: inline-block; padding: 0.25rem 0.6rem; border-radius: 999px; font-size: 0.85rem; color: #fff; background: #10b981; }
 .status-pill.info { background: var(--vp-c-brand-light); }
