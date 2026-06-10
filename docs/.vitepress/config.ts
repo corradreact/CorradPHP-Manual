@@ -77,14 +77,11 @@ export default defineConfig({
                 text: 'Step 4: Tambah Ruangan Dalam Form',
                 collapsed: false,
                 items: [
-                  { text: 'Overview', link: '/pages-navigation/page-studio/field-page/' },
+                  // { text: 'Overview', link: '/pages-navigation/page-studio/field-page/' },
                   { text: 'Field Type', link: '/pages-navigation/page-studio/field-page/field-type' },
                   { text: 'Data Binding', link: '/pages-navigation/page-studio/field-page/data-binding' },
                   { text: 'Lookup Source', link: '/pages-navigation/page-studio/field-page/lookup-source' },
                   { text: 'Validation', link: '/pages-navigation/page-studio/field-page/validation' },
-                  { text: 'Display Setting', link: '/pages-navigation/page-studio/field-page/display' },
-                  { text: 'Formula', link: '/pages-navigation/page-studio/field-page/formula' },
-                  { text: 'Show When', link: '/pages-navigation/page-studio/field-page/show-when' }
                 ]
               },
 
@@ -98,8 +95,6 @@ export default defineConfig({
                   { text: 'Triggers', link: '/pages-navigation/page-studio/component-control/triggers' }
                 ]
               },
-
-              { text: 'Step 6: Triggers', link: '/pages-navigation/page-studio/triggers' }
             ]
           },
 
