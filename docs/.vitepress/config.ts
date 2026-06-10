@@ -89,17 +89,14 @@ export default defineConfig({
                 text: 'Step 5: Kontrol',
                 collapsed: false,
                 items: [
-                  { text: 'Overview', link: '/pages-navigation/page-studio/component-control' },
-                  { text: 'Control Type', link: '/pages-navigation/page-studio/component-control/control-type' },
-                  { text: 'Binding', link: '/pages-navigation/page-studio/component-control/binding' },
-                  { text: 'Triggers', link: '/pages-navigation/page-studio/component-control/triggers' }
+                  { text: 'Overview', link: '/pages-navigation/page-studio/component-control' }
                 ]
               },
             ]
           },
 
-          { text: 'Page Editor', link: '/pages-navigation/page-editor' },
-          { text: 'Control / Trigger Editor', link: '/pages-navigation/control-trigger-editor' }
+          // { text: 'Page Editor', link: '/pages-navigation/page-editor' },
+          // { text: 'Control / Trigger Editor', link: '/pages-navigation/control-trigger-editor' }
         ]
       },
       {
