@@ -30,6 +30,7 @@ Tambah control apabila anda ingin:
 3. Pilih page yang ingin dikemaskini.
 4. Pastikan page telah mempunyai komponen atau struktur asas.
 5. Klik butang **Control** pada toolbar atas.
+![Control](/image/pagestudio/control.png)
 
 :::
 ::: tip Langkah 2
@@ -40,24 +41,45 @@ Tambah control apabila anda ingin:
 9. Pilih kedudukan butang pada ruangan **Position**
 10. Klik butang **Add** untuk menambah kontrol ke dalam page.
 
+![Form Control](/image/pagestudio/formontrol.png)
 :::
+
 ::: tip Langkah 3
 
 11. Selepas kontrol berjaya ditambah, panel kanan akan memaparkan tetapan control tersebut.
 
-12. Semak maklumat pada bahagian ****GENERAL** seperti:
+12. Semak maklumat pada bahagian **GENERAL** seperti:
 - Label
 - Name
 - Type
 - Position
 - Status
-13. Semak maklumat pada bahagian ****BINDING** seperti:
-- komponen
+
+---
+
+13. Semak maklumat pada bahagian **BINDING** seperti:
+- Component
 - Redirect URL
-14. Jika perlu, isi maklumat pada bahagian EXTRA seperti:
+
+::: info Keterangan Binding
+
+Pada panel tetapan control, bahagian BINDING biasanya mempunyai ruangan berikut:
+
+| Ruangan      | Penerangan                                               |
+| ------------ | -------------------------------------------------------- |
+| Component    | Component yang akan dihubungkan dengan control tersebut. |
+| Redirect URL | URL atau page tujuan selepas control ditekan.            |
+
+:::
+---
+
+14. Jika perlu, isi maklumat pada bahagian **EXTRA** seperti:
 - CSS Class
 - Notes
 - Hints
+
+---
+
 15. Jika kontrol memerlukan tindakan tambahan, tambah konfigurasi pada bahagian TRIGGERS.
 16. Klik **Save****** selepas selesai membuat perubahan.
 17. Klik **Preview** untuk menguji butang kontrol.
@@ -129,15 +151,6 @@ Kategori ini digunakan untuk cetakan atau export data.
 | ---------------- | --------------------------------------------------------------------------------------------------- |
 | New Popup - GET  | Sesuai digunakan apabila pop-up hanya perlu membuka page atau mengambil data berdasarkan parameter. |
 | New Popup - POST | Sesuai digunakan apabila pop-up perlu menghantar data atau membawa input tertentu untuk diproses.   |
-
-:::
-
-::: info Hasil Yang Dijangka
-
-- Kontrol berjaya ditambah ke dalam page.
-- Butang yang dipilih dipaparkan pada toolbar page.
-- Pengguna boleh menguji fungsi kontrol melalui Preview.
-Jika diperlukan, kontrol boleh dihubungkan kepada komponen, redirect URL atau trigger.
 
 :::
 
