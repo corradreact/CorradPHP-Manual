@@ -58,7 +58,7 @@ Tambah control apabila anda ingin:
 - Component
 - Redirect URL
 
-
+:::
 ::: info Keterangan Binding
 
 Pada panel tetapan control, bahagian BINDING biasanya mempunyai ruangan berikut:
@@ -70,6 +70,8 @@ Pada panel tetapan control, bahagian BINDING biasanya mempunyai ruangan berikut:
 
 :::
 ---
+
+::: tip Langkah 4
 14. Jika perlu, isi maklumat pada bahagian **EXTRA** seperti:
 - CSS Class
 - Notes

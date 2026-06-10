@@ -62,8 +62,7 @@ export default defineConfig({
         text: 'Pages & Navigation',
         collapsed: false,
         items: [
-          { text: 'Menu Editor', link: '/pages-navigation/menu-editor' },
-
+          // { text: 'Menu Editor', link: '/pages-navigation/menu-editor' },
           {
             text: 'Page Studio',
             collapsed: false,
@@ -71,19 +70,28 @@ export default defineConfig({
               { text: 'Overview', link: '/pages-navigation/page-studio/' },
               { text: 'Step 1: Membina Menu Baharu', link: '/pages-navigation/page-studio/menu-page' },
               { text: 'Step 2: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
-              { text: 'Step 3: Membina Komponen Page', link: '/pages-navigation/page-studio/form-page' },
+              {
+              text: 'Step 3: Membina Komponen Page',
+              collapsed: false,
+              items: [
+                { text: 'Overview', link: '/pages-navigation/page-studio/component-page/' },
+                { text: 'Form Component', link: '/pages-navigation/page-studio/component-page/form-component' },
+                { text: 'Datatable Component', link: '/pages-navigation/page-studio/component-page/datatable-component' },
+                { text: 'Report Component', link: '/pages-navigation/page-studio/component-page/report-component' },
+                { text: 'Chart Component', link: '/pages-navigation/page-studio/component-page/chart-component' }
+              ]
+            },
 
-               {
+          {
           text: 'Step 4: Tambah Ruangan Dalam Form',
           collapsed: false,
           items: [
             { text: 'Field Type', link: '/pages-navigation/page-studio/field-page/field-type' },
             { text: 'Data Binding', link: '/pages-navigation/page-studio/field-page/data-binding' },
             { text: 'Lookup Source', link: '/pages-navigation/page-studio/field-page/lookup-source' },
-            { text: 'Validation', link: '/pages-navigation/page-studio/field-page/validation' },
+            { text: 'Other Field', link: '/pages-navigation/page-studio/field-page/validation' },
           ]
         },
-
         {
           text: 'Step 5: Kontrol',
           link: '/pages-navigation/page-studio/component-control'
