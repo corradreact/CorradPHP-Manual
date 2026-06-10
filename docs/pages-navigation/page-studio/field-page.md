@@ -5,9 +5,9 @@
 Field digunakan untuk menambah ruangan input atau paparan data ke dalam component form. Field membolehkan pengguna memasukkan maklumat seperti teks, nombor, email, tarikh, pilihan dropdown, upload fail, dan lain-lain.
 
 Gunakan senario ini selepas component form berjaya dibuat, contohnya **Form (1 Column)** atau **Form (2 Columns)**.
-
 :::
-::: Nota Penting 
+
+::: warning Nota Penting 
 Tambah field apabila anda ingin:
 
 - Membina ruangan input dalam form
@@ -293,7 +293,7 @@ Triggers digunakan jika field perlu menjalankan tindakan tertentu apabila berlak
 
 Contoh penggunaan:
 
-- -Mengisi nilai field lain secara automatik
+- Mengisi nilai field lain secara automatik
 - Menjalankan validasi tambahan
 - Memanggil API
 - Menukar paparan field lain

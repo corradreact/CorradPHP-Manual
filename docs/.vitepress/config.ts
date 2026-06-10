@@ -58,7 +58,7 @@ export default defineConfig({
           { text: 'Migration Manager', link: '/editors-tools/migration-manager' }
         ]
       },
-     {
+        {
         text: 'Pages & Navigation',
         collapsed: false,
         items: [
@@ -72,13 +72,34 @@ export default defineConfig({
               { text: 'Step 1: Membina Menu Baharu', link: '/pages-navigation/page-studio/menu-page' },
               { text: 'Step 2: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
               { text: 'Step 3: Membina Komponen Page', link: '/pages-navigation/page-studio/form-page' },
-              { text: 'Step 4: Tambah Ruangan Dalam Form ', link: '/pages-navigation/page-studio/field-page' },
-              { text: 'Step 5: Kontrol', link: '/pages-navigation/page-studio/component-control' },
+
+              {
+                text: 'Step 4: Tambah Ruangan Dalam Form',
+                collapsed: false,
+                items: [
+                  { text: 'Overview', link: '/pages-navigation/page-studio/field-page/' },
+                  { text: 'Field Type', link: '/pages-navigation/page-studio/field-page/field-type' },
+                  { text: 'Data Binding', link: '/pages-navigation/page-studio/field-page/data-binding' },
+                  { text: 'Lookup Source', link: '/pages-navigation/page-studio/field-page/lookup-source' },
+                  { text: 'Validation', link: '/pages-navigation/page-studio/field-page/validation' },
+                  { text: 'Display Setting', link: '/pages-navigation/page-studio/field-page/display' },
+                  { text: 'Formula', link: '/pages-navigation/page-studio/field-page/formula' },
+                  { text: 'Show When', link: '/pages-navigation/page-studio/field-page/show-when' }
+                ]
+              },
+
+              {
+                text: 'Step 5: Kontrol',
+                collapsed: false,
+                items: [
+                  { text: 'Overview', link: '/pages-navigation/page-studio/component-control' },
+                  { text: 'Control Type', link: '/pages-navigation/page-studio/component-control/control-type' },
+                  { text: 'Binding', link: '/pages-navigation/page-studio/component-control/binding' },
+                  { text: 'Triggers', link: '/pages-navigation/page-studio/component-control/triggers' }
+                ]
+              },
+
               { text: 'Step 6: Triggers', link: '/pages-navigation/page-studio/triggers' }
-              // { text: 'Senario 5: Membina Dashboard Page', link: '/pages-navigation/page-studio/dashboard-page' },
-              // { text: 'Senario 6: Membina Report Page', link: '/pages-navigation/page-studio/report-page' },
-              // { text: 'Senario 7: Menggunakan Preview', link: '/pages-navigation/page-studio/preview' },
-              // { text: 'Senario 8: Duplicate Page', link: '/pages-navigation/page-studio/duplicate-page' }
             ]
           },
 
