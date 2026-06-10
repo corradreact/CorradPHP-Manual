@@ -45,7 +45,6 @@ Tambah control apabila anda ingin:
 :::
 
 ::: tip Langkah 3
-
 11. Selepas kontrol berjaya ditambah, panel kanan akan memaparkan tetapan control tersebut.
 
 12. Semak maklumat pada bahagian **GENERAL** seperti:
@@ -59,7 +58,6 @@ Tambah control apabila anda ingin:
 - Component
 - Redirect URL
 
-:::
 
 ::: info Keterangan Binding
 
@@ -72,14 +70,12 @@ Pada panel tetapan control, bahagian BINDING biasanya mempunyai ruangan berikut:
 
 :::
 ---
-:::
 14. Jika perlu, isi maklumat pada bahagian **EXTRA** seperti:
 - CSS Class
 - Notes
 - Hints
 
 ---
-
 15. Jika kontrol memerlukan tindakan tambahan, tambah konfigurasi pada bahagian TRIGGERS.
 16. Klik **Save** selepas selesai membuat perubahan.
 17. Klik **Preview** untuk menguji butang kontrol.
