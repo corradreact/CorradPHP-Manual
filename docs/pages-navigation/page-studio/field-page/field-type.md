@@ -7,7 +7,7 @@ Field digunakan untuk menambah ruangan input atau paparan data ke dalam componen
 Gunakan senario ini selepas component form berjaya dibuat, contohnya **Form (1 Column)** atau **Form (2 Columns)**.
 :::
 
-::: warning Nota Penting 
+::: warning Nota
 Tambah field apabila anda ingin:
 
 - Membina ruangan input dalam form
@@ -34,12 +34,12 @@ Tambah field apabila anda ingin:
 
 ::: tip Langkah 2
 
-6. Paparan pop-up ****Add Field** akan dipaparkan.
+6. Paparan pop-up **Add Field** akan dipaparkan.
 7. Masukkan nama field pada ruangan label.
-Contoh : Customer Name 
+**Contoh : Customer Name**
 
 8. Pilih jenis field pada ruangan Field Type
-Contoh: Text Input
+**Contoh: Text Input**
 
 9. Klik butang **Add** untuk menambah field dalam form.
 
@@ -47,7 +47,7 @@ Contoh: Text Input
 ::: tip Langkah 3
 10. Selepas field berjaya ditambah, field tersebut akan dipaparkan dalam component form.
 11. Klik field tersebut untuk membuka panel tetapan field di sebelah kanan.
-12. Semak dan lengkapkan maklumat asas field seperti
+12. Semak dan lengkapkan maklumat **GENERAL** field seperti
 - Label
 - Name
 - Type

@@ -19,11 +19,11 @@ Contoh:
 :::
 
 ## Cara Menetapkan DB Column
-::: tip Langkah Menetapkan DB Column
+::: tip Langkah Menetapkan **DB Column**
 
 1. Klik field yang ingin dikonfigurasikan.
-2. Pada panel kanan, pergi ke bahagian DATA.
-3. Cari ruangan DB Column.
+2. Pada panel kanan, pergi ke bahagian **DATA**.
+3. Cari ruangan **DB Column**.
 4. Masukkan atau pilih nama kolum database yang sesuai.
 Contoh : CUST_NAME
 5. Pastikan nama kolumn sama dengan struktur database.
@@ -37,4 +37,3 @@ Contoh : CUST_NAME
 - Jika field hanya untuk paparan atau maklumat sementara, DB Column mungkin tidak diperlukan.
 
 :::
----

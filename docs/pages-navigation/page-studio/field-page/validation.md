@@ -38,11 +38,11 @@ Tetapan paparan digunakan untuk mengawal cara field dipaparkan dalam form.
 
 Contoh penggunaan:
 
-Total amount
-Discount value
-Balance
-Percentage
-Calculated score
+- Total amount
+- Discount value
+- Balance
+- Percentage
+- Calculated score
 
 :::
 

@@ -24,9 +24,9 @@ Contoh:
 :::
 
 ### Contoh Lookup Source
-::: tip Contoh 1: Pilihan Manual.
-Gunakan pilihan manual jika pilihan adalah tetap dan ringkas.
-**Contoh : Active,Inactive**
+::: tip Contoh 1: Reference
+Gunakan pilihan reference jika pilihan adalah tetap dan ringkas.
+**Contoh : Active, Inactive**
 
 Sesuai untuk:
 - Status ringkas
@@ -46,18 +46,24 @@ Contoh:
 | ID Column    | DEPT_ID    |
 | Label Column | DEPT_NAME  |
 
-- Pengguna akan melihat nama department, tetapi sistem akan menyimpan DEPT_ID ke dalam database.
-
+1. Pengguna akan melihat nama department, tetapi sistem akan menyimpan DEPT_ID ke dalam database.
+2. Ruanagn **Filter (WEHERE)** boleh dihunakan untuk menapis data yang ingin dipaparkan sahaja
+3. Klik butang **Preview** untuk melihat data yang akan dipaparkan dalam pilihan dropdowmn sebelum disimpan.
 :::
 
 ::: tip Contoh 3: Custom SQL
 Gunakan Custom SQL jika pilihan memerlukan filter atau condition khas.
 
 Contoh:
-SELECT DEPT_ID AS id, DEPT_NAME AS label
+Contoh:
+
+```sql
+SELECT DEPT_ID AS id,
+       DEPT_NAME AS label
 FROM DEPARTMENT
 WHERE IS_ACTIVE = 1
-ORDER BY DEPT_NAME
+ORDER BY DEPT_NAME;
+```
 
 | Alias | Maksud                                     |
 | ----- | ------------------------------------------ |
