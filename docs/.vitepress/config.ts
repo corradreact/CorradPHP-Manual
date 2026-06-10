@@ -73,25 +73,21 @@ export default defineConfig({
               { text: 'Step 2: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
               { text: 'Step 3: Membina Komponen Page', link: '/pages-navigation/page-studio/form-page' },
 
-              {
-                text: 'Step 4: Tambah Ruangan Dalam Form',
-                collapsed: false,
-                items: [
-                  // { text: 'Overview', link: '/pages-navigation/page-studio/field-page/' },
-                  { text: 'Field Type', link: '/pages-navigation/page-studio/field-page/field-type' },
-                  { text: 'Data Binding', link: '/pages-navigation/page-studio/field-page/data-binding' },
-                  { text: 'Lookup Source', link: '/pages-navigation/page-studio/field-page/lookup-source' },
-                  { text: 'Validation', link: '/pages-navigation/page-studio/field-page/validation' },
-                ]
-              },
+               {
+          text: 'Step 4: Tambah Ruangan Dalam Form',
+          collapsed: false,
+          items: [
+            { text: 'Field Type', link: '/pages-navigation/page-studio/field-page/field-type' },
+            { text: 'Data Binding', link: '/pages-navigation/page-studio/field-page/data-binding' },
+            { text: 'Lookup Source', link: '/pages-navigation/page-studio/field-page/lookup-source' },
+            { text: 'Validation', link: '/pages-navigation/page-studio/field-page/validation' },
+          ]
+        },
 
-              {
-                text: 'Step 5: Kontrol',
-                collapsed: false,
-                items: [
-                  { text: 'Overview', link: '/pages-navigation/page-studio/component-control' }
-                ]
-              },
+        {
+          text: 'Step 5: Kontrol',
+          link: '/pages-navigation/page-studio/component-control'
+        }
             ]
           },
 
