@@ -71,7 +71,6 @@ Tambah field apabila anda ingin:
 ![Data](/image/pagestudio/data.png)
 
 ---
----
 14. Tetapkan **VALIDATION** seperti:
 - Required
 - Unique
@@ -80,8 +79,8 @@ Tambah field apabila anda ingin:
 - Disabled
 
 ![Validation](/image/pagestudio/validation.png)
----
 
+---
 15. Semak bahagian **DISPLAY** untuk tetapan paparan seperti:
 - Status
 - Width
