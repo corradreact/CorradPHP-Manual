@@ -1,4 +1,4 @@
-# Senario 3: Menambah Komponen Dalam Page
+## Senario 3: Menambah Komponen Dalam Page
 
 ::: info Tujuan
 
@@ -19,7 +19,7 @@ Tambah Komponen apabila anda ingin:
 - Menyediakan kawasan untuk control atau ruangan input
 :::
 
-## Langkah-langkah
+### Langkah-langkah
 ::: tip Langkah 1
 
 1. Buka menu **Halaman & Navigasi**.

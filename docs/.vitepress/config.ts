@@ -72,7 +72,7 @@ export default defineConfig({
               { text: 'Step 1: Membina Menu Baharu', link: '/pages-navigation/page-studio/menu-page' },
               { text: 'Step 2: Membina Page Baharu', link: '/pages-navigation/page-studio/create-page' },
               { text: 'Step 3: Membina Komponen Page', link: '/pages-navigation/page-studio/form-page' },
-              { text: 'Step 4: Tambah Ruangan Dalam Form ', link: '/pages-navigation/page-studio/crud-page' },
+              { text: 'Step 4: Tambah Ruangan Dalam Form ', link: '/pages-navigation/page-studio/field-page' },
               { text: 'Step 5: Kontrol', link: '/pages-navigation/page-studio/component-control' },
               { text: 'Step 6: Triggers', link: '/pages-navigation/page-studio/triggers' }
               // { text: 'Senario 5: Membina Dashboard Page', link: '/pages-navigation/page-studio/dashboard-page' },
