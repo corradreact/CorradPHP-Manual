@@ -59,9 +59,9 @@ Tambah field apabila anda ingin:
 - Type
 - Placeholder
 - Hints
-
 ![General](/image/pagestudio/general.png)
----
+
+--- 
 13. Jika field perlu disimpan ke database, lengkapkan bahagian **DATA** seperti:
 
 - DB Column
@@ -70,6 +70,7 @@ Tambah field apabila anda ingin:
 
 ![Data](/image/pagestudio/data.png)
 
+---
 ---
 14. Tetapkan **VALIDATION** seperti:
 - Required
