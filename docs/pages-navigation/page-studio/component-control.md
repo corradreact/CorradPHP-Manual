@@ -41,7 +41,7 @@ Tambah control apabila anda ingin:
 9. Pilih kedudukan butang pada ruangan **Position**
 10. Klik butang **Add** untuk menambah kontrol ke dalam page.
 
-![Form Control](/image/pagestudio/formontrol.png)
+![Form Control](/image/pagestudio/formcontrol.png)
 :::
 
 ::: tip Langkah 3
@@ -81,7 +81,7 @@ Pada panel tetapan control, bahagian BINDING biasanya mempunyai ruangan berikut:
 ---
 
 15. Jika kontrol memerlukan tindakan tambahan, tambah konfigurasi pada bahagian TRIGGERS.
-16. Klik **Save****** selepas selesai membuat perubahan.
+16. Klik **Save** selepas selesai membuat perubahan.
 17. Klik **Preview** untuk menguji butang kontrol.
 
 :::
