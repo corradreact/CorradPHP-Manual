@@ -34,41 +34,40 @@ Sesuai untuk:
 - Priority
 - Gender
 
+![reference](/image/pagestudio/reference.png)
 :::
 ---
 
 ::: tip Contoh 2: DB Table
 Gunakan DB Table jika pilihan perlu diambil daripada jadual database.
 Contoh: 
-| Tetapan      | Contoh     |
-| ------------ | ---------- |
-| Table        | DEPARTMENT |
-| ID Column    | DEPT_ID    |
-| Label Column | DEPT_NAME  |
+| Tetapan      | Contoh            |
+| ------------ | ----------------- |       
+| Table        | PRUSER            |
+| ID Column    | USER_ID           |
+| Label Column | USERNAME          |
 
-1. Pengguna akan melihat nama department, tetapi sistem akan menyimpan DEPT_ID ke dalam database.
+1. Pengguna akan melihat nama user, tetapi sistem akan menyimpan USER_ID ke dalam database.
 2. Ruanagn **Filter (WEHERE)** boleh dihunakan untuk menapis data yang ingin dipaparkan sahaja
-3. Klik butang **Preview** untuk melihat data yang akan dipaparkan dalam pilihan dropdowmn sebelum disimpan.
+3. Klik butang **Preview** untuk melihat data yang akan dipaparkan dalam pilihan dropdowmn.
+![dbtable](/image/pagestudio/dbtable.png)
 :::
 
 ::: tip Contoh 3: Custom SQL
 Gunakan Custom SQL jika pilihan memerlukan filter atau condition khas.
 
 Contoh:
-Contoh:
 
 ```sql
-SELECT DEPT_ID AS id,
-       DEPT_NAME AS label
-FROM DEPARTMENT
-WHERE IS_ACTIVE = 1
-ORDER BY DEPT_NAME;
+SELECT USERID flc_id, USERNAME flc_name
+FROM PRUSER
+WHERE 1;
 ```
-
 | Alias | Maksud                                     |
 | ----- | ------------------------------------------ |
 | id    | Nilai yang akan disimpan dalam database.   |
 | label | Teks yang akan dipaparkan kepada pengguna. |
 
+![customsql](/image/pagestudio/customsql.png)
 :::
 

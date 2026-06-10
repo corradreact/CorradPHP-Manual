@@ -30,11 +30,15 @@ Tambah field apabila anda ingin:
 4. Pastikan page tersebut sudah mempunyai component form.
 5. Pada component form, klik ikon **+** untuk menambah field baharu.
 
+![button +](/image/pagestudio/button+.png)
+
 :::
 
 ::: tip Langkah 2
 
 6. Paparan pop-up **Add Field** akan dipaparkan.
+![Add Field](/image/pagestudio/addfield.png)
+
 7. Masukkan nama field pada ruangan label.
 **Contoh : Customer Name**
 
@@ -42,23 +46,29 @@ Tambah field apabila anda ingin:
 **Contoh: Text Input**
 
 9. Klik butang **Add** untuk menambah field dalam form.
+![Add Field](/image/pagestudio/infofield.png)
+
 
 :::
 ::: tip Langkah 3
 10. Selepas field berjaya ditambah, field tersebut akan dipaparkan dalam component form.
 11. Klik field tersebut untuk membuka panel tetapan field di sebelah kanan.
-12. Semak dan lengkapkan maklumat **GENERAL** field seperti
+12. Semak dan lengkapkan maklumat **GENERAL** field seperti.
 - Label
 - Name
 - Type
 - Placeholder
 - Hints
+
+![General](/image/pagestudio/general.png)
 ---
 13. Jika field perlu disimpan ke database, lengkapkan bahagian **DATA** seperti:
 
 - DB Column
 - Default Value
 - Lookup Source
+
+![Data](/image/pagestudio/data.png)
 
 ---
 14. Tetapkan **VALIDATION** seperti:
@@ -68,6 +78,7 @@ Tambah field apabila anda ingin:
 - Read Only
 - Disabled
 
+![Validation](/image/pagestudio/validation.png)
 ---
 
 15. Semak bahagian **DISPLAY** untuk tetapan paparan seperti:
@@ -77,6 +88,10 @@ Tambah field apabila anda ingin:
 - Text Size
 - CSS Class
 - Text Align
+- Extra Attributes
+
+![Display](/image/pagestudio/display.png)
+
 16. Jika perlu, tetapkan bahagian **FORMULA**, **SHOW WHEN** atau **TRIGGERS**.
 17. Klik **Save** selepas selesai membuat perubahan.
 18. Klik **Preview** untuk menguji paparan field dalam form.

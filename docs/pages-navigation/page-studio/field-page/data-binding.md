@@ -3,7 +3,7 @@
 ::: info Apa itu Data Binding
 
 - Data binding bermaksud field dalam form dihubungkan dengan kolum tertentu dalam database.
-- Apabila pengguna mengisi form dan klik Save, nilai daripada field tersebut akan disimpan ke dalam kolum database yang telah ditetapkan. Apabila rekod dibuka semula, sistem akan membaca semula nilai daripada database dan memaparkannya dalam field tersebut.
+- Apabila pengguna mengisi form dan klik **Save**, nilai daripada field tersebut akan disimpan ke dalam kolum database yang telah ditetapkan. Apabila rekod dibuka semula, sistem akan membaca semula nilai daripada database dan memaparkannya dalam field tersebut.
 
 **Secara ringkas: Field dalam form → DB Column → Database**
 ---
@@ -20,7 +20,6 @@ Contoh:
 
 ## Cara Menetapkan DB Column
 ::: tip Langkah Menetapkan **DB Column**
-
 1. Klik field yang ingin dikonfigurasikan.
 2. Pada panel kanan, pergi ke bahagian **DATA**.
 3. Cari ruangan **DB Column**.
@@ -28,6 +27,9 @@ Contoh:
 Contoh : CUST_NAME
 5. Pastikan nama kolumn sama dengan struktur database.
 6. Klik **Save**
+
+![CUST_NAME](/image/pagestudio/data1.png)
+
 
 :::
 ::: warning Nota
