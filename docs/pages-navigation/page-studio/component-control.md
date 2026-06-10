@@ -54,12 +54,12 @@ Tambah control apabila anda ingin:
 - Type
 - Position
 - Status
-
 ---
-
 13. Semak maklumat pada bahagian **BINDING** seperti:
 - Component
 - Redirect URL
+
+:::
 
 ::: info Keterangan Binding
 
@@ -72,7 +72,7 @@ Pada panel tetapan control, bahagian BINDING biasanya mempunyai ruangan berikut:
 
 :::
 ---
-
+:::
 14. Jika perlu, isi maklumat pada bahagian **EXTRA** seperti:
 - CSS Class
 - Notes
