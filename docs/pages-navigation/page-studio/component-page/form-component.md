@@ -91,22 +91,11 @@ Secara ringkas:
 
 Form Component → Data Binding → Table Database → Field Dalam Form
 :::
-
-Tetapan Data Binding
-::: info Keterangan Data Binding
-
-Ruangan	Penerangan
-Connection	Sambungan database yang digunakan.
-Database	Nama database yang digunakan.
-Binding Type	Jenis binding, contohnya Table.
-Source	Table atau view yang menjadi sumber data form.
-Auto-Generate Fields from Table	Membina field secara automatik berdasarkan kolum dalam table yang dipilih.
-:::
-
-Cara Menggunakan Data Binding
+---
+### Cara Menggunakan Data Binding
 ::: tip Langkah Data Binding
 
-Klik form component yang ingin dikonfigurasikan.
+1. Klik form component yang ingin dikonfigurasikan.
 
 Pada panel kanan, pergi ke bahagian DATA BINDING.
 | Tetapan      | Nilai          |
@@ -116,23 +105,23 @@ Pada panel kanan, pergi ke bahagian DATA BINDING.
 | Binding Type | Table          |
 | Source       | customer       |
 
-Klik butang Auto-Generate Fields from Table jika ingin sistem membina field secara automatik daripada table tersebut.
+2. Klik butang **Auto-Generate Fields from Table** jika ingin sistem membina field secara automatik daripada table tersebut.
 
-Semak field yang telah dijana dalam form.
+3. Semak field yang telah dijana dalam form.
 
-Klik Save.
+4. Klik **Save**.
 
 
 :::
 
-Auto-Generate Fields from Table
+### Auto-Generate Fields from Table
 ::: info Fungsi Auto-Generate Fields
 
 Butang Auto-Generate Fields from Table digunakan untuk menjana field dalam form berdasarkan kolum yang terdapat dalam table database.
 
 Contohnya, jika table mempunyai kolum berikut:
 
-Kolum Database
+Kolum Database: 
 STAFFID
 STAFF_NO
 FULL_NAME
@@ -149,22 +138,22 @@ Sistem boleh menjana field form berdasarkan kolum tersebut secara automatik.
 
 ::: warning Nota Auto-Generate
 
-Pastikan Connection, 
+1. Pastikan Connection, 
 Database dan Source telah dipilih sebelum klik Auto-Generate.
 
-Field yang dijana masih perlu disemak semula.
+2. Field yang dijana masih perlu disemak semula.
 
-Pastikan field type yang dijana adalah sesuai.
+3. Pastikan field type yang dijana adalah sesuai.
 
-Semak field yang perlu ditetapkan sebagai Required, Read Only atau Primary Key.
+4. Semak field yang perlu ditetapkan sebagai Required, Read Only atau Primary Key.
 
-Padam field yang tidak diperlukan supaya form lebih kemas.
+5. Padam field yang tidak diperlukan supaya form lebih kemas.
 
-Tukar label field supaya lebih mudah difahami oleh user.
+6. Tukar label field supaya lebih mudah difahami oleh user.
 
 :::
 
-Form Behaviour
+### Form Behaviour
 ::: info Apa Itu Form Behaviour?
 
 Form Behaviour menentukan cara form berfungsi apabila user menggunakan form tersebut.
