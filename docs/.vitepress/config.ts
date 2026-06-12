@@ -74,7 +74,7 @@ export default defineConfig({
               text: 'Step 3: Membina Komponen Page',
               collapsed: false,
               items: [
-                { text: 'Overview', link: '/pages-navigation/page-studio/form-page/' },
+                { text: 'Overview', link: '/pages-navigation/component-page/form-page/' },
                 { text: 'Form Component', link: '/pages-navigation/page-studio/component-page/form-component' },
                 { text: 'Datatable Component', link: '/pages-navigation/page-studio/component-page/datatable-component' },
                 { text: 'Report Component', link: '/pages-navigation/page-studio/component-page/report-component' },
