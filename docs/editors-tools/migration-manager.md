@@ -41,7 +41,7 @@ Di bawah statistik terdapat jadual migrasi dengan lajur:
 2) Sahkan tindakan jika sistem meminta pengesahan.
 :::
 
-## 5. Segarkan Senarai Migrasi
+## 5. Muat Semula Senarai Migrasi
 
 Jika anda mahu melihat status terkini selepas tindakan migrasi atau rollback:
 - Klik butang **Refresh** untuk memuat semula jadual migrasi.

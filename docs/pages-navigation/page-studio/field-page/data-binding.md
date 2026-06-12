@@ -2,10 +2,13 @@
 
 ::: info Apa itu Data Binding
 
-- Data binding bermaksud field dalam form dihubungkan dengan kolum tertentu dalam database.
-- Apabila pengguna mengisi form dan klik **Save**, nilai daripada field tersebut akan disimpan ke dalam kolum database yang telah ditetapkan. Apabila rekod dibuka semula, sistem akan membaca semula nilai daripada database dan memaparkannya dalam field tersebut.
+- Data Binding digunakan untuk menghubungkan form dengan database. Melalui data binding, sistem boleh mengetahui table mana yang digunakan untuk mengambil, menyimpan atau mengemaskini data.
 
-**Secara ringkas: Field dalam form → DB Column → Database**
+- Data binding juga boleh digunakan untuk generate field secara automatik berdasarkan kolum yang terdapat dalam table database
+
+Secara ringkas:
+**Form Component → Data Binding → Table Database → Field Dalam Form**
+
 ---
 
 Contoh:

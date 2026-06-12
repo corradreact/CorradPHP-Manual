@@ -19,7 +19,7 @@ Tambah Komponen apabila anda ingin:
 - Menyediakan kawasan untuk control atau ruangan input
 :::
 
-### Langkah-langkah
+<!-- ### Langkah-langkah
 ::: tip Langkah 1
 
 1. Buka menu **Halaman & Navigasi**.
@@ -60,7 +60,7 @@ Contoh: Form (2 Columns)
 | Title | Nama component yang akan dipaparkan dalam page. |
 | Type | Jenis komponen yang menentukan fungsi dan layout Komponen tersebut. |
 
-:::
+::: -->
 ### Panduan Memilih Komponen
 ::: info
 Gunakan jadual di bawah untuk memilih Komponen berdasarkan tujuan page.

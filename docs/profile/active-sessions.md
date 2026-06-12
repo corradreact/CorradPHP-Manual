@@ -28,7 +28,7 @@ Untuk setiap sesi aktif, anda akan melihat maklumat seperti:
 1) Jika anda melihat sesi yang tidak dikenali atau tidak digunakan, klik **Revoke** atau **Log out other devices**.
 :::
 
-## 4. Segarkan Senarai Sesi
+## 4. Muat Semula Senarai Sesi
 
 Jika anda mahu melihat kemaskini terkini:
 - Klik butang **Refresh** untuk memuat semula paparan sesi aktif.

@@ -74,7 +74,7 @@ export default defineConfig({
               text: 'Step 3: Membina Komponen Page',
               collapsed: false,
               items: [
-                { text: 'Overview', link: '/pages-navigation/page-studio/component-page/' },
+                { text: 'Overview', link: '/pages-navigation/page-studio/form-page/' },
                 { text: 'Form Component', link: '/pages-navigation/page-studio/component-page/form-component' },
                 { text: 'Datatable Component', link: '/pages-navigation/page-studio/component-page/datatable-component' },
                 { text: 'Report Component', link: '/pages-navigation/page-studio/component-page/report-component' },
@@ -108,7 +108,6 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'BL Editor v5', link: '/logic-api/bi-editor-v5' },
-          { text: 'BL Editor (FE & BE)', link: '/logic-api/bi-editor-f-be' },
           { text: 'API Workspace', link: '/logic-api/api-workspace' }
         ]
       },
