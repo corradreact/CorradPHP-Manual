@@ -96,6 +96,10 @@ export default defineConfig({
           text: 'Step 5: Kontrol',
           link: '/pages-navigation/page-studio/component-control'
         }
+        {
+          text: 'Step 6: Trigger',
+          link: '/pages-navigation/page-studio/trigger-page'
+        }
             ]
           },
 

@@ -80,16 +80,16 @@ Bahagian Layout / Mode digunakan untuk mengawal cara form dipaparkan dalam page.
 | Print Only                          | Form hanya dipaparkan semasa print.                                 |
 :::
 
-Data Binding
+### Data Binding
 ::: info Apa Itu Data Binding?
 
 Data Binding digunakan untuk menghubungkan form dengan database. Melalui data binding, sistem boleh mengetahui table mana yang digunakan untuk mengambil, menyimpan atau mengemaskini data.
 
 Data binding juga boleh digunakan untuk generate field secara automatik berdasarkan kolum yang terdapat dalam table database.
 
-Secara ringkas:
+**Secara ringkas:**
 
-Form Component → Data Binding → Table Database → Field Dalam Form
+**Form Component → Data Binding → Table Database → Field Dalam Form**
 :::
 ---
 ### Cara Menggunakan Data Binding
