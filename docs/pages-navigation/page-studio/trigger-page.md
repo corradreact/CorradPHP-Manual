@@ -1,4 +1,4 @@
-# Triggers
+### Step 6: Menambah Triggers
 ::: info Tujuan
 
 Triggers digunakan untuk menjalankan tindakan tambahan apabila sesuatu event berlaku pada field, control atau component.
@@ -6,6 +6,7 @@ Triggers digunakan untuk menjalankan tindakan tambahan apabila sesuatu event ber
 Contohnya, apabila user klik button, ubah nilai dropdown, keluar daripada field, atau page dimuatkan, sistem boleh menjalankan **JavaScript** atau **PHP Business Logic (BL)** yang telah dipilih.
 
 Triggers biasanya digunakan apabila fungsi biasa seperti **binding** tidak mencukupi atau apabila user perlu menjalankan proses khas.
+::: 
 
 ### Bila Perlu Gunaa Triggers.
 Gunakan triggers apabila anda ingin:
@@ -19,7 +20,7 @@ Gunakan triggers apabila anda ingin:
 - Menjalankan tindakan khas yang tidak boleh dibuat melalui binding biasa.
 - Menjalankan proses apabila nilai field berubah.
 
-### Trogger vs Binding
+### Trigger vs Binding
 ::: info Perbezaan Trigger dan Binding
 | Fungsi  | Kegunaan                                                                                   |
 | ------- | ------------------------------------------------------------------------------------------ |
