@@ -22,11 +22,10 @@ Gunakan triggers apabila anda ingin:
 
 ### Trigger vs Binding
 ::: info Perbezaan Trigger dan Binding
-| Fungsi  | | Fungsi      | Kegunaan                                                                                                                                 |
+| Fungsi      | Kegunaan                                                                                                                                 |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Binding** | Menghubungkan control dengan komponen tertentu, seperti form, untuk menjalankan fungsi **Save**, **Submit**, **Reset**, atau **Delete**. |
 | **Trigger** | Menjalankan tindakan tambahan melalui **JavaScript** atau **PHP Business Logic** berdasarkan aksi atau keadaan tertentu.                 |
-
 
 :::
 
@@ -42,10 +41,10 @@ Gunakan triggers apabila anda ingin:
 
 6. Paparan **Add Trigger** akan dipaparkan.
 7. Pilih **Trigger Type**.
-| Trigger Type | Kegunaan                                                                                                |
-| ------------ | ------------------------------------------------------------------------------------------------------- |
-| JavaScript   | Untuk tindakan frontend seperti klik button, validasi ringkas, ubah paparan atau refresh component.     |
-| PHP          | Untuk tindakan backend seperti proses database, insert, update, delete atau business logic server-side. |
+| Fungsi      | Kegunaan                                                              |
+| ----------- | --------------------------------------------------------------------- |
+| Binding     | Menghubungkan control dengan komponen tertentu, seperti form, untuk menjalankan fungsi Save, Submit, Reset, atau Delete.                                  |
+| Trigger     | Menjalankan tindakan tambahan melalui JavaScript atau PHP Business Logic berdasarkan aksi atau keadaan tertentu.                                               |
 
 :::
 
