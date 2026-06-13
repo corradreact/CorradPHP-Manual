@@ -75,6 +75,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Overview', link: '/pages-navigation/page-studio/component-page/form-page/' },
+                { text: 'Component Settings Overview', link: '/pages-navigation/page-studio/component-page/component-settings-overview' },
                 { text: 'Form Component', link: '/pages-navigation/page-studio/component-page/form-component' },
                 { text: 'Datatable Component', link: '/pages-navigation/page-studio/component-page/datatable-component' },
                 { text: 'Report Component', link: '/pages-navigation/page-studio/component-page/report-component' },

@@ -41,12 +41,14 @@ Gunakan triggers apabila anda ingin:
 
 6. Paparan **Add Trigger** akan dipaparkan.
 7. Pilih **Trigger Type**.
+:::
+
 | Fungsi      | Kegunaan                                                              |
 | ----------- | --------------------------------------------------------------------- |
 | Binding     | Menghubungkan control dengan komponen tertentu, seperti form, untuk menjalankan fungsi Save, Submit, Reset, atau Delete.                                  |
 | Trigger     | Menjalankan tindakan tambahan melalui JavaScript atau PHP Business Logic berdasarkan aksi atau keadaan tertentu.                                               |
 
-:::
+
 
 ::: tip Langkah 3: Pilih Event
 8. Pilih Event yang sesuai 
