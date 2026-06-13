@@ -1,4 +1,4 @@
-### Step 5: Menambah Control Dalam Page
+# Step 5: Menambah Control Dalam Page
 
 ::: info Tujuan
 

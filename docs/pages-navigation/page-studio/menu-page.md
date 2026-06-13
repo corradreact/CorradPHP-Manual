@@ -1,5 +1,5 @@
 
-## Step 1: Membina Menu 
+# Step 1: Membina Menu 
 ::: info Tujuan
 Gunakan langkah ini apabila anda ingin membuat menu baharu dalam sistem.
 :::

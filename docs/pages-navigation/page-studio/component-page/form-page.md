@@ -1,4 +1,4 @@
-## Step 3: Menambah Komponen Dalam Page
+# Step 3: Menambah Komponen Dalam Page
 
 ::: info Tujuan
 

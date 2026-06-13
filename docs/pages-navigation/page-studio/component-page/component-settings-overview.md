@@ -12,7 +12,6 @@ Contohnya:
 - **Datatable** mempunyai kategori seperti Datatable Config dan Column Definitions.
 
 :::
----
 
 ## Ringkasan Component Mengikut Kategori
 ::: info Jadual Ringkasan
@@ -40,12 +39,11 @@ Jadual di bawah menunjukkan kategori tetapan utama yang biasa digunakan oleh set
 | Report           | General, Data Source, SQL Query, Snippets, Processing, Listing, Default Sort, Appearance, Display Condition, Triggers |
 | Tabular          | General, Data Source, Listing, Processing, Display Condition, Triggers                                                |
 :::
----
 
 ##  Kategori Tetapan Umum
 
 Kategori di bawah ialah tetapan yang biasa muncul pada kebanyakan component.
-:::
+
 ---
 
 ### 1. General
@@ -53,17 +51,19 @@ Kategori di bawah ialah tetapan yang biasa muncul pada kebanyakan component.
 
 Bahagian General digunakan untuk menetapkan maklumat asas component.
 
-Ruangan	Penerangan
-Title	Nama component yang dipaparkan dalam Page Studio.
-Name	Nama teknikal component dalam sistem.
-Type	Jenis component yang digunakan.
-Status	Status component sama ada aktif atau tidak aktif.
+| Ruangan | Penerangan                                        |
+| ------- | ------------------------------------------------- |
+| Title   | Nama component yang dipaparkan dalam Page Studio. |
+| Name    | Nama teknikal component dalam sistem.             |
+| Type    | Jenis component yang digunakan.                   |
+| Status  | Status component sama ada aktif atau tidak aktif. |
+
 
 Contoh penggunaan:
 
-Menukar nama component daripada Chart kepada Monthly Revenue Trend.
-Menukar status component kepada Active atau Inactive.
-Menyemak jenis component seperti Form, Datatable, Report atau Chart.
+- Menukar nama component daripada Chart kepada Monthly Revenue Trend.
+- Menukar status component kepada Active atau Inactive.
+- Menyemak jenis component seperti Form, Datatable, Report atau Chart.
 
 :::
 --- 
@@ -73,18 +73,13 @@ Menyemak jenis component seperti Form, Datatable, Report atau Chart.
 
 Bahagian Layout / Mode digunakan untuk mengawal cara component dipaparkan dalam page.
 
-Tetapan	Penerangan
-Modal	Memaparkan component dalam bentuk modal/dialog.
-SM / MD / LG / XL / Max	Menentukan saiz modal.
-Half	Component menggunakan separuh lebar page.
-1/3	Component menggunakan satu per tiga lebar page.
-Full	Component menggunakan lebar penuh page.
-
-Contoh penggunaan:
-
-Gunakan Full untuk Report atau Datatable yang mempunyai banyak column.
-Gunakan Half untuk form kecil atau chart ringkas.
-Gunakan Modal jika component hanya perlu dibuka dalam pop-up.
+| Tetapan                 | Kegunaan                                             |
+| ----------------------- | ---------------------------------------------------- |
+| Modal / Dialog          | Memaparkan component dalam bentuk modal atau dialog. |
+| SM / MD / LG / XL / Max | Menentukan saiz modal.                               |
+| Half                    | Component menggunakan separuh lebar page.            |
+| 1/3                     | Component menggunakan satu per tiga lebar page.      |
+| Full                    | Component menggunakan lebar penuh page.              |
 
 :::
 ---
@@ -94,17 +89,12 @@ Gunakan Modal jika component hanya perlu dibuka dalam pop-up.
 
 Bahagian Card Appearance digunakan untuk menetapkan gaya paparan component.
 
-Tetapan	Penerangan
-No Border	Component dipaparkan tanpa border.
-Shadow	Component dipaparkan dengan kesan bayang.
-Flat	Component dipaparkan dengan gaya rata.
-Compact	Component dipaparkan dalam bentuk lebih padat.
-
-Contoh penggunaan:
-
-Gunakan Shadow untuk menjadikan component lebih jelas.
-Gunakan Compact jika page mempunyai banyak component.
-Gunakan No Border jika mahu paparan lebih ringkas.
+| Tetapan   | Kegunaan                                  |
+| --------- | ----------------------------------------- |
+| No Border | Component dipaparkan tanpa border.        |
+| Shadow    | Component dipaparkan dengan kesan bayang. |
+| Flat      | Component dipaparkan dengan gaya rata.    |
+| Compact   | Component dipaparkan lebih padat.         |
 
 :::
 ---
@@ -114,17 +104,11 @@ Gunakan No Border jika mahu paparan lebih ringkas.
 
 Bahagian Visibility digunakan untuk mengawal keadaan paparan component.
 
-Tetapan	Penerangan
-Hidden	Component disembunyikan daripada paparan biasa.
-No Print	Component tidak dipaparkan semasa print.
-Print Only	Component hanya dipaparkan semasa print.
-
-Contoh penggunaan:
-
-Gunakan No Print untuk button atau component yang tidak perlu dicetak.
-Gunakan Print Only untuk paparan khas semasa print.
-Gunakan Hidden untuk component yang digunakan dalam proses dalaman sahaja.
-
+| Tetapan    | Kegunaan                                         |
+| ---------- | ------------------------------------------------ |
+| Hidden     | Menyembunyikan component daripada paparan biasa. |
+| No Print   | Component tidak dipaparkan semasa print.         |
+| Print Only | Component hanya dipaparkan semasa print.         |
 :::
 ----
 
@@ -139,18 +123,20 @@ Kategori ini digunakan oleh component yang melibatkan data seperti Form, Report,
 
 Bahagian Data Binding atau Data Source digunakan untuk menghubungkan component dengan sumber data seperti database, table atau view.
 
-Ruangan	Penerangan
-Connection	Sambungan database yang digunakan.
-Database	Nama database yang digunakan.
-Binding Type	Jenis binding, contohnya Table.
-Source	Table atau view yang menjadi sumber data.
-Table / View	Table atau view yang dipilih untuk menjana data.
+| Ruangan      | Penerangan                                       |
+| ------------ | ------------------------------------------------ |
+| Connection   | Sambungan database yang digunakan.               |
+| Database     | Nama database yang digunakan.                    |
+| Binding Type | Jenis binding, contohnya Table.                  |
+| Source       | Table atau view yang menjadi sumber data.        |
+| Table / View | Table atau view yang dipilih untuk menjana data. |
+
 
 Contoh penggunaan:
 
-Form menggunakan Data Binding untuk insert atau update data.
-Report menggunakan Data Source untuk memilih connection, database dan table/view.
-Import Wizard menggunakan Data Binding untuk menentukan sumber data import.
+- Form menggunakan Data Binding untuk insert atau update data.
+- Report menggunakan Data Source untuk memilih connection, database dan table/view.
+- Import Wizard menggunakan Data Binding untuk menentukan sumber data import.
 
 :::
 ---
@@ -210,11 +196,10 @@ Bahagian Snippets membantu pengguna memasukkan template SQL dengan lebih cepat.
 Snippets biasanya dogunakan dalam report component.
 
 :::
----
 
 ## Kategori Tetapan Component-Specific
-
 Kategori ini hanya muncul pada component tertentu sahaja.
+
 ---
 
 ### 8. Database Config
@@ -316,7 +301,6 @@ Contoh penggunaan:
 - Paparkan HTML custom dalam component tertentu.
 
 :::
----
 
 ## Kategori Tetapan Proses dan Listing
 
@@ -325,7 +309,6 @@ Contoh penggunaan:
 ### 13. Processing
 
 ::: info Processing
-
 Bahagian **Processing** digunakan untuk menetapkan proses tambahan sebelum atau selepas component dijalankan.
 
 | Ruangan           | Penerangan                                         |
@@ -386,9 +369,7 @@ Bahagian Appearance digunakan untuk mengawal gaya paparan table atau listing.
 
 :::
 
----
 ## Kategori Tteapan Paparan dan Action
----
 
 ## 17. Display Condition
 ::: info Display Condition

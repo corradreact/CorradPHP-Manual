@@ -1,5 +1,5 @@
 
-## Step 2: Membina Page
+# Step 2: Membina Page
 ::: info Tujuan
 Gunakan Step ini selepas menu baharu berjaya dicipta. Page perlu dibina supaya menu tersebut mempunyai paparan yang boleh digunakan oleh pengguna.
 ::: 
