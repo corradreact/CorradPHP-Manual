@@ -1,8 +1,8 @@
-# Senario 5: Membina Report Page
+# Step 5: Membina Report Page
 
-## Tujuan Senario
+## Tujuan Step
 
-Senario ini digunakan apabila user ingin membina page report yang mempunyai filter, table dan fungsi export/download.
+Step ini digunakan apabila user ingin membina page report yang mempunyai filter, table dan fungsi export/download.
 
 Contoh report:
 

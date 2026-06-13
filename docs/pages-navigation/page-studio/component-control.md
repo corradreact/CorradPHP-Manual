@@ -4,7 +4,7 @@
 
 Kontrol digunakan untuk menambah butang tindakan pada page. kontrol biasanya dipaparkan pada bahagian atas atau bawah page dan digunakan untuk menjalankan tindakan seperti simpan data, reset form, kembali ke page sebelumnya, cetak, submit, delete, membuka pop-up, export PDF/CSV atau menjalankan trigger tertentu.
 
-Gunakan senario ini selepas page dan komponen berjaya dibuat.
+Gunakan Step ini selepas page dan komponen berjaya dibuat.
 
 :::
 

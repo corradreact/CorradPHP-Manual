@@ -1,10 +1,10 @@
-## Senario 3: Menambah Komponen Dalam Page
+## Step 3: Menambah Komponen Dalam Page
 
 ::: info Tujuan
 
 Komponen digunakan untuk membina struktur utama dalam page. Setiap Komponen mempunyai fungsi yang berbeza seperti membina form, memaparkan senarai data, membina dashboard, menyediakan report, atau membuat layout khas.
 
-Gunakan senario ini selepas page berjaya dibuat dan paparan page masih kosong dengan mesej **No Component yet**.
+Gunakan Step ini selepas page berjaya dibuat dan paparan page masih kosong dengan mesej **No Component yet**.
 
 :::
 

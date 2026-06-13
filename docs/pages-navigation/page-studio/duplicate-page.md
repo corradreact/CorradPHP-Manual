@@ -1,7 +1,7 @@
 
-# Senario 7: Duplicate Page
+# Step 7: Duplicate Page
 
-## Tujuan Senario
+## Tujuan Step
 
 Duplicate Page digunakan apabila user ingin menyalin struktur page sedia ada untuk dijadikan page baharu.
 

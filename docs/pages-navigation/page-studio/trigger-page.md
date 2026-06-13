@@ -8,11 +8,11 @@ Contohnya, apabila user klik button, ubah nilai dropdown, keluar daripada field,
 Triggers biasanya digunakan apabila fungsi biasa seperti **binding** tidak mencukupi atau apabila user perlu menjalankan proses khas.
 ::: 
 
-### Bila Perlu Gunaa Triggers.
+### Bila Perlu Gunaa Triggers
 Gunakan triggers apabila anda ingin:
 
 - Menjalankan JavaScript apabila button diklik.
-- -Menjalankan PHP Business Logic.
+- Menjalankan PHP Business Logic.
 - Menambah validasi tambahan.
 - Refresh component atau datatable.
 - Mengubah paparan field atau component.
@@ -22,10 +22,11 @@ Gunakan triggers apabila anda ingin:
 
 ### Trigger vs Binding
 ::: info Perbezaan Trigger dan Binding
-| Fungsi  | Kegunaan                                                                                   |
-| ------- | ------------------------------------------------------------------------------------------ |
-| Binding | Menghubungkan control dengan component seperti form untuk Save, Submit, Reset atau Delete. |
-| Trigger | Menjalankan tindakan tambahan melalui JavaScript atau PHP Business Logic.                  |
+| Fungsi  | | Fungsi      | Kegunaan                                                                                                                                 |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Binding** | Menghubungkan control dengan komponen tertentu, seperti form, untuk menjalankan fungsi **Save**, **Submit**, **Reset**, atau **Delete**. |
+| **Trigger** | Menjalankan tindakan tambahan melalui **JavaScript** atau **PHP Business Logic** berdasarkan aksi atau keadaan tertentu.                 |
+
 
 :::
 

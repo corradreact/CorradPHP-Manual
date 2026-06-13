@@ -1,8 +1,8 @@
-# Senario 4: Membina Dashboard Page
+# Step 4: Membina Dashboard Page
 
-## Tujuan Senario
+## Tujuan Step
 
-Senario ini digunakan apabila user ingin membina dashboard untuk memaparkan ringkasan maklumat.
+Step ini digunakan apabila user ingin membina dashboard untuk memaparkan ringkasan maklumat.
 
 Contoh dashboard:
 

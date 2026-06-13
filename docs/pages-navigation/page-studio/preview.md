@@ -1,7 +1,7 @@
 
-# Senario 6: Menggunakan Preview
+# Step 6: Menggunakan Preview
 
-## Tujuan Senario
+## Tujuan Step
 
 Preview digunakan untuk melihat paparan page sebelum page digunakan oleh user.
 
