@@ -6,6 +6,7 @@
 
 - Datatable juga boleh mempunyai **Action Column** untuk tindakan seperti **View**, **Edit** dan **Delete**.
 
+:::
 ### Langkah-langkah Menambah Datatable
 
 ::: tip Langkah 1: Add Component 
@@ -16,7 +17,7 @@
 4. Klik butang **+ Component** pada toolbar atas.
 5. Masukkan **Title**:
 
-**Contoh : Datatable Customer**
+- **Contoh : Datatable Customer**
 
 6. Pada ruangan Type, pilih:
 **Datatable**

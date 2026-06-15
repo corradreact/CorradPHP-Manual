@@ -136,7 +136,7 @@ ORDER BY Month;
 | Area       | Sesuai untuk trend yang ingin dipaparkan dengan kawasan berwarna. |
 :::
 
-## Contoh Tetaoan Chart
+## Contoh Tetapan Chart
 ::: tip Contoh: Monthly Revenue Trend
 
 | Tetapan          | Nilai                                        |
