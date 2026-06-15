@@ -47,7 +47,7 @@ Gunakan triggers apabila anda ingin:
 | ----------- | --------------------------------------------------------------------- |
 | Binding     | Menghubungkan control dengan komponen tertentu, seperti form, untuk menjalankan fungsi Save, Submit, Reset, atau Delete.                                  |
 | Trigger     | Menjalankan tindakan tambahan melalui JavaScript atau PHP Business Logic berdasarkan aksi atau keadaan tertentu.                                               |
-
+:::
 
 
 ::: tip Langkah 3: Pilih Event

@@ -5,6 +5,7 @@
 Chart Component digunakan untuk memaparkan data dalam bentuk carta seperti bar chart, line chart, pie chart, doughnut chart dan area chart.
 
 Gunakan component ini apabila page perlu menunjukkan ringkasan data, trend, perbandingan nilai atau visual report.
+:::
 
 ::: warning Nota
 Gunakan Chart Component apabila anda ingin:

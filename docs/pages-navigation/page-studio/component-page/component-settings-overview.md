@@ -115,7 +115,8 @@ Bahagian Visibility digunakan untuk mengawal keadaan paparan component.
 
 ## Kategori Tetapan Data
 
-Kategori ini digunakan oleh component yang melibatkan data seperti Form, Report, Tabular, Chart, Timeline dan Map
+Kategori ini digunakan oleh component yang melibatkan data seperti Form, Report, Tabular, Chart, Timeline dan Map.
+
 ---
 
 ### 5. Data Binding / Data Source
