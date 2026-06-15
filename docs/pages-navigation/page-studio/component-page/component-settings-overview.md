@@ -330,8 +330,8 @@ Bahagian **Listing** digunakan oleh component yang memaparkan senarai data seper
 | Enable Search Box | Membolehkan carian dalam senarai.    |
 | Rows per Page     | Bilangan row dipaparkan setiap page. |
 | Max Fetch         | Had maksimum data yang diambil.      |
+:::
 
-::: 
 ---
 
 ### 15. Default Sort
@@ -372,7 +372,7 @@ Bahagian Appearance digunakan untuk mengawal gaya paparan table atau listing.
 
 ## Kategori Tetapan Paparan dan Action
 
-## 17. Display Condition
+### 17. Display Condition
 ::: info Display Condition
 Bahagian **Display Condition** digunakan untuk menentukan bila component perlu dipaparkan.
 

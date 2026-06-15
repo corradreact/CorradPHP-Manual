@@ -17,6 +17,7 @@
 5. Masukkan **Title**:
 
 **Contoh : Datatable Customer**
+
 6. Pada ruangan Type, pilih:
 **Datatable**
 7. Klik **Add**.

@@ -45,6 +45,7 @@ Contoh penggunaan:
 6. Masukkan nama component pada ruangan **Title**
 
 **Contoh: Chart**
+
 7. Pada ruangan **Type**, pilih: 
 Chart
 8. Klik butang **Add**
