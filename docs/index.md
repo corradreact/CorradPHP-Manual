@@ -11,6 +11,12 @@ hero:
     alt: Logo Corrad PHP84
 
 features:
+  - icon: 🧭
+    title: Pages & Navigation
+    details: Panduan mengurus Menu Editor, Page Studio, Page Editor dan Control / Trigger Editor.
+    link: /useradministrator
+    linkText: Buka panduan
+
   - icon: ⚙️
     title: User Administrator
     details: Panduan penggunaan menu System Administrator termasuk Active Sessions dan tetapan pentadbiran sistem.
@@ -27,12 +33,6 @@ features:
     title: Editors & Tools
     details: Panduan penggunaan Message Editor, Translation Editor, SMTP Editor dan Migration Manager.
     link: /editors-tools/overview
-    linkText: Buka panduan
-
-  - icon: 🧭
-    title: Pages & Navigation
-    details: Panduan mengurus Menu Editor, Page Studio, Page Editor dan Control / Trigger Editor.
-    link: /pages-navigation/menu-editor
     linkText: Buka panduan
 
   - icon: 🔌
