@@ -119,6 +119,7 @@ ORDER BY Month;
 | Show Legend      | Memaparkan legend chart.                        |
 | Show Data Labels | Memaparkan nilai pada chart.                    |
 | Horizontal Bar   | Menukar bar chart kepada paparan horizontal.    |
+| Stacked          | Menjadikan data dipaparkan secara bertingkat.   |
 | Auto-refresh     | Menetapkan masa refresh automatik dalam saat.   |
 
 
