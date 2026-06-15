@@ -110,11 +110,12 @@ Bahagian Visibility digunakan untuk mengawal keadaan paparan component.
 | No Print   | Component tidak dipaparkan semasa print.         |
 | Print Only | Component hanya dipaparkan semasa print.         |
 :::
-----
+
+:::
 
 ## Kategori Tetapan Data
 
-Kategori ini digunakan oleh component yang melibatkan data seperti Form, Report, Tabular, Chart, Timeline dan Map.
+Kategori ini digunakan oleh component yang melibatkan data seperti Form, Report, Tabular, Chart, Timeline dan Map
 ---
 
 ### 5. Data Binding / Data Source
@@ -193,7 +194,7 @@ Bahagian Snippets membantu pengguna memasukkan template SQL dengan lebih cepat.
 | LEFT JOIN    | Menggabungkan table walaupun data sebelah kanan tiada. |
 | Filter Hint  | Menambah panduan filter.                               |
 
-Snippets biasanya dogunakan dalam report component.
+Snippets biasanya digunakan dalam report component.
 
 :::
 
@@ -257,7 +258,6 @@ Contoh Form Mode:
 | Insert Only     | Menambah rekod baharu.        |
 | Update          | Mengemaskini rekod sedia ada. |
 | Insert & Update | Tambah dan kemaskini data.    |
-| View Only       | Paparan sahaja.               |
 
 :::
 ---
@@ -369,11 +369,11 @@ Bahagian Appearance digunakan untuk mengawal gaya paparan table atau listing.
 
 :::
 
-## Kategori Tteapan Paparan dan Action
+## Kategori Tetapan Paparan dan Action
 
 ## 17. Display Condition
 ::: info Display Condition
-Bahagian Display Condition digunakan untuk menentukan bila component perlu dipaparkan.
+Bahagian **Display Condition** digunakan untuk menentukan bila component perlu dipaparkan.
 
 | Tetapan        | Maksud                                            |
 | -------------- | ------------------------------------------------- |
@@ -425,11 +425,7 @@ Gunakan Triggers jika fungsi standard component tidak mencukupi.
 
 - Tidak semua component mempunyai kategori tetapan yang sama.
 - Panel kanan akan berubah mengikut component type yang dipilih.
-- Jika component melibatkan data, semak bahagian - -Data Binding, Data Source atau SQL Query.
-- Jika component mempunyai paparan khas, semak bahagian Configuration.
-- Jika component perlu dipaparkan berdasarkan syarat, gunakan Display Condition.
-- Jika component memerlukan tindakan tambahan, gunakan Triggers.
-- Klik Save selepas selesai membuat perubahan.
-- Gunakan Preview untuk menguji paparan component.
+- Klik **Save** selepas selesai membuat perubahan.
+- Gunakan **Preview** untuk menguji paparan component.
 
 :::

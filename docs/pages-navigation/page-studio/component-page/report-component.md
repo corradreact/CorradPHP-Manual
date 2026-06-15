@@ -4,7 +4,7 @@
 
 Report Component digunakan untuk membina laporan berdasarkan data daripada database. Report sesuai digunakan apabila pengguna ingin melihat senarai data, membuat carian, menapis rekod, menyusun data dan memaparkan hasil dalam bentuk laporan.
 
-Report boleh dibina menggunakan connection database seperti **Main DB**, **LOCALHOST**, **MSSQL APAI**, **ORACLE APAI** dan **POSTGRESQL APAI**, bergantung kepada connection yang disediakan dalam sistem.
+Report boleh dibina menggunakan connection database seperti **Main DB**, **LOCALHOST**, **MSSQL**, **ORACLE** dan **POSTGRESQL**, bergantung kepada connection yang disediakan dalam sistem.
 
 ### Bila Perlu Guna Report Component
 
@@ -77,7 +77,7 @@ Report boleh dibina menggunakan beberapa jenis connection yang disediakan dalam 
 Contoh: rdsadmin
 
 5. Pilih **Table / View** jika ingin generate SQL daripada table atau view.
-6. Klik **SELECT *** jika ingin sistem menjana query asas.
+6. Klik **SELECT** jika ingin sistem menjana query asas.
 7. Klik Select Columns jika ingin memilih column tertentu sahaja.
 8. Semak SQL Query yang dijana.
 9. Klik **Save**.
@@ -91,7 +91,6 @@ Contoh: rdsadmin
 Bahagian SQL Query digunakan untuk menulis atau mengubah query report.
 
 Contoh query:
-Contoh:
 ```sql
 SELECT
     e.YEAR        AS `Year`,
@@ -192,14 +191,17 @@ Contoh ini digunakan untuk membina report aktiviti.
 | Sort Direction    | ASC                                  |
 | Appearance        | Striped Rows, Bordered               |
 
-Contoh :
+Contoh query:
+```sql
 SELECT
     e.YEAR      AS `Year`,
     s.STAFF_NO AS `Staff No`
 FROM staff s
 LEFT JOIN employment e ON e.STAFF_ID = s.STAFF_ID
 ORDER BY e.YEAR DESC;
-
+```
+:::
+---
 ::: warning Nota
 
 - Pastikan Type dipilih sebagai Report.

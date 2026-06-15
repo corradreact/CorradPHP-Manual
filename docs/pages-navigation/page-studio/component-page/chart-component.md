@@ -98,12 +98,8 @@ GROUP BY DATE_FORMAT(sale_date, '%Y-%m')
 ORDER BY Month;
 ```
 
-:::
-
-::: 
 - Pastikan query menghasilkan column yang jelas untuk label dan nilai.
 - Nama column dalam query perlu sama dengan tetapan Label Column dan Value Columns.
-
 :::
 
 ### Chart Configuration
@@ -152,8 +148,9 @@ ORDER BY Month;
 | Series Labels    | Total                                        |
 | Show Legend      | Ya, jika ada lebih daripada satu series      |
 | Show Data Labels | Pilihan, jika mahu paparkan nilai pada chart |
+:::
 
-Contoh:
+Contoh query:
 ```sql
 SELECT 
     DATE_FORMAT(sale_date, '%Y-%m') AS Month,
@@ -162,8 +159,7 @@ FROM sales
 GROUP BY DATE_FORMAT(sale_date, '%Y-%m')
 ORDER BY Month;
 ```
-
-:::
+---
 
 ### Display
 

@@ -102,13 +102,13 @@ Contoh:
 
 ::: tip Langkah Edit Columns
 
-Pergi ke bahagian COLUMN DEFINITIONS.
-Klik Edit Columns.
-Paparan Column Definitions akan dipaparkan.
-Tambah atau kemaskini column yang diperlukan.
-Pastikan Key sama dengan nama field daripada API.
-Klik Apply.
-Klik Save.
+1. Pergi ke bahagian** COLUMN DEFINITIONS**.
+2. Klik **Edit Columns**.
+3. Paparan Column Definitions akan dipaparkan.
+4. Tambah atau kemaskini column yang diperlukan.
+5. Pastikan Key sama dengan nama field daripada API.
+6. Klik **Apply**.
+7. Klik **Save**.
 
 :::
 --- 
