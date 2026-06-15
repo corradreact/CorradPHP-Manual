@@ -137,17 +137,17 @@ export default defineConfig({
           { text: 'Roles & Permissions', link: '/useradministrator/rolespermission' },
           { text: 'Session Monitor', link: '/useradministrator/session' }
         ]
-      },
-      {
-        text: 'Showcase',
-        collapsed: false,
-        items: [
-          { text: 'Input Types Showcase', link: '/showcase/input-types-showcase' },
-          { text: 'Component Showcase', link: '/showcase/component-showcase' },
-          { text: 'Showcase Product Dashboard', link: '/showcase/product-dashboard' },
-          { text: 'Showcase Product Dashboard 2', link: '/showcase/product-dashboard-2' }
-        ]
       }
+      // {
+      //   text: 'Showcase',
+      //   collapsed: false,
+      //   items: [
+      //     { text: 'Input Types Showcase', link: '/showcase/input-types-showcase' },
+      //     { text: 'Component Showcase', link: '/showcase/component-showcase' },
+      //     { text: 'Showcase Product Dashboard', link: '/showcase/product-dashboard' },
+      //     { text: 'Showcase Product Dashboard 2', link: '/showcase/product-dashboard-2' }
+      //   ]
+      // }
     ],
 
     outline: {

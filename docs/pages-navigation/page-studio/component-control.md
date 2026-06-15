@@ -77,7 +77,6 @@ Pada panel tetapan control, bahagian BINDING biasanya mempunyai ruangan berikut:
 - Notes
 - Hints
 
----
 15. Jika kontrol memerlukan tindakan tambahan, tambah konfigurasi pada bahagian TRIGGERS.
 16. Klik **Save** selepas selesai membuat perubahan.
 17. Klik **Preview** untuk menguji butang kontrol.

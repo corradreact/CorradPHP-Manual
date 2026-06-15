@@ -8,7 +8,8 @@ Contohnya, apabila user klik button, ubah nilai dropdown, keluar daripada field,
 Triggers biasanya digunakan apabila fungsi biasa seperti **binding** tidak mencukupi atau apabila user perlu menjalankan proses khas.
 ::: 
 
-### Bila Perlu Gunaa Triggers
+### Bila Perlu Guna Triggers
+::: warning Nota
 Gunakan triggers apabila anda ingin:
 
 - Menjalankan JavaScript apabila button diklik.
@@ -19,6 +20,7 @@ Gunakan triggers apabila anda ingin:
 - Memanggil API atau proses backend.
 - Menjalankan tindakan khas yang tidak boleh dibuat melalui binding biasa.
 - Menjalankan proses apabila nilai field berubah.
+:::
 
 ### Trigger vs Binding
 ::: info Perbezaan Trigger dan Binding
