@@ -76,10 +76,24 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/pages-navigation/page-studio/component-page/form-page/' },
                 { text: 'Component Settings Overview', link: '/pages-navigation/page-studio/component-page/component-settings-overview' },
-                { text: 'Form Component', link: '/pages-navigation/page-studio/component-page/form-component' },
-                { text: 'Datatable Component', link: '/pages-navigation/page-studio/component-page/datatable-component' },
-                { text: 'Report Component', link: '/pages-navigation/page-studio/component-page/report-component' },
-                { text: 'Chart Component', link: '/pages-navigation/page-studio/component-page/chart-component' }
+                { text: 'Form (1 & 2 Columns)', link: '/pages-navigation/page-studio/component-page/form-component' },
+                { text: 'Datatable', link: '/pages-navigation/page-studio/component-page/datatable-component' },
+                { text: 'Report', link: '/pages-navigation/page-studio/component-page/report-component' },
+                { text: 'Chart', link: '/pages-navigation/page-studio/component-page/chart-component' },
+                { text: 'Stat / KPI Cards', link: '/pages-navigation/page-studio/component-page/stat_kpi-cards' },
+                { text: 'Gantt Chart', link: '/pages-navigation/page-studio/component-page/gantt-chart' },
+                { text: 'Geo Map', link: '/pages-navigation/page-studio/component-page/geo-map' },
+                { text: 'Tabular', link: '/pages-navigation/page-studio/component-page/tabular' },
+                { text: 'Gallery', link: '/pages-navigation/page-studio/component-page/gallery' },
+                { text: 'Timeline', link: '/pages-navigation/page-studio/component-page/timeline' },
+                { text: 'Wizard', link: '/pages-navigation/page-studio/component-page/wizard' },
+                { text: 'Import Wizard', link: '/pages-navigation/page-studio/component-page/import-wizard' },
+                { text: 'Dashboard', link: '/pages-navigation/page-studio/component-page/dashboard ' },
+                { text: 'Master / Detail ', link: '/pages-navigation/page-studio/component-page/master_detail' },
+                { text: 'Profile View', link: '/pages-navigation/page-studio/component-page/profile-view' },
+                { text: 'Tree Browser', link: '/pages-navigation/page-studio/component-page/tree-browser' },
+                { text: 'IFrame', link: '/pages-navigation/page-studio/component-page/iframe' },
+                { text: 'Custom HTML', link: '/pages-navigation/page-studio/component-page/custom-html' }
               ]
             },
 
