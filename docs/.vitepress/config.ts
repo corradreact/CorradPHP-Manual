@@ -80,7 +80,7 @@ export default defineConfig({
                 { text: 'Datatable', link: '/pages-navigation/page-studio/component-page/datatable-component' },
                 { text: 'Report', link: '/pages-navigation/page-studio/component-page/report-component' },
                 { text: 'Chart', link: '/pages-navigation/page-studio/component-page/chart-component' },
-                { text: 'Stat / KPI Cards', link: '/pages-navigation/page-studio/component-page/stat_kpi-cards' },
+                { text: 'Stat / KPI Cards', link: '/pages-navigation/page-studio/component-page/stat_kpi_cards' },
                 { text: 'Gantt Chart', link: '/pages-navigation/page-studio/component-page/gantt-chart' },
                 { text: 'Geo Map', link: '/pages-navigation/page-studio/component-page/geo-map' },
                 { text: 'Tabular', link: '/pages-navigation/page-studio/component-page/tabular' },
