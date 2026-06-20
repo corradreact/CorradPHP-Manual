@@ -1,25 +1,21 @@
 # Timeline Component
 
 ::: info Tujuan
-
 **Timeline Component** digunakan untuk memaparkan rekod atau aktiviti dalam susunan masa. Data akan dipaparkan sebagai senarai timeline dengan tarikh, tajuk event, nama actor/user, status dan maklumat detail.
 
-Component ini sesuai digunakan untuk audit history, project milestones, activity feed, status tracking atau sejarah aktiviti pengguna.
-
+- Component ini sesuai digunakan untuk audit history, project milestones, activity feed, status tracking atau sejarah aktiviti pengguna.
 
 :::
 
 ### Bila Perlu Guna Timeline
-
 ::: warning Nota 
-Gunakan Card Gallery apabila anda ingin:
+Gunakan Timeline apabila anda ingin:
 
 - Memaparkan sejarah aktiviti mengikut masa.
 - Menunjukkan perubahan status sesuatu rekod.
 - Memaparkan audit trail secara lebih visual.
 - Menunjukkan project milestone.
 - Memaparkan aktiviti user seperti created, updated, approved atau rejected.
-:::
 
 Contoh penggunaan:
 | Situasi            | Kegunaan                           |
@@ -29,9 +25,10 @@ Contoh penggunaan:
 | Activity Feed      | Papar senarai aktiviti terkini.    |
 | Status Tracking    | Papar perubahan status rekod.      |
 
+:::
 ----
 
-### SQL Queyry
+### SQL Query
 ::: info SQL Query
 
 Bahagian **SQL Query** digunakan untuk mengambil data yang akan dipaparkan dalam Timeline.
@@ -80,14 +77,11 @@ Alias yang dicadangkan:
 | Status       | `STATUS`          |
 | Detail       | `DETAIL`          |
 
-
 :::
 ---
 
 ### Timeline Configuration
-
 ::: info Timeline Configuration
-
 Bahagian **Timeline Configuration** digunakan untuk menentukan column mana daripada SQL Query yang akan digunakan dalam timeline.
 
 | Ruangan              | Penerangan                                         |
@@ -107,9 +101,7 @@ Bahagian **Timeline Configuration** digunakan untuk menentukan column mana darip
 
 
 ### Contoh Configuration
-
 ::: tip Contoh Tetapan Timeline
-
 Berdasarkan SQL Query berikut:
 
 ```sql
@@ -138,20 +130,18 @@ Tetapkan **Timeline Configuration** seperti berikut:
 
 Maksudnya:
 
-- DT akan digunakan sebagai tarikh timeline.
-- EVENT akan digunakan sebagai tajuk aktiviti.
-- WHO akan memaparkan nama user atau actor.
-- STATUS akan menentukan warna timeline.
-- DETAIL akan memaparkan penerangan lanjut.
-- Timeline akan memaparkan maksimum 20 rekod
+- `DT` akan digunakan sebagai tarikh timeline.
+- `EVENT` akan digunakan sebagai tajuk aktiviti.
+- `WHO` akan memaparkan nama user atau actor.
+- `STATUS` akan menentukan warna timeline.
+- `DETAIL` akan memaparkan penerangan lanjut.
+- `Timeline` akan memaparkan maksimum 20 rekod.
 
 :::
 ---
 
 ### Status Color Mapping
-
 ::: info Status Color Mapping
-
 **Status Color Mapping** digunakan untuk menetapkan warna timeline berdasarkan nilai status
 
 | Status Value | Color   |
@@ -166,9 +156,7 @@ Maksudnya, jika query menghasilkan nilai task pada column STATUS, timeline akan 
 ---
 
 ### Date Format
-
 ::: info Date Format
-
 **Date Format** digunakan untuk menetapkan bentuk paparan tarikh dalam timeline
 
 | Format      | Contoh Paparan    |
@@ -182,21 +170,16 @@ Maksudnya, jika query menghasilkan nilai task pada column STATUS, timeline akan 
 ---
 
 ###  Limit
-
 ::: info Limit
-
-Limit digunakan untuk menghadkan jumlah rekod timeline yang dipaparkan.
+- Limit digunakan untuk menghadkan jumlah rekod timeline yang dipaparkan.
 Maksudnya, hanya 20 rekod timeline akan dipaparkan.
-
-Gunakan limit supaya page tidak terlalu panjang dan lebih cepat dimuatkan.
+- Gunakan limit supaya page tidak terlalu panjang dan lebih cepat dimuatkan.
 
 :::
 ---
 
 ### Hasil Yang Dijangka
-
 ::: info Hasil Yang Dijangka
-
 Selepas Timeline Component dikonfigurasikan:
 
 - Data daripada SQL Query dipaparkan dalam bentuk timeline.
@@ -209,7 +192,6 @@ Selepas Timeline Component dikonfigurasikan:
 ---
 
 ::: warning Nota
-
 - Pastikan Type dipilih sebagai Timeline.
 - Pastikan SQL Query menghasilkan column yang diperlukan.
 - Nama column dalam configuration mesti sama dengan alias dalam SQL Query.
@@ -222,8 +204,7 @@ Selepas Timeline Component dikonfigurasikan:
 ---
 
 ::: danger Isu Biasa
-
-### Timeline tidak memaparkan data
+#### Timeline tidak memaparkan data
 Kemungkinan punca:
 
 - SQL Query salah.
@@ -234,15 +215,15 @@ Kemungkinan punca:
 #### Tarikh tidak keluar atau format salah
 Kemungkinan punca:
 
-Date Column salah.
-Column tarikh bukan format date/datetime.
-Date Format tidak sesuai.
+- Date Column salah.
+- Column tarikh bukan format date/datetime.
+- Date Format tidak sesuai.
 
-### Warna status tidak berubah
+#### Warna status tidak berubah
 Kemungkinan punca:
 
-Status Column salah.
-Nilai status dalam query tidak sama dengan Status Color Mapping.
-Status Color Mapping belum ditetapkan.
+- Status Column salah.
+- Nilai status dalam query tidak sama dengan Status Color Mapping.
+- Status Color Mapping belum ditetapkan.
 
 :::

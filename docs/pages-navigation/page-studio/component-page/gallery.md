@@ -9,7 +9,6 @@ Component ini sesuai digunakan untuk paparan seperti katalog produk, senarai pek
 :::
 
 ### Bila Perlu Guna Card Gallery
-
 ::: warning Nota 
 Gunakan Card Gallery apabila anda ingin:
 
@@ -19,7 +18,6 @@ Gunakan Card Gallery apabila anda ingin:
 - Membina employee directory.
 - Memaparkan senarai news, announcement atau showcase.
 - Menggantikan table biasa dengan paparan yang lebih visual.
-:::
 
 Contoh penggunaan:
 | Situasi            | Kegunaan                                              |
@@ -28,10 +26,10 @@ Contoh penggunaan:
 | Employee Directory | Papar staff dengan gambar, nama dan department.       |
 | News Listing       | Papar berita dengan gambar, tajuk dan kategori.       |
 | Showcase Items     | Papar item pilihan dalam bentuk card.                 |
-
+:::
 ----
 
-### SQL Queyry
+### SQL Query
 ::: info SQL Query
 
 Bahagian **SQL Query** digunakan untuk mengambil data yang akan dipaparkan dalam Card Gallery.
@@ -48,7 +46,7 @@ SELECT
 FROM corrad_showcase.showcase_products
 ORDER BY rating DESC;
 ```
-
+:::
 ----
 
 ### Tips SQL Query Untuk Card Gallery
@@ -59,7 +57,9 @@ ORDER BY rating DESC;
 - Jika card memerlukan imej, pastikan query menghasilkan URL imej yang betul.
 - ika ingin paparkan harga, boleh format harga dalam query menggunakan CONCAT atau FORMAT.
 - Gunakan ORDER BY jika ingin susun card mengikut rating, tarikh, nama atau kategori.
+:::
 
+:::
 Contoh alias yang mudah digunakan:
 | Tujuan        | Alias Dicadangkan |
 | ------------- | ----------------- |
@@ -182,7 +182,6 @@ Kemudian teteapkan :
 ---
 
 ###  Image Fit
-
 ::: info Image Fit
 
 Image Fit menentukan cara imej dipaparkan dalam card.
@@ -226,8 +225,7 @@ Selepas Card Gallery dikonfigurasikan:
 ---
 
 ::: danger Isu Biasa
-
-### Card tidak memaparkan data
+#### Card tidak memaparkan data
 Kemungkinan punca:
 
 - SQL Query salah.
@@ -244,12 +242,11 @@ Kemungkinan punca:
 - Column IMG tidak wujud dalam query.
 
 
-### Badge tidak keluar
+#### Badge tidak keluar
 Kemungkinan punca:
 
 - Badge Column kosong.
 - Nama column badge salah.
 - Query tidak menghasilkan nilai untuk badge.
 - Card tidak kemas
-
 :::
