@@ -4,18 +4,8 @@
 
 **Tree / Hierarchy Browser Component** digunakan untuk memaparkan data berhierarki dalam bentuk struktur tree yang boleh dibuka dan ditutup.
 
-- Component ini menggunakan hubungan **parent-child** daripada satu table database untuk membina struktur seperti kategori, carta organisasi atau folder navigation. 
-
-Component ini sesuai digunakan untuk: 
-- Category tree 
-- Organization chart 
-- Folder navigation 
-- Product hierarchy 
-- Department structure 
-- Menu hierarchy
+Component ini menggunakan hubungan **parent-child** daripada satu table database untuk membina struktur seperti kategori, carta organisasi atau folder navigation. 
 :::
-
-### Bila Perlu Guna Profile View
 
 ::: warning Nota 
 Gunakan Tree Browser apabila anda ingin:
@@ -28,6 +18,8 @@ Gunakan Tree Browser apabila anda ingin:
 - Membolehkan pengguna expand atau collapse data.
 
 Contoh Struktur:
+
+```text
 Electronics
 ├── Computers
 │   ├── Laptops
@@ -35,6 +27,7 @@ Electronics
 │   └── Displays
 ├── Audio
 └── Accessories
+```
 :::
 ---
 

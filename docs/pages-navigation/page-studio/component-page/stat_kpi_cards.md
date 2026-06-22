@@ -3,7 +3,6 @@
 ::: info Tujuan
 
 **Stats / KPI Cards Component** digunakan untuk memaparkan KPI atau maklumat penting dalam bentuk kad ringkasan. Setiap kad boleh menunjukkan label, nilai, icon dan indikator ringkas.
-
 Nilai card boleh diambil terus daripada SQL Query dalam Page Studio tanpa perlu menggunakan Business Logic (BL) untuk penggunaan asas.
 :::
 

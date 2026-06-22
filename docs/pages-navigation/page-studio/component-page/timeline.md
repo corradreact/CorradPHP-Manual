@@ -3,11 +3,10 @@
 ::: info Tujuan
 **Timeline Component** digunakan untuk memaparkan rekod atau aktiviti dalam susunan masa. Data akan dipaparkan sebagai senarai timeline dengan tarikh, tajuk event, nama actor/user, status dan maklumat detail.
 
-- Component ini sesuai digunakan untuk audit history, project milestones, activity feed, status tracking atau sejarah aktiviti pengguna.
+Component ini sesuai digunakan untuk audit history, project milestones, activity feed, status tracking atau sejarah aktiviti pengguna.
 
 :::
 
-### Bila Perlu Guna Timeline
 ::: warning Nota 
 Gunakan Timeline apabila anda ingin:
 
@@ -17,6 +16,8 @@ Gunakan Timeline apabila anda ingin:
 - Menunjukkan project milestone.
 - Memaparkan aktiviti user seperti created, updated, approved atau rejected.
 
+:::
+
 Contoh penggunaan:
 | Situasi            | Kegunaan                           |
 | ------------------ | ---------------------------------- |
@@ -24,8 +25,6 @@ Contoh penggunaan:
 | Project Milestones | Papar perkembangan projek.         |
 | Activity Feed      | Papar senarai aktiviti terkini.    |
 | Status Tracking    | Papar perubahan status rekod.      |
-
-:::
 ----
 
 ### SQL Query

@@ -1,8 +1,7 @@
 # Chart Component
 
 ::: info Tujuan
-
-Chart Component digunakan untuk memaparkan data dalam bentuk carta seperti bar chart, line chart, pie chart, doughnut chart dan area chart.
+**Chart Component** digunakan untuk memaparkan data dalam bentuk carta seperti bar chart, line chart, pie chart, doughnut chart dan area chart.
 
 Gunakan component ini apabila page perlu menunjukkan ringkasan data, trend, perbandingan nilai atau visual report.
 :::
@@ -29,32 +28,6 @@ Contoh penggunaan:
 | Trend dengan kawasan berwarna      | Area                   |
 
 ----
-
-### Langkah-langkah
-::: tip Langkah 1
-1. Buka menu **Halaman & Navigasi**.
-2. Klik **Page Studio**.
-3. Pilih page yang ingin dikemaskini.
-4. Klik butang **Component** pada toolbar atas.
-
-:::
-
-::: tip Langkah 2: Isi Title dan Pilih Type
-
-5. Paparan pop-up **Add Component** akan dipaparkan.
-6. Masukkan nama component pada ruangan **Title**
-
-**Contoh: Chart**
-
-7. Pada ruangan **Type**, pilih: 
-Chart
-8. Klik butang **Add**
-
-:::
-
-::: tip Langkah 3: Semak Tetapan Chart
-9. Selepas component berjaya ditambah, panel tetapan chart akan dipaparkan di sebelah kanan.
-10. Semak bahagian **GENERAL**.
 
 | Ruangan | Penerangan                                            |
 | ------- | ----------------------------------------------------- |

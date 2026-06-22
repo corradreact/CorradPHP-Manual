@@ -3,7 +3,7 @@
 ::: info Tujuan
 **Wizard** adalah proses pengisian data kompleks kepada beberapa langkah tersusun dan mempunyai validasi. Pengguna boleh bergerak ke langkah seterusnya atau kembali ke langkah sebelumnya sebelum membuat penghantaran akhir.
 
-**Sesuai digunakan untuk:** Borang permohonan, proses onboarding, dan penghantaran data berperingkat.
+Component ini sesuai digunakan utnuk borang permohonan, proses onboarding, dan penghantaran data berperingkat.
 
 :::
 

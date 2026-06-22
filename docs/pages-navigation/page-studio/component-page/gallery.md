@@ -5,10 +5,8 @@
 **Card Gallery Component** digunakan untuk memaparkan data dalam bentuk kad visual yang tersusun dalam grid responsive. Setiap kad boleh memaparkan imej, tajuk, subtajuk, badge, harga atau maklumat ringkas berdasarkan data daripada SQL Query.
 
 Component ini sesuai digunakan untuk paparan seperti katalog produk, senarai pekerja, senarai berita, direktori, showcase item atau paparan rekod yang lebih visual berbanding table biasa.
-
 :::
 
-### Bila Perlu Guna Card Gallery
 ::: warning Nota 
 Gunakan Card Gallery apabila anda ingin:
 

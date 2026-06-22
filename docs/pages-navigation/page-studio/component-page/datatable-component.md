@@ -2,29 +2,11 @@
 
 ::: info Tujuan
 
-- Datatable Component digunakan untuk memaparkan senarai data dalam bentuk jadual. Component ini sesuai untuk page seperti senarai customer, staff, aktiviti, transaksi atau permohonan.
+**Datatable Component** digunakan untuk memaparkan senarai data dalam bentuk jadual. Component ini sesuai untuk page seperti senarai customer, staff, aktiviti, transaksi atau permohonan.
 
-- Datatable juga boleh mempunyai **Action Column** untuk tindakan seperti **View**, **Edit** dan **Delete**.
+Datatable juga boleh mempunyai **Action Column** untuk tindakan seperti **View**, **Edit** dan **Delete**.
 
 :::
-### Langkah-langkah Menambah Datatable
-
-::: tip Langkah 1: Add Component 
-
-1. Buka menu **Halaman & Navigasi.**
-2. Klik **Page Studio**.
-3. Pilih page yang ingin dikemaskini.
-4. Klik butang **+ Component** pada toolbar atas.
-5. Masukkan **Title**:
-
-- **Contoh : Datatable Customer**
-
-6. Pada ruangan Type, pilih:
-**Datatable**
-7. Klik **Add**.
-:::
-
---- 
 
 ### Datatable Config
 

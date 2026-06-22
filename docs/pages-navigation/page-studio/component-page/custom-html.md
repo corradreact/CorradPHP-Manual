@@ -8,8 +8,6 @@ Component ini sesuai digunakan apabila paparan yang diperlukan tidak boleh dibua
 
 :::
 
-### Bila Perlu Custom HTML
-
 ::: warning Nota 
 Gunakan Custom HTML apabila anda ingin:
 

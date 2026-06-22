@@ -8,8 +8,6 @@ URL boleh dimasukkan secara static atau dijana secara dynamic menggunakan parame
 
 :::
 
-### Bila Perlu Guna iFrame
-
 ::: warning Nota 
 Gunakan iFrame apabila anda ingin:
 

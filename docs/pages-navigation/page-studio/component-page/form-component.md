@@ -2,7 +2,7 @@
 
 ::: info Tujuan
 
-Form Component digunakan untuk membina borang input dalam page. Form membolehkan pengguna memasukkan, mengemaskini atau memaparkan data berdasarkan konfigurasi yang ditetapkan.
+**Form Component** digunakan untuk membina borang input dalam page. Form membolehkan pengguna memasukkan, mengemaskini atau memaparkan data berdasarkan konfigurasi yang ditetapkan.
 
 Dalam Page Studio, form biasanya digunakan untuk proses seperti:
 
@@ -23,45 +23,6 @@ Terdapat dua jenis form component yang biasa digunakan:
 
 :::
 ---
-
-### Langkah-langkah Menambah Form Component
-
-::: tip Langkah 1: Klik Add Component
-
-1. Buka menu **Halaman & Navigasi.**
-2. Klik **Page Studio**.
-3. Pilih page yang ingin dikemaskini.
-4. Klik butang **+ Component** pada toolbar atas.
-
-:::
-
-::: tip Langkah 2: Isi Title dan Pilih Type
-
-5. Paparan pop-up **+ Component** akan dipaparkan.
-6. Masukkan nama form pada ruangan **Title**.
-
-**Contoh : Staff Details** atau **Customer Information**
-
-7. Pada ruangan Type, pilih salah satu jenis form:
-**Form (1 Column) atau Form (2 Columns).**
-
-8. Klik butang **Add**.
-
-:::
-
-
-::: tip Langkah 3: Semak Tetapan Form.
-
-9. Selepas form berjaya ditambah, panel tetapan form akan dipaparkan di sebelah kanan.
-10. Semak bahagian **GENERAL**.
-
-| Ruangan | Penerangan                                                  |
-| ------- | ----------------------------------------------------------- |
-| Title   | Nama form yang dipaparkan dalam Page Studio.                |
-| Name    | Nama teknikal form dalam sistem.                            |
-| Type    | Jenis form, sama ada Form (1 Column) atau Form (2 Columns). |
-| Status  | Menentukan sama ada form aktif atau tidak aktif.            |
-:::
 
 ### Layout / Mode
 ::: info Layout / Mode
@@ -236,8 +197,7 @@ Control yang biasa digunakan untuk form ialah:
 ---
 ### Processing
 
-::: info Processing
-
+::: info 
 Bahagian Processing digunakan untuk menetapkan proses tambahan sebelum atau selepas form dijalankan.
 
 | Ruangan           | Penerangan                                             |
@@ -247,13 +207,11 @@ Bahagian Processing digunakan untuk menetapkan proses tambahan sebelum atau sele
 | Post Notification | Mesej atau notifikasi selepas post-process dijalankan. |
 
 :::
-
-
 ---
 
 ### Display
 
-::: info Display
+::: info 
 
 Bahagian Display digunakan untuk mengawal paparan form dalam page.
 

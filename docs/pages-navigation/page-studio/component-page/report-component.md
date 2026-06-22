@@ -2,12 +2,12 @@
 
 ::: info Tujuan
 
-Report Component digunakan untuk membina laporan berdasarkan data daripada database. Report sesuai digunakan apabila pengguna ingin melihat senarai data, membuat carian, menapis rekod, menyusun data dan memaparkan hasil dalam bentuk laporan.
+**Report Component** digunakan untuk membina laporan berdasarkan data daripada database. Report sesuai digunakan apabila pengguna ingin melihat senarai data, membuat carian, menapis rekod, menyusun data dan memaparkan hasil dalam bentuk laporan.
 
 Report boleh dibina menggunakan connection database seperti **Main DB**, **LOCALHOST**, **MSSQL**, **ORACLE** dan **POSTGRESQL**, bergantung kepada connection yang disediakan dalam sistem.
+:::
 
-### Bila Perlu Guna Report Component
-
+::: warning Nota
 Gunakan Report Component apabila anda ingin:
 
 - Membina laporan daripada database
@@ -17,25 +17,11 @@ Gunakan Report Component apabila anda ingin:
 - Menambah fungsi search, sort dan filter
 - Menghasilkan laporan berdasarkan connection database tertentu
 
-
-### Langkah-langkah Report Component
-
-::: tip Langkah 1: Add Component 
-
-1. Buka menu **Halaman & Navigasi.**
-2. Klik **Page Studio**.
-3. Pilih page yang ingin dikemaskini.
-4. Klik butang **+ Component** pada toolbar atas.
-5. Masukkan **Title**:
-**Contoh : Report Activity**
-6. Pada ruangan Type, pilih:
-**Report**
-7. Klik **Add**.
-
+:::
+---
 ### Layout / Mode
 
 ::: info Layout / Mode
-
 Bahagian Layout / Mode digunakan untuk mengawal cara report dipaparkan dalam page.
 
 | Tetapan                             | Kegunaan                                                       |

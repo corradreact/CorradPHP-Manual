@@ -8,8 +8,6 @@ Component ini sesuai digunakan untuk management dashboard, monitoring portal, an
 
 :::
 
-### Bila Perlu Guna Dashboard Grid
-
 ::: warning Nota 
 Gunakan Dashboard Grid apabila anda ingin:
 

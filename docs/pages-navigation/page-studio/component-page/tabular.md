@@ -3,16 +3,10 @@
 ::: info Tujuan
 **Tabular Component** digunakan untuk memaparkan data dalam bentuk jadual yang boleh diedit terus seperti spreadsheet. 
 engguna boleh menambah, mengubah dan memadam row terus dalam jadual tanpa perlu membuka page edit yang berasingan. 
-Component ini sesuai digunakan untuk:
-- Budget lines 
-- Configuration tables 
-- Bulk editing 
- Product listing 
- - Data entry secara pukal
+
+Component ini sesuai digunakan untuk budget lines, configuration tables, bulk editing , product listing dan data entry secara pukal.
 
 :::
-
-### Bila Perlu Guna Tabular 
 
 ::: warning Nota 
 Gunakan Tabular apabila anda ingin:
@@ -167,12 +161,12 @@ Selepas Tabular dikonfigurasikan:
 - Pastikan Type dipilih sebagai Tabular.
 - Pastikan table atau view yang dipilih adalah betul.
 - Gunakan Select Columns jika tidak mahu paparkan semua column.
-- Aktifkan Add Row hanya jika pengguna dibenarkan menambah data.
-- Aktifkan Delete Row hanya jika pengguna dibenarkan memadam data.
+- Aktifkan **Add Row** hanya jika pengguna dibenarkan menambah data.
+- Aktifkan **Delete Row** hanya jika pengguna dibenarkan memadam data.
 - Gunakan confirmation sebelum delete jika data penting.
 - Tetapkan Max Fetch supaya page tidak terlalu berat.
-- Klik Save selepas selesai konfigurasi.
-- Klik Preview untuk menguji inline edit.
+- Klik **Save** selepas selesai konfigurasi.
+- Klik **Preview** untuk menguji inline edit.
 :::
 ---
 

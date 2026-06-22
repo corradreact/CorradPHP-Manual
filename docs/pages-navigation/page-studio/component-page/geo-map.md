@@ -11,7 +11,6 @@ Component ini sesuai digunakan untuk:
 - Lokasi aset atau projek
 :::
 
-### Bila Perlu Guna Geographic Map
 ::: warning Nota
 Gunakan Geographic Map apabila anda ingin:
 - Memaparkan lokasi berdasarkan latitude dan longitude.

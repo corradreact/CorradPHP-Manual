@@ -3,20 +3,10 @@
 ::: info Tujuan
 **Profile / Detail Card Component** digunakan untuk memaparkan satu rekod database dalam bentuk kad profil yang tersusun dan hanya untuk paparan.
 
-- Component ini boleh memaparkan avatar, nama, jawatan, department, maklumat hubungan dan ruangan lain yang dibahagikan mengikut section.
-
-Component ini sesuai digunakan untuk:
-
-- Profil pekerja
-- Kad maklumat pelanggan
-- Contact page
-- Paparan detail rekod
-- Panel detail dalam Master-Detail layout
+Component ini boleh memaparkan avatar, nama, jawatan, department, maklumat hubungan dan ruangan lain yang dibahagikan mengikut section.
 
 :::
----
 
-### Bila Perlu Guna Profile View
 ::: warning Nota 
 Gunakan Profile View apabila anda ingin:
 

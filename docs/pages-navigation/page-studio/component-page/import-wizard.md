@@ -1,7 +1,7 @@
 # Data Import Wizard Component 
 ::: info Tujuan 
 
-**Data Import Wizard Component** digunakan untuk memuat naik data secara pukal daripada fail CSV atau Excel ke dalam table database. Pengguna akan melalui beberapa langkah seperti memilih fail, memadankan column fail dengan column database, menyemak data dan mengesahkan proses import. 
+**Import Wizard Component** digunakan untuk memuat naik data secara pukal daripada fail CSV atau Excel ke dalam table database. Pengguna akan melalui beberapa langkah seperti memilih fail, memadankan column fail dengan column database, menyemak data dan mengesahkan proses import. 
 
 Component ini sesuai digunakan untuk:
 - Bulk data upload 
@@ -11,9 +11,7 @@ Component ini sesuai digunakan untuk:
 - Import data pelanggan 
 - Import data produk atau inventori
 :::
----
 
-### Bila Perlu Guna Import Wizard
 ::: warning Nota 
 Gunakan Import Wizard apabila anda ingin:
 

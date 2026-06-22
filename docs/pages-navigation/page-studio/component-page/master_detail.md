@@ -6,6 +6,7 @@
 - Panel kiri memaparkan senarai rekod utama atau **master**.
 - Panel kanan memaparkan maklumat penuh atau **detail** bagi rekod yang dipilih. 
 Apabila pengguna memilih satu rekod pada panel master, sistem akan mengambil dan memaparkan detail berdasarkan ID rekod tersebut. 
+
 Component ini sesuai digunakan untuk hubungan data parent-child seperti:
  - Order → Order Details 
  - Invoice → Invoice Entries 

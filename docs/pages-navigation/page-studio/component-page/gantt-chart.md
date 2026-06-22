@@ -2,6 +2,7 @@
 
 ::: info Tujuan
 **Gantt / Project Timeline Component** digunakan untuk memaparkan tugasan projek dalam bentuk bar mendatar berdasarkan tarikh mula dan tarikh tamat. Setiap bar mewakili satu tugasan, manakala warna boleh digunakan untuk menunjukkan status atau kategori tugasan. 
+
 Component ini sesuai digunakan untuk:
 
 - Pelan projek 
@@ -11,8 +12,6 @@ Component ini sesuai digunakan untuk:
 - Pemantauan status tugasan 
 - Perancangan aktiviti projek
 :::
-
-### Bila Perlu Guna Card Gallery
 
 ::: warning Nota 
 Gunakan Card Gallery apabila anda ingin:
