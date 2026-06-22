@@ -164,7 +164,6 @@ Jika nama tugasan panjang, tingkatkan **Label Width**
 :::
 ---
 
-### Hasil Yang Dijangka
 ::: info Hasil Yang Dijangka
 
 - Tugasan projek dipaparkan dalam bentuk timeline.

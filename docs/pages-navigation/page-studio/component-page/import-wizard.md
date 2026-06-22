@@ -211,9 +211,6 @@ Preview membantu mengurangkan kesalahan sebelum import akhir dijalankan.
 :::
 ---
 
-
-### Hasil Yang Dijangka
-
 ::: info Hasil Yang Dijangka.
 Selepas Import Wizard dikonfigurasikan:
 

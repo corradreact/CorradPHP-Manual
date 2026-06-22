@@ -90,10 +90,6 @@ Contoh hasil:
 
 -- GAMBAR
 
-
-
-### Hasil Yang Dijangka
-
 ::: info Hasil Yang Dijangka
 
 Selepas Stat / KPI Cards dikonfigurasikan:

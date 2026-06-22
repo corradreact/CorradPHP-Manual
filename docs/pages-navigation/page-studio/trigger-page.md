@@ -173,7 +173,6 @@ User menukar nilai dropdown, kemudian sistem perlu refresh field atau component 
 | Active         | Ya               |
 :::
 
-### Hasil Yang Dijangka
 ::: info Hasil Yang Dijangka.
 Selepas trigger ditambah:
 

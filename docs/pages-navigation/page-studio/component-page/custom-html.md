@@ -77,8 +77,6 @@ Custom HTML boleh digunakan untuk memaparkan output seperti:
 :::
 ---
 
-### Hasil Yang Dijangka
-
 ::: info Hasil Yang Dijangka
 
 Selepas Custom HTML dikonfigurasikan:

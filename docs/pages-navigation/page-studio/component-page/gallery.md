@@ -192,8 +192,6 @@ Image Fit menentukan cara imej dipaparkan dalam card.
 :::
 ---
 
-### Hasil Yang Dijangka
-
 ::: info Hasil Yang Dijangka
 
 Selepas Card Gallery dikonfigurasikan:

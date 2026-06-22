@@ -177,7 +177,6 @@ Maksudnya, hanya 20 rekod timeline akan dipaparkan.
 :::
 ---
 
-### Hasil Yang Dijangka
 ::: info Hasil Yang Dijangka
 Selepas Timeline Component dikonfigurasikan:
 

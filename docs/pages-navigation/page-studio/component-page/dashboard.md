@@ -259,7 +259,6 @@ contoh currency:
 }
 ```
 
-### Hasil Yang Dijangka
 
 ::: info Hasil Yang Dijangka
 

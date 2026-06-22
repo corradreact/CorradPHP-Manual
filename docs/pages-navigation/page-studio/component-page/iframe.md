@@ -111,8 +111,6 @@ Maksudnya, dashboard luar akan dipaparkan delam page sistem.
 ---
 
 
-### Hasil Yang Dijangka
-
 ::: info Hasil Yang Dijangka
 Selepas iFrame Component dikonfigurasikan:
 

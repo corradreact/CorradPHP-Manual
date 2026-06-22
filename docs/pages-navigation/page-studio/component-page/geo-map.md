@@ -2,13 +2,7 @@
 ::: info Tujuan 
 **Geographic Map Component** digunakan untuk memaparkan lokasi pada peta interaktif berdasarkan column latitude dan longitude daripada database. Setiap lokasi boleh dipaparkan sebagai marker dan mempunyai popup yang menunjukkan maklumat seperti nama lokasi, negeri, jenis lokasi atau penerangan. 
 
-Component ini sesuai digunakan untuk:
-- Lokasi cawangan 
-- Lokasi pejabat 
-- Delivery route 
-- Site survey 
-- Regional data 
-- Lokasi aset atau projek
+Component ini sesuai digunakan untuk lokasi cawangan, lokasi pejabat, delivery route, site survey, regional data dan lokasi aset atau projek.
 :::
 
 ::: warning Nota
@@ -90,9 +84,8 @@ Maksudnya:
 :::
 ---
 
-### Popup Columns
-::: info Badge Color
-**Popup Columns** digunakan untuk memilih maklumat yang akan dipaparkan apabila pengguna klik marker.
+::: info **Popup Columns** 
+digunakan untuk memilih maklumat yang akan dipaparkan apabila pengguna klik marker.
 
 Contoh : `state,location_type,description`
 Popup boleh memaparkan:
@@ -105,10 +98,8 @@ Popup boleh memaparkan:
 :::
 ---
 
-### Color Column
-
-::: info Color Column
-**Color Column** digunakan untuk menentukan kategori marker.
+::: info **Color Column**
+digunakan untuk menentukan kategori marker.
 Contoh: `location_type`
 Jika column tersebut mempunyai nilai seperti:
 - HQ
@@ -178,7 +169,6 @@ Selepas component dikonfigurasikan:
 :::
 ---
 
-### Hasil Yang Dijangka
 ::: info Hasil Yang Dijangka
 
 - Lokasi berjaya dipaparkan berdasarkan latitude dan longitude.
