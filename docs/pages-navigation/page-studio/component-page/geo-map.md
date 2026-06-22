@@ -109,9 +109,7 @@ Jika column tersebut mempunyai nilai seperti:
 :::
 ---
 
-###  Color Map JSON
-
-::: info Color Map
+::: info Color Map JSON
 Color Map digunakan untuk menetapkan warna marker berdasarkan nilai dalam Color Column.
 
 ```json
@@ -145,7 +143,6 @@ Untuk paparan Malaysia, nilai yang sesuai ialah: `6`.
 :::
 ---
 
-### Map Heigh
 ::: info Map Height
 Map Height menentukan tinggi peta dalam pixel.
 | Nilai | Kegunaan                  |
