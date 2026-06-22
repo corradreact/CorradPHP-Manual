@@ -90,8 +90,8 @@ export default defineConfig({
                 { text: 'Import Wizard', link: '/pages-navigation/page-studio/component-page/import-wizard' },
                 { text: 'Dashboard', link: '/pages-navigation/page-studio/component-page/dashboard ' },
                 { text: 'Master / Detail ', link: '/pages-navigation/page-studio/component-page/master_detail' },
-                { text: 'Profile View', link: '/pages-navigation/page-studio/component-page/profile-view' },
-                { text: 'Tree Browser', link: '/pages-navigation/page-studio/component-page/tree-browser' },
+                { text: 'Profile View', link: '/pages-navigation/page-studio/component-page/profile_view' },
+                { text: 'Tree Browser', link: '/pages-navigation/page-studio/component-page/tree_browser' },
                 { text: 'IFrame', link: '/pages-navigation/page-studio/component-page/iframe' },
                 { text: 'Custom HTML', link: '/pages-navigation/page-studio/component-page/custom-html' }
               ]
