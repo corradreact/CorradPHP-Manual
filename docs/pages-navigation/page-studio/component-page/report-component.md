@@ -86,7 +86,8 @@ FROM staff s
 LEFT JOIN employment e ON e.STAFF_ID = s.STAFF_ID
 ORDER BY e.YEAR DESC;
 ```
-----
+:::
+
 ### Snippets
 
 ::: info Snippets
@@ -145,6 +146,8 @@ Bahagian **Listing** digunakan untuk mengawal cara data report dipaparkan.
 | Enable Search Box | Membolehkan user membuat carian dalam report. |     Ya    |
 | Rows per Page     | Bilangan row yang dipaparkan setiap page.     |    10     |
 | Max Fetch         | Had maksimum data yang diambil.               |   1000    |
+:::
+---
 
 ### Appearance
 ::: info **Appearance**
@@ -159,8 +162,10 @@ Bahagian **Listing** digunakan untuk mengawal cara data report dipaparkan.
 | Highlight Negative Numbers | Menandakan nombor negatif.                      |
 | Empty State                | Paparan apabila tiada data.                     |
 | Auto-refresh               | Refresh data secara automatik berdasarkan saat. |
+:::
+---
 
-### Contoh Konfigurasi Report.
+### Contoh Konfigurasi Report
 ::: tip Contoh Report Activity
 
 Contoh ini digunakan untuk membina report aktiviti.

@@ -86,7 +86,7 @@ Contoh:
 
 ::: tip Langkah Edit Columns
 
-1. Pergi ke bahagian** COLUMN DEFINITIONS**.
+1. Pergi ke bahagian **COLUMN DEFINITIONS**.
 2. Klik **Edit Columns**.
 3. Paparan Column Definitions akan dipaparkan.
 4. Tambah atau kemaskini column yang diperlukan.

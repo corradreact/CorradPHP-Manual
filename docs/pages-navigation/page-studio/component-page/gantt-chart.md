@@ -3,14 +3,7 @@
 ::: info Tujuan
 **Gantt / Project Timeline Component** digunakan untuk memaparkan tugasan projek dalam bentuk bar mendatar berdasarkan tarikh mula dan tarikh tamat. Setiap bar mewakili satu tugasan, manakala warna boleh digunakan untuk menunjukkan status atau kategori tugasan. 
 
-Component ini sesuai digunakan untuk:
-
-- Pelan projek 
-- Jadual sprint 
-- Timeline pembangunan sistem 
-- Jadual sumber 
-- Pemantauan status tugasan 
-- Perancangan aktiviti projek
+Component ini sesuai digunakan untuk: Pelan projek, jadual sprint, timeline pembangunan sistem, jadual sumber, pemantauan status tugasan dan perancangan aktiviti projek
 :::
 
 ::: warning Nota 
@@ -21,6 +14,8 @@ Gunakan Card Gallery apabila anda ingin:
 - Menunjukkan tugasan yang sedang berjalan.
 - Membezakan status tugasan menggunakan warna.
 - Membina jadual projek atau sprint.
+:::
+
 Contoh:
 ```
 Requirements Analysis  ─────
@@ -30,7 +25,6 @@ Testing                                      ─────
 Deployment                                         ───
 ```
 
-:::
 ----
 
 ### SQL Query
@@ -56,6 +50,8 @@ SELECT
 FROM corrad_showcase.showcase_tasks
 ORDER BY start_date;
 ```
+---
+
 Contoh:
 | Column         | Kegunaan                                      |
 | -------------- | --------------------------------------------- |
@@ -72,7 +68,7 @@ Contoh:
 ::: info Gantt Configuration
 Bahagian **Gantt Configuration** digunakan untuk menentukan column dan cara chart dipaparkan.
 
-|| Ruangan           | Penerangan                                      |
+| Ruangan           | Penerangan                                      |
 | ----------------- | ----------------------------------------------- |
 | Task Column       | Column yang mengandungi nama tugasan.           |
 | Start Date Column | Column tarikh mula tugasan.                     |
@@ -128,6 +124,7 @@ Tetapkan **Configuration** seperti berikut:
 ::: info Category Colors
 **Category Colors** digunakan untuk menetapkan warna bar berdasarkan nilai status atau kategori.
 
+```text
 Contoh:
 {
   "On Hold": "#e74a3b",
@@ -135,6 +132,7 @@ Contoh:
   "Completed": "#1cc88a",
   "In Progress": "#4e73df"
 }
+````
 
 Maksudnya:
 | Status      | Warna  |

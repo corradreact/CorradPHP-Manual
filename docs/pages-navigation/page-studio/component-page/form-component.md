@@ -83,6 +83,7 @@ Butang Auto-Generate Fields from Table digunakan untuk menjana field dalam form 
 Contohnya, jika table mempunyai kolum berikut:
 
 Kolum Database: 
+``` text
 STAFFID
 STAFF_NO
 FULL_NAME
@@ -93,6 +94,7 @@ DEPTID
 POSITION
 JOIN_DATE
 STATUS
+```
 Sistem boleh menjana field form berdasarkan kolum tersebut secara automatik.
 
 :::
@@ -197,7 +199,7 @@ Control yang biasa digunakan untuk form ialah:
 ---
 ### Processing
 
-::: info 
+::: info Processing
 Bahagian Processing digunakan untuk menetapkan proses tambahan sebelum atau selepas form dijalankan.
 
 | Ruangan           | Penerangan                                             |
@@ -211,7 +213,7 @@ Bahagian Processing digunakan untuk menetapkan proses tambahan sebelum atau sele
 
 ### Display
 
-::: info 
+::: info Display
 
 Bahagian Display digunakan untuk mengawal paparan form dalam page.
 
@@ -230,11 +232,11 @@ Bahagian Display digunakan untuk mengawal paparan form dalam page.
 2. Gunakan Form (2 Columns) untuk form yang mempunyai banyak field.
 3. Pastikan Connection, Database dan Source betul sebelum klik Auto-Generate.
 4. Semak field yang dijana kerana tidak semua field perlu dipaparkan kepada user.
-Pastikan field penting ditetapkan sebagai Required.
-5. Gunakan Read Only untuk field yang perlu dipaparkan tetapi tidak boleh diubah.
-6. Tambah control seperti Save Button supaya user boleh menyimpan data.
-7. Tetapkan Success Message supaya user tahu proses telah berjaya.
-8. Klik Save selepas selesai konfigurasi.
-9. Klik Preview untuk menguji form.
+5. Pastikan field penting ditetapkan sebagai Required.
+6. Gunakan Read Only untuk field yang perlu dipaparkan tetapi tidak boleh diubah.
+7. Tambah control seperti Save Button supaya user boleh menyimpan data.
+8. Tetapkan Success Message supaya user tahu proses telah berjaya.
+9. Klik Save selepas selesai konfigurasi.
+10. Klik Preview untuk menguji form.
 
 :::

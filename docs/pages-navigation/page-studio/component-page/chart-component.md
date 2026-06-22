@@ -35,7 +35,7 @@ Contoh penggunaan:
 | Name    | Nama teknikal component dalam sistem.                 |
 | Type    | Jenis component. Untuk carta, pilih **Chart**.        |
 | Status  | Menentukan sama ada component aktif atau tidak aktif. |
-:::
+
 
 ### Tetapan Layout / Mode
 ::: info Layout / Mode

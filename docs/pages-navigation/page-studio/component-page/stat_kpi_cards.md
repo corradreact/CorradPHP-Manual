@@ -37,9 +37,9 @@ Bahagian ini digunakan untuk menetapkan bilangan card dan kandungan KPI.
 
 ::: tip Langkah Edit KPI Cards
 
-1. Pada panel kanan, pergi ke bahagian STATS / KPI CARDS.
-2. Klik butang Edit Cards.
-3. Paparan Edit KPI Cards akan dipaparkan.
+1. Pada panel kanan, pergi ke bahagian **STATS / KPI CARDS**.
+2. Klik butang **Edit Cards**.
+3. Paparan **Edit KPI** Cards akan dipaparkan.
 4. Tambah atau kemaskini card yang diperlukan.
 5. Lengkapkan ruangan seperti:
 - SQL Query
