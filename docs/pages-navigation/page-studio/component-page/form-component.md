@@ -24,7 +24,6 @@ Terdapat dua jenis form component yang biasa digunakan:
 :::
 ---
 
-### Layout / Mode
 ::: info Layout / Mode
 
 Bahagian Layout / Mode digunakan untuk mengawal cara form dipaparkan dalam page.
@@ -75,7 +74,6 @@ Pada panel kanan, pergi ke bahagian DATA BINDING.
 
 :::
 
-### Auto-Generate Fields from Table
 ::: info Fungsi Auto-Generate Fields
 
 Butang Auto-Generate Fields from Table digunakan untuk menjana field dalam form berdasarkan kolum yang terdapat dalam table database.
@@ -125,8 +123,6 @@ Bahagian ini biasanya digunakan untuk menetapkan sama ada form digunakan untuk i
 
 :::
 
-### Form Mode
-
 ::: info Form Mode
 
 **Form Mode** menentukan tujuan form tersebut digunakan.
@@ -139,8 +135,6 @@ Bahagian ini biasanya digunakan untuk menetapkan sama ada form digunakan untuk i
 :::
 
 ---
-
-### Success Action
 
 ::: info Success Action
 
@@ -159,8 +153,6 @@ Contoh pilihan yang biasa digunakan:
 
 ---
 
-### Success Message
-
 ::: info Success Message
 
 Success Message ialah mesej yang dipaparkan kepada user selepas form berjaya diproses.
@@ -168,8 +160,6 @@ Success Message ialah mesej yang dipaparkan kepada user selepas form berjaya dip
 **Contoh: CONFIRM_MESSAGE - Saya pasti**
 
 ---
-
-### Add Form Controls
 
 ::: info Add Form Controls
 
@@ -197,7 +187,6 @@ Control yang biasa digunakan untuk form ialah:
 :::
 
 ---
-### Processing
 
 ::: info Processing
 Bahagian Processing digunakan untuk menetapkan proses tambahan sebelum atau selepas form dijalankan.
@@ -211,8 +200,6 @@ Bahagian Processing digunakan untuk menetapkan proses tambahan sebelum atau sele
 :::
 ---
 
-### Display
-
 ::: info Display
 
 Bahagian Display digunakan untuk mengawal paparan form dalam page.
@@ -223,7 +210,6 @@ Bahagian Display digunakan untuk mengawal paparan form dalam page.
 | Collapsible | Menentukan sama ada form boleh dibuka dan ditutup.   |
 | Label Width | Menentukan lebar label untuk semua field dalam form. |
 | Text Size   | Menentukan saiz teks untuk semua field dalam form.   |
-
 
 :::
 

@@ -17,8 +17,6 @@ Gunakan component ini apabila anda ingin:
 
 :::
 
-### Stats / KPI Cards Setting
-
 ::: info Stats / KPI Cards
 Bahagian ini digunakan untuk menetapkan bilangan card dan kandungan KPI.
 

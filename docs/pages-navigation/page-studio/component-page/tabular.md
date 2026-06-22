@@ -20,7 +20,6 @@ Gunakan Tabular apabila anda ingin:
 :::
 --- 
 
-### Data Source
 ::: info Data Source
 Bahagian Data Source digunakan untuk memilih database, table atau view yang akan digunakan oleh Tabular.
 
@@ -42,7 +41,6 @@ Contoh:
 :::
 --- 
 
-### Processing
 ::: info Processing
 Bahagian Processing menentukan proses yang dijalankan sebelum atau selepas data diproses.
 | Ruangan           | Penerangan                                     |
@@ -54,7 +52,6 @@ Untuk penggunaan biasa, Post-Process boleh dibiarkan sebagai None jika tiada pro
 :::
 ---
 
-### Listing
 ::: info Bahagian Listing digunakan untuk mengawal cara data dipaparkan.
 | Ruangan           | Penerangan                           |
 | ----------------- | ------------------------------------ |

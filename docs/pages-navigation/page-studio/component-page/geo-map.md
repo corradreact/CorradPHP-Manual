@@ -15,7 +15,6 @@ Gunakan Geographic Map apabila anda ingin:
 :::
 ----
 
-### SQL Query
 ::: info SQL Query
 - Pastikan query menghasilkan column latitude dan longitude.
 - Latitude dan longitude mestilah dalam format nombor.
@@ -25,8 +24,6 @@ Gunakan Geographic Map apabila anda ingin:
 
 :::
 ---
-
-### Geographic Map Configuration
 
 ::: info Geographic Map Configuration
 Bahagian **Geographic Map Configuration** digunakan untuk menentukan column dan cara peta dipaparkan.

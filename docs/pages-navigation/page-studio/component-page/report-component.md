@@ -19,7 +19,6 @@ Gunakan Report Component apabila anda ingin:
 
 :::
 ---
-### Layout / Mode
 
 ::: info Layout / Mode
 Bahagian Layout / Mode digunakan untuk mengawal cara report dipaparkan dalam page.
@@ -36,7 +35,6 @@ Bahagian Layout / Mode digunakan untuk mengawal cara report dipaparkan dalam pag
 
 :::
 ---
-### Data Source
 
 ::: info **Data Source**
 Bahagian **Data Source** digunakan untuk menentukan sumber data report. Pengguna boleh memilih connection, database dan table/view yang ingin digunakan.
@@ -50,6 +48,7 @@ Report boleh dibina menggunakan beberapa jenis connection yang disediakan dalam 
 | MSSQL           | Connection kepada Microsoft SQL Server.     |
 | ORACLE          | Connection kepada Oracle Database.          |
 | POSTGRESQL      | Connection kepada PostgreSQL Database.      |
+:::
 
 ### Cara Pilih Data Source 
 ::: tip Langkah Data Source
@@ -70,7 +69,6 @@ Contoh: rdsadmin
 
 :::
 ---
-### SQL Query
 
 ::: info SQL Query
 
@@ -87,8 +85,7 @@ LEFT JOIN employment e ON e.STAFF_ID = s.STAFF_ID
 ORDER BY e.YEAR DESC;
 ```
 :::
-
-### Snippets
+---
 
 ::: info Snippets
 
@@ -105,7 +102,7 @@ Bahagian Snippets membantu pengguna memasukkan template SQL dengan lebih cepat.
 | Filter Hint  | Menambah panduan filter.                               |
 :::
 ---
-### Auto-detect Columns from Query
+
 ::: info Auto-detect Columns
 
 Butang **Auto-detect Columns from Query** digunakan untuk mengesan column daripada SQL Query secara automatik.
@@ -121,9 +118,7 @@ Langkah ringkas:
 5. Klik **Save**.
 
 :::
-
 ---
-### Processing
 ::: info Processing
 
 Bahagian **Processing** digunakan jika report perlu menjalankan proses tambahan sebelum atau selepas report dipaparkan.
@@ -134,9 +129,7 @@ Bahagian **Processing** digunakan jika report perlu menjalankan proses tambahan 
 | Post-Process      | Proses yang dijalankan selepas report diproses.  |
 | Post Notification | Mesej atau notifikasi selepas proses dijalankan. |
 :::
-
-
-### Listing 
+---
 ::: info Listing
 
 Bahagian **Listing** digunakan untuk mengawal cara data report dipaparkan.
@@ -149,9 +142,7 @@ Bahagian **Listing** digunakan untuk mengawal cara data report dipaparkan.
 :::
 ---
 
-### Appearance
 ::: info **Appearance**
-
 | Tetapan                    | Kegunaan                                        |
 | -------------------------- | ----------------------------------------------- |
 | Striped Rows               | Memaparkan row berselang warna.                 |

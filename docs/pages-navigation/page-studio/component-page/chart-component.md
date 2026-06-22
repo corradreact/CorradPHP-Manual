@@ -37,8 +37,7 @@ Contoh penggunaan:
 | Status  | Menentukan sama ada component aktif atau tidak aktif. |
 
 
-### Tetapan Layout / Mode
-::: info Layout / Mode
+::: info Tetapan Layout / Mode
 Bahagian Layout / Mode digunakan untuk mengawal cara chart dipaparkan dalam page.
 
 | Tetapan                             | Kegunaan                                                        |
@@ -52,8 +51,7 @@ Bahagian Layout / Mode digunakan untuk mengawal cara chart dipaparkan dalam page
 | Print Only                          | Chart hanya dipaparkan semasa print.                            |
 
 :::
-
-### SQL Query
+---
 ::: info SQL Query
 
 Bahagian SQL Query digunakan untuk mengambil data yang akan dipaparkan dalam chart.
@@ -77,7 +75,6 @@ ORDER BY Month;
 - Nama column dalam query perlu sama dengan tetapan Label Column dan Value Columns.
 :::
 
-### Chart Configuration
 ::: info Chart Configuration
 
 | Ruangan          | Penerangan                                      |

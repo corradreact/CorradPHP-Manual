@@ -8,8 +8,6 @@ Datatable juga boleh mempunyai **Action Column** untuk tindakan seperti **View**
 
 :::
 
-### Datatable Config
-
 ::: info Datatable Config
 
 Bahagian ini digunakan untuk tetapan sumber data dan fungsi table.
@@ -40,8 +38,6 @@ Contoh:
 :::
 ---
 
-### Fungsi Tambahan Datatable
-
 ::: info Fungsi Tambahan
 
 Datatable juga menyediakan beberapa pilihan tambahan.
@@ -56,7 +52,6 @@ Datatable juga menyediakan beberapa pilihan tambahan.
 | Per-Column Filter Row    | Tambah filter pada setiap column.                   |
 :::
 ---
-### Column Definitions
 
 ::: info Column Definitions
 
@@ -97,11 +92,8 @@ Contoh:
 :::
 --- 
 
-### Action Column
-
 ::: info Action Column
-
-Action Column digunakan untuk meletakkan tindakan seperti View, Edit dan Delete pada setiap row datatable.
+digunakan untuk meletakkan tindakan seperti View, Edit dan Delete pada setiap row datatable.
 
 Contoh action:
 | Action | Kegunaan              |
@@ -110,7 +102,6 @@ Contoh action:
 | Edit   | Mengemaskini rekod.   |
 | Delete | Memadam rekod.        |
 :::
-
 ---
 
 ### Cara Menambah Action Column

@@ -27,7 +27,6 @@ Deployment                                         ───
 
 ----
 
-### SQL Query
 ::: info SQL Query
 
 Bahagian **SQL Query** digunakan untuk mengambil tugasan yang akan dipaparkan dalam Gantt Chart.
@@ -63,8 +62,6 @@ Contoh:
 :::
 ----
 
-### Gantt Chart Configuration
-
 ::: info Gantt Configuration
 Bahagian **Gantt Configuration** digunakan untuk menentukan column dan cara chart dipaparkan.
 
@@ -85,9 +82,6 @@ Bahagian **Gantt Configuration** digunakan untuk menentukan column dan cara char
 
 :::
 ---
-
-
-### Contoh Configuration
 
 ::: tip Contoh Project Gantt Chart
 Berdasarkan SQL Query berikut:
@@ -120,7 +114,6 @@ Tetapkan **Configuration** seperti berikut:
 :::
 ---
 
-### Category Colors JSON
 ::: info Category Colors
 **Category Colors** digunakan untuk menetapkan warna bar berdasarkan nilai status atau kategori.
 
@@ -146,7 +139,6 @@ Pastikan nilai dalam JSON sama dengan nilai yang dipulangkan oleh column status.
 :::
 ---
 
-### Saiz Chart
 ::: info Saiz Paparan
 | Tetapan      | Kegunaan                                       |
 | ------------ | ---------------------------------------------- |
