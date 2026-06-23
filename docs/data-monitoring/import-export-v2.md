@@ -1,11 +1,10 @@
 # System Import dan Export v2 - Panduan & Penggunaan
 
-## Gambaran Keseluruhan
-
+###  Gambaran Keseluruhan
+::: info Tujuan
 **Apakah Import Export v2?**
-
 Alat bersepadu untuk memindahkan konfigurasi sistem CORRAD antara persekitaran (contohnya Pembangunan → Peringkat Uji → Pengeluaran). Menyokong pengeksport/import Modul, Logik Perniagaan, dan struktur pangkalan data.
-
+:::
 ---
 
 ## 5 Tab Utama
@@ -24,19 +23,22 @@ Muat naik fail `.zip` yang mengandungi data `-Folder` atau `-Fompa` untuk memuli
 ---
 
 ### 2. Export mengikut Modul
+::: info Tujuan Export Mengikut Modul
 Eksport konfigurasi sistem mengikut menu navigasi yang dipilih. Setiap menu utama menunjukkan senarai sub-modul yang boleh dipilih secara individu.
+
 
 **Pilihan:**
 - **Sertakan Data Kumpulan** - Tanda untuk mengeksport data Kumpulan Pengguna bersama modul.
 - **Sertakan Kebenaran Pengguna** - Tanda untuk menyertakan tetapan kebenaran akses pengguna dalam fail eksport.
 - **Pemilihan Kekal** - Pilihan akan diingati sepanjang sesi ini.
 - **Fail Output** - Fail `.zip` dimuat turun secara automatik. Nama fail termasuk nama modul dan cap masa.
-
+:::
 **Mod:** Sentiasa menggunakan **mod tambah** (`-Fompa`) — import hanya akan menambah atau mengemas kini BL yang dipilih tanpa menjejaskan BL lain dalam sistem sasaran.
 
 ---
 
 ### 3. Export mengikut BL
+::: info Export Mengikut BL
 Eksport hanya Logik Perniagaan (BL) yang dipilih tanpa mengeksport keseluruhan modul. Sesuai untuk menghantar kemas kini BL tertentu ke sistem lain.
 
 **Langkah:**
@@ -46,18 +48,21 @@ Eksport hanya Logik Perniagaan (BL) yang dipilih tanpa mengeksport keseluruhan m
 
 **✓ Mod Tambah untuk BL:** Eksport BL sentiasa menggunakan **mod tambah** (`-Fompa`) — import hanya akan menambah atau mengemas kini BL yang dipilih tanpa menjejaskan BL lain dalam sistem sasaran.
 
+:::
 ---
 
 ### 4. Rollback
+::: info Rollback
 Tab Rollback menunjukkan senarai **snapshot** yang disimpan secara automatik sebelum setiap import. Pilih snapshot dan sahkan untuk memulihkan sistem ke keadaan tersebut.
 
 **⚠️ Tidak Boleh Dikembalikan:** Rollback tidak boleh dibatalkan. Ia akan menggantikan konfigurasi semasa dengan snapshot yang dipilih. Sentiasa sandarkan pangkalan data anda sebelum melakukan rollback.
 
 **Status:** Menunjukkan "Tiada snapshot rollback tersedia" jika tiada snapshot wujud.
-
+:::
 ---
 
 ### 5. DB Sync
+::: info DB Sync
 DB Sync digunakan untuk menyelaras **struktur jadual** (penambahan/pengubahsuaian lajur) antara dua sistem CORRAD. Ia **tidak** memindahkan data, hanya definisi struktur.
 
 **Langkah:**
@@ -73,15 +78,17 @@ DB Sync digunakan untuk menyelaras **struktur jadual** (penambahan/pengubahsuaia
 **⚠️ Had DB Sync:** DB Sync hanya menyokong menambah lajur baru dan mengubah suai lajur sedia ada. Ia tidak memadam lajur atau jadual, dan tidak memindahkan sebarang data baris.
 
 **✓ Pratonton Sebelum Sync:** Sentiasa gunakan butang "Preview Differences" untuk menyemak perubahan sebelum menjalankan "Start Sync".
-
+:::
 ---
 
-## Cara Import
-
-1. **Sandarkan pangkalan data anda terlebih dahulu.**
-2. Seret dan lepaskan fail `.zip` (mengandungi `-Folder` atau `-Fompa`) ke zon drag-and-drop, atau klik untuk semak imbas.
-3. Tanda kotak **"Saya telah membuat sandaran pangkalan data sebelum mengimport"** untuk mengaktifkan butang Import.
+## Cara Import Module
+::: tip Langkah - Langkah Import Module
+1. **I have backed up my database before importing**
+2. Masukkan fail `.zip` (mengandungi `-Folder` atau `-Fompa`) ke zon drag-and-drop, atau klik untuk semak imbas.
+3. Tanda kotak **"I have backed up my database before importing"** untuk mengaktifkan butang Import.
 4. Klik **Import Module**.
+:::
+---
 
 **Perbezaan Mod Import:**
 
@@ -117,8 +124,7 @@ DB Sync digunakan untuk menyelaras **struktur jadual** (penambahan/pengubahsuaia
 
 ---
 
-## Amalan Terbaik
-
+::: warning Nota
 ✓ **Sentiasa sandarkan pangkalan data anda** sebelum sebarang import, rollback, atau operasi DB Sync.
 
 ✓ **Gunakan Preview Differences** dalam DB Sync untuk menyemak perubahan sebelum sync.
@@ -132,3 +138,4 @@ DB Sync digunakan untuk menyelaras **struktur jadual** (penambahan/pengubahsuaia
 ⚠️ **Elakkan rollback pada pengeluaran** tanpa perancangan teliti — ia tidak boleh dikembalikan.
 
 ⚠️ **DB Sync tidak memindahkan data** — hanya definisi struktur jadual.
+:::

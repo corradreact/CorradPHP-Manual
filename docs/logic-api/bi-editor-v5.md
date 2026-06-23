@@ -1,41 +1,80 @@
-# BI Editor
+# BL Editor
 
 ::: info Tujuan
 BL Editor membantu pengguna menulis dan mengurus Business Logic (BL) dalam CORRAD. Panduan ini menerangkan peranan BL, pilihan pakej, jenis BL, dan cara menggunakan editor dengan cepat.
 :::
 
-## Overview
+### Overview
+::: info **PHP**
+Dijalankan di server-side setiap kali request dipanggil.
+Mempunyai akses penuh kepada fungsi CORRAD, sambungan database, dan data session.
+:::
+---
 
-BI Editor adalah tempat untuk menulis Business Logic (BL) dalam CORRAD. Anda boleh pilih jenis BL seperti **PHP**, **JS**, atau **API**. Setiap fungsi disimpan dalam pakej.
+::: info **JS(JavaScript)**
+Dijalankan di browser (client-side) selepas page dimuatkan.
+Mempunyai akses kepada jQuery, komponen page, dan API JavaScript CORRAD.
+:::
+---
 
-## Cara Mulakan
+::: info **API**
+BL berasaskan PHP yang didedahkan sebagai endpoint REST API.
+Menggunakan konteks server-side yang sama seperti PHP BL, tetapi dipanggil melalui HTTP request.
+:::
+---
 
-- Klik **New BL** untuk buat fungsi baru.
-- Tulis nama fungsi di medan **BL Name**.
-- Pilih pakej dari menu **Package**.
-- Pilih jenis kod: **PHP**, **JS**, atau **API**.
-- Pilih status **Active** jika anda mahu fungsi terus boleh digunakan.
+::: info **Konteks Pelaksanaan PHP BL**
+- Kod PHP BL akan dibungkus sebagai fungsi semasa page dimuatkan
+- Dijalankan menggunakan eval()
+- Semua fungsi global CORRAD boleh digunakan
 
-## Gunakan Pakej
+Fungsi tersedia:
+- executeQueryV2()
+- executeQueryOnConn()
+- blGetDbConn()
+:::
+---
 
-- Pakej ialah kumpulan fungsi berkaitan.
-- Pilih pakej sedia ada dari senarai.
-- Atau buat pakej baru jika perlu.
+::: tip Langkah - Langkah Penggunaan
+1. Klik **New BL** untuk buat fungsi baru
+2. Masukkan nama di **BL Name**
+3. Pilih Package (kumpulan fungsi)
+4. Pilih jenis BL:
+- PHP
+- JS
+- API
+5. Set status ke **Active** jika ingin digunakan
+6. Klik **Save**
+:::
+---
 
-## Menulis Kod
+::: info Penggunaan Package
+- Package ialah kumpulan fungsi berkaitan
+- Digunakan untuk strukturkan Business Logic
+- Boleh guna package sedia ada atau cipta bar
+:::
+---
 
+### Menulis Kod
 - Paparan tengah menunjukkan kod anda.
 - Hanya tulis fungsi yang ringkas dan jelas.
 - Gunakan menu **View** untuk hidupkan `Word wrap`, `Minimap`, atau akses `Keyboard shortcuts`.
 
-## Simpan dan Sejarah
+### AI Assistant (BL Editor)
+AI Assistant membantu pengguna menulis dan memahami Business Logic (PHP) secara automatik dalam CORRAD.
+::: warning Funsi AI Assistant
+- Jana kod PHP BL secara automatik
+- Bantu tulis SQL query
+- Explain dan debug code
+- Betulkan error / improve code
+:::
 
+### Simpan dan Sejarah
 - Klik **Save** untuk menyimpan perubahan.
 - Jika ada sejarah, gunakan **Save with history** untuk rekod perubahan.
 - Untuk buang fungsi, pilih **Delete this BL**.
 
-## Tips Mudah
-
+### Tips Mudah
 - Gunakan nama fungsi yang mudah ingat.
 - Pilih pakej yang betul supaya fungsi lebih teratur.
 - Sentiasa simpan selepas buat perubahan.
@@ -43,4 +82,27 @@ BI Editor adalah tempat untuk menulis Business Logic (BL) dalam CORRAD. Anda bol
 ::: warning Nota
 - Pastikan kod yang ditulis adalah betul sebelum simpan.
 - Elakkan memadam fungsi tanpa semakan.
+:::
+---
+
+::: danger Isu Biasa
+#### BL tidak jalan selepas Save
+Kemungkinan punca:
+
+- Status tidak set ke Active
+- Error dalam PHP code
+- Function name duplicate
+
+#### Database query error
+Kemungkinan punca:
+- Salah table / column name
+- Connection tidak dipilih
+- Parameter tidak dihantar
+
+#### Save gagal
+Kemungkinan punca:
+- Syntax error dalam code
+- Package tidak dipilih
+- Server validation fail.
+
 :::

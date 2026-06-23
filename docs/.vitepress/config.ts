@@ -128,6 +128,7 @@ export default defineConfig({
         items: [
           { text: 'BL Editor v5', link: '/logic-api/bi-editor-v5' },
           { text: 'API Workspace', link: '/logic-api/api-workspace' }
+           { text: 'AI settings', link: '/logic-api/ai-settings' }
         ]
       },
       {
