@@ -70,8 +70,7 @@ Contoh: rdsadmin
 :::
 ---
 
-::: info SQL Query
-
+::: info **SQL Query**
 Bahagian SQL Query digunakan untuk menulis atau mengubah query report.
 
 Contoh query:
@@ -87,8 +86,7 @@ ORDER BY e.YEAR DESC;
 :::
 ---
 
-::: info Snippets
-
+::: info **Snippets**
 Bahagian Snippets membantu pengguna memasukkan template SQL dengan lebih cepat.
 | Snippet      | Kegunaan                                               |
 | ------------ | ------------------------------------------------------ |
@@ -103,8 +101,7 @@ Bahagian Snippets membantu pengguna memasukkan template SQL dengan lebih cepat.
 :::
 ---
 
-::: info Auto-detect Columns
-
+::: info **Auto-detect Columns**
 Butang **Auto-detect Columns from Query** digunakan untuk mengesan column daripada SQL Query secara automatik.
 
 Gunakan fungsi ini selepas SQL Query siap ditulis.
@@ -119,8 +116,7 @@ Langkah ringkas:
 
 :::
 ---
-::: info Processing
-
+::: info **Processing**
 Bahagian **Processing** digunakan jika report perlu menjalankan proses tambahan sebelum atau selepas report dipaparkan.
 
 | Ruangan           | Penerangan                                       |
@@ -130,8 +126,7 @@ Bahagian **Processing** digunakan jika report perlu menjalankan proses tambahan 
 | Post Notification | Mesej atau notifikasi selepas proses dijalankan. |
 :::
 ---
-::: info Listing
-
+::: info **Listing**
 Bahagian **Listing** digunakan untuk mengawal cara data report dipaparkan.
 
 | Ruangan           | Penerangan                                    |    Nilai  |

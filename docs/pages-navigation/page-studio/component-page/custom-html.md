@@ -31,8 +31,7 @@ Contoh penggunaan:
 
 ----
 
-### Custom Path
-::: info Custom Path
+::: info **Custom Path**
 
 Bahagian Custom Path digunakan untuk menetapkan path atau file yang akan dipaparkan dalam Custom HTML Component.
 | Ruangan    | Penerangan                                                    |
@@ -61,8 +60,7 @@ Contoh kegunaan PHP BL:
 :::
 ----
 
-### Contoh Output Yang Sesuai
-::: info Contoh Output
+::: info Contoh Output Yang Sesuai
 
 Custom HTML boleh digunakan untuk memaparkan output seperti:
 
@@ -106,7 +104,7 @@ Selepas Custom HTML dikonfigurasikan:
 
 ::: danger Isu Biasa
 
-### Kandungan Custom HTML tidak keluar
+#### Kandungan Custom HTML tidak keluar
 Kemungkinan punca:
 
 - Path / URL salah.
@@ -124,7 +122,7 @@ Kemungkinan punca:
 - Session data tidak wujud.
 - Business Logic mempunyai error.
 
-### Page jadi rosak selepas Custom HTML dimasukkan
+#### Page jadi rosak selepas Custom HTML dimasukkan
 Kemungkinan punca:
 
 - HTML tidak lengkap atau tag tidak ditutup.

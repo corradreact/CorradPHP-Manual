@@ -16,6 +16,7 @@ Gunakan Tree Browser apabila anda ingin:
 - Memaparkan folder dan subfolder.
 - Membina navigation berdasarkan hierarchy.
 - Membolehkan pengguna expand atau collapse data.
+:::
 
 Contoh Struktur:
 
@@ -28,13 +29,9 @@ Electronics
 ├── Audio
 └── Accessories
 ```
-:::
 ---
 
-
-### SQL Query 
-::: info SQL Query
-
+::: info **SQL Query**
 Bahagian SQL Query digunakan untuk mengambil semua rekod hierarchy daripada database.
 
 Query perlu mempunyai sekurang-kurangnya:
@@ -66,9 +63,7 @@ Dalam contoh ini:
 :::
 --- 
 
-### Hubungan Parent-Child
-::: info Konsep Parent-Child
-
+::: info **Konsep Parent-Child**
 Tree Browser membina hierarchy menggunakan dua column utama:
 
 | Column        | Fungsi                                   |
@@ -85,21 +80,21 @@ Contoh data:
 | 4  | 2         | Desktops      |
 | 5  | 1         | Audio         |
 
+```text
 Hasil hierarchy:
 Electronics
 ├── Computers
 │   ├── Laptops
 │   └── Desktops
 └── Audio
+```
 
 Rekod yang tiada parent biasanya menggunakan `NULL`, `0` atau nilai kosong, bergantung kepada struktur database
 :::
 ---
 
 
-### Tree Browser Configuration
-::: info Tree Browser Configuration
-
+::: info **Tree Browser Configuration**
 Bahagian Tree Browser Configuration digunakan untuk menentukan column yang akan digunakan dalam struktur tree.
 | Ruangan               | Penerangan                                                |
 | --------------------- | --------------------------------------------------------- |
@@ -117,7 +112,6 @@ Bahagian Tree Browser Configuration digunakan untuk menentukan column yang akan 
 ---
 
 ### Contoh Configuration
-
 ::: tip Contoh Product Category Hierarchy
 Berdasarkan query berikut:
 
@@ -166,9 +160,7 @@ Maksudnya:
 :::
 ---
 
-### Icon CSS
-
-::: info Icon CSS
+::: info **Icon CSS**
 Tree Browser boleh memaparkan icon menggunakan Font Awesome CSS class.
 
 Contoh:
@@ -189,9 +181,7 @@ Jika Icon CSS Column dibiarkan kosong, sistem akan menggunakan:
 :::
 ---
 
-### Link Column
-::: info Link Column
-
+::: info **Link Column**
 Link Column digunakan jika item dalam tree perlu boleh diklik dan membawa pengguna ke page lain.
 Contoh query:
 
@@ -213,9 +203,7 @@ Apabila pengguna klik item, sistem akan membuka page berdasarkan link tersebut.
 :::
 ---
 
-### Badge Column
-::: info Badge Column
-
+::: info **Badge Column**
 Badge Column digunakan untuk memaparkan maklumat ringkas pada sebelah kanan item tree.
 
 Contoh: 
@@ -237,9 +225,7 @@ Contoh Badge Color Column: `secondary`
 :::
 ---
 
-### Expand All by Default
-::: info Expand All by Default
-
+::: info **Expand All by Default**
 Tetapan ini menentukan sama ada semua node tree dibuka secara automatik apabila page dimuatkan.
 
 | Tetapan       | Kegunaan                                 |
@@ -254,9 +240,7 @@ Gunakan tetapan ini berdasarkan jumlah data:
 :::
 ---
 
-### Contoh Paparan Profile
-::: info Contoh Hasil
-
+::: info **Contoh Paparan Profile**
 Selepas component dikonfigurasikan, Profile View boleh memaparkan:
 - Avatar pengguna
 - Nama penuh

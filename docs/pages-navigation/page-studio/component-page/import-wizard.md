@@ -33,8 +33,7 @@ Data disimpan ke database
 :::
 ----
 
-### Data Binding
-::: info Data Binding
+::: info **Data Binding**
 
 Bahagian **Data Binding** digunakan untuk menentukan database dan table yang berkaitan dengan proses import.
 
@@ -55,8 +54,7 @@ Contoh:
 :::
 ----
 
-### Import Wizard Configuration
-::: info Import Wizard Configuration
+::: info **Import Wizard Configuration**
 Bahagian Import Wizard Configuration digunakan untuk menetapkan table sasaran, column database dan peraturan import.
 
 | Ruangan               | Penerangan                                                        |
@@ -70,8 +68,7 @@ Bahagian Import Wizard Configuration digunakan untuk menetapkan table sasaran, c
 :::
 ---
 
-### Target Table
-::: info Target Table
+::: info **Target Table**
 **Target Table (INSERT)** ialah table database tempat data akan disimpan selepas proses import disahkan.
 Contoh:`corrad_showcase.showcase_import_target`
 
@@ -84,9 +81,8 @@ Pastikan table tersebut:
 :::
 ----
 
-### DB Columns
 
-::: info DB Columns
+::: info **DB Columns**
 DB Columns ialah senarai column database yang boleh dipadankan dengan header dalam fail CSV atau Excel.
 Contoh: `name, email, department, phone, notes`
 
@@ -97,13 +93,13 @@ Contoh: `name, email, department, phone, notes`
 | Department    | `department` |
 | Phone Number  | `phone`      |
 | Remarks       | `notes`      |
+
 Nama header fail tidak semestinya sama dengan nama column database kerana pengguna boleh membuat column mapping semasa proses import.
 
 :::
 ---
 
-### Required Columns
-::: info Required Columns
+::: info **Required Columns**
 **Required Columns** ialah column wajib yang perlu dipadankan sebelum proses import boleh diteruskan.
 
 Contoh: `name, email`
@@ -118,8 +114,7 @@ Gunakan Required Columns hanya untuk data yang benar-benar diperlukan
 :::
 ---
 
-### CSV Delimiter
-::: info CSV Delimiter
+::: info **CSV Delimiter**
 **CSV Delimiter** menentukan simbol yang digunakan untuk memisahkan column dalam fail CSV.
 
 Contoh pilihan:
@@ -132,8 +127,8 @@ Contoh pilihan:
 :::
 ---
 
-###  Max Rows
-::: info Max Rows
+
+::: info **Max Rows**
 - Max Rows digunakan untuk menghadkan jumlah rekod yang boleh diimport dalam satu proses.
 - Contoh: `10000`
 Maksudnya, pengguna hanya boleh mengimport maksimum 1,000 row pada satu masa.
@@ -177,8 +172,7 @@ Siti Aminah,siti@example.com,Finance,0198765432,Transfer staff
 :::
 ---
 
-### Column Mapping
-::: info Column Mapping
+::: info **Column Mapping**
 
 Column Mapping digunakan untuk menghubungkan header dalam fail dengan column database.
 Contoh:
@@ -192,8 +186,8 @@ Comment → notes
 :::
 ---
 
-### Preview Data
-::: info Preview Data
+
+::: info **Preview Data**
 
 Bahagian Preview digunakan untuk menyemak data sebelum dimasukkan ke database.
 
@@ -223,7 +217,6 @@ Selepas Import Wizard dikonfigurasikan:
 ---
 
 ::: warning Nota
-
 - Pastikan **Type** dipilih sebagai **Data Import Wizard**.
 - Pastikan Connection, Database dan Target Table adalah betul.
 - Gunakan nama column database yang sebenar dalam DB Columns.
@@ -238,7 +231,6 @@ Selepas Import Wizard dikonfigurasikan:
 ---
 
 ::: danger Isu Biasa
-
 #### Fail tidak boleh dibaca
 Kemungkinan punca:
 - Format fail tidak disokong.

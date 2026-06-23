@@ -30,7 +30,6 @@ Contoh penggunaan:
 
 ----
 
-### Custom Path
 ::: info Custom Path
 
 Bahagian Custom Path digunakan untuk menetapkan URL atau path yang ingin dipaparkan dalam iFrame.
@@ -43,7 +42,6 @@ Bahagian Custom Path digunakan untuk menetapkan URL atau path yang ingin dipapar
 :::
 ---
 
-### Path / URL
 ::: info Path / URL
 Ruangan Path / URL digunakan untuk memasukkan URL yang ingin di-embed.
 
@@ -60,9 +58,7 @@ Jika URL menggunakan parameter dynamic, pastikan parameter tersebut wujud dan bo
 :::
 ----
 
-### Iframe Width
 ::: info Iframe Width
-
 **Iframe Width** digunakan untuk menetapkan lebar paparan iFrame.
 
 Contoh nilai:
@@ -75,8 +71,6 @@ Contoh nilai:
 
 :::
 ---
-
-### Iframe Height
 
 ::: info Iframe Height
 
@@ -137,7 +131,7 @@ Selepas iFrame Component dikonfigurasikan:
 
 ::: danger Isu Biasa
 
-### iFrame kosong atau tidak memaparkan kandungan
+#### iFrame kosong atau tidak memaparkan kandungan
 Kemungkinan punca:
 
 - URL salah.

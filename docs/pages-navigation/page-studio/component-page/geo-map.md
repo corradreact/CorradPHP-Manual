@@ -15,7 +15,7 @@ Gunakan Geographic Map apabila anda ingin:
 :::
 ----
 
-::: info SQL Query
+::: info **SQL Query**
 - Pastikan query menghasilkan column latitude dan longitude.
 - Latitude dan longitude mestilah dalam format nombor.
 - Nama column dalam configuration mesti sama dengan nama column dalam query.
@@ -25,7 +25,7 @@ Gunakan Geographic Map apabila anda ingin:
 :::
 ---
 
-::: info Geographic Map Configuration
+::: info **Geographic Map Configuration**
 Bahagian **Geographic Map Configuration** digunakan untuk menentukan column dan cara peta dipaparkan.
 
 | Ruangan            | Penerangan                                       |
@@ -106,7 +106,7 @@ Jika column tersebut mempunyai nilai seperti:
 :::
 ---
 
-::: info Color Map JSON
+::: info **Color Map JSON**
 Color Map digunakan untuk menetapkan warna marker berdasarkan nilai dalam Color Column.
 
 ```json
@@ -150,7 +150,6 @@ Map Height menentukan tinggi peta dalam pixel.
 :::
 ---
 
-### Contoh Paparan 
 ::: info Hasil Paparan
 
 Selepas component dikonfigurasikan:

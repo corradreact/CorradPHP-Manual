@@ -99,16 +99,13 @@ Gunakan tetapan berikut:
 :::
 ---
 
-### Detail Placeholder
-
-::: info Detail Placeholder
+::: info **Detail Placeholder**
 **Detail Placeholder** ialah mesej yang dipaparkan sebelum pengguna memilih rekod daripada panel master.
 :::
 ---
 
-### Detail SQL
-::: info Detail SQL
-**Detail SQL **digunakan untuk mengambil maklumat lengkap bagi rekod yang dipilih.
+::: info **Detail SQL**
+digunakan untuk mengambil maklumat lengkap bagi rekod yang dipilih.
 Gunakan placeholder : **:id**
 Placeholder ini akan digantikan dengan ID rekod master yang dipilih.
 
@@ -127,6 +124,7 @@ WHERE id = :id;
 ---
 
 ::: warning Aliran pilih proses:
+```text
 Pengguna pilih rekod
 ↓
 Sistem mengambil ID rekod
@@ -136,12 +134,11 @@ Sistem mengambil ID rekod
 Detail SQL dijalankan
 ↓
 Maklumat detail dipaparkan
-:::
+```
 ----
 
 
-### Detail Sections JSON
-::: info Detail Section JSON
+::: info **Detail Section JSON**
 - Detail Sections digunakan untuk mengatur maklumat detail kepada beberapa bahagian.
 - Jika dibiarkan kosong: **[]**
 - Sistem akan memaparkan semua column daripada Detail SQL.
@@ -162,8 +159,7 @@ Maklumat detail dipaparkan
 :::
 ---
 
-### Badge Colors JSON
-::: info Badge Colors
+::: info **Badge Colors**
 **Badge Colors** digunakan untuk menetapkan warna berdasarkan nilai status.
 
 ```json

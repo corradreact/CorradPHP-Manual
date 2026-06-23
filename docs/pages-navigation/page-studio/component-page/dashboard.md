@@ -5,7 +5,6 @@
 **Dashboard Grid Component** digunakan untuk menggabungkan beberapa widget seperti stat card, chart dan KPI dalam satu paparan dashboard. Setiap widget dikonfigurasikan secara berasingan melalui tetapan JSON.
 
 Component ini sesuai digunakan untuk management dashboard, monitoring portal, analytics summary atau page ringkasan prestasi.
-
 :::
 
 ::: warning Nota 
@@ -26,10 +25,9 @@ Contoh penggunaan:
 | Analytics Summary    | Papar chart dan KPI ringkas.                        |
 | Sales Dashboard      | Papar total order, total revenue dan trend jualan.  |
 
-----
+---
 
-### Dashboard Configuration
-::: info Dashboard Configuration
+::: info **Dashboard Configuration**
 
 Bahagian Dashboard Configuration digunakan untuk menetapkan susunan grid dan kandungan widget dalam dashboard.
 | Ruangan        | Penerangan                                            |
@@ -41,8 +39,7 @@ Bahagian Dashboard Configuration digunakan untuk menetapkan susunan grid dan kan
 :::
 ----
 
-### Columns 
-::: info Columns
+::: info ***Columns***
 
 Columns menentukan bilangan widget yang dipaparkan dalam satu baris.
 
@@ -54,8 +51,7 @@ Columns menentukan bilangan widget yang dipaparkan dalam satu baris.
 :::
 ---
 
-### Gap (px)
-::: info Gap
+::: info **Gap (px)**
 
 **Gap (px)** menentukan jarak antara widget dalam dashboard.
 
@@ -69,9 +65,7 @@ Columns menentukan bilangan widget yang dipaparkan dalam satu baris.
 ---
 
 
-### Widget JSON
-
-::: info Widgets JSON
+::: info **Widgets JSON**
 
 **Widgets (JSON)** ialah senarai konfigurasi widget yang akan dipaparkan dalam dashboard.
 
@@ -123,9 +117,7 @@ Maksudnya:
 ---
 
 
-### Link Column
-
-::: info Link Column
+::: info **Link Column**
 
 Link Column digunakan jika card perlu boleh diklik dan membawa user ke page lain.
 
@@ -147,8 +139,8 @@ Kemudian teteapkan :
 
 :::
 ---
-### Widget (JSON)
-::: info Widgets JSON
+
+::: info **Widgets JSON**
 **Widgets (JSON)** ialah senarai konfigurasi widget yang akan dipaparkan dalam dashboard.
 
 Setiap widget boleh mempunyai tetapan seperti:
@@ -166,7 +158,6 @@ Setiap widget boleh mempunyai tetapan seperti:
 ---
 
 ###  Contoh Widgets JSON
-
 ::: tip Contoh Dashboard Widget
 Contoh ini memaparkan dua widget ringkas: total orders dan total revenue.
 ```sql
@@ -238,8 +229,9 @@ Contoh Widgets JSON:
 ]
 ```
 ---
-### Format Nilai
-::: info Format
+
+
+::: info **Format Nilai**
 Widget boleh memaparkan nilai dalam beberapa format.
 
 | Format   | Kegunaan            |
