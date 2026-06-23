@@ -51,15 +51,13 @@ Jika table mempunyai column seperti:
 :::
 ---
 
-### Submit Button Label
-::: info Submit Button Label
+::: info *Submit Button Label*
 Ruangan ini digunakan untuk menetapkan teks pada butang penghantaran akhir.
 Contoh: **Submit**
 :::
 ---
 
-### Success Message
-::: info Success Message
+::: info **Success Message**
 **Success Messsage** ialah mesej yang dipaparkan selepas data berjaya disimpan.
 
 Contoh : **Data berjaya dihantar** atau pilih mesej yang telah dikonfigurasikan dalam sistem.
@@ -68,7 +66,6 @@ Gunakan mesej yang ringkas supaya pengguna tahu proses telah berjaya.
 
 :::
 ---
-
 
 ### Redirect URL
 ::: info Redirect URL
@@ -80,8 +77,7 @@ Jika pengguna tidak perlu berpindah ke page lain, ruangan ini boleh dibiarkan ko
 :::
 ---
 
-### Wizard Steps Editor                      
-::: info Wizard Steps Editor
+::: info **Wizard Steps Editor**
 Klik **Edit Steps** Steps untuk membuka **Wizard Steps Editor**.
 Dalam editor ini, pengguna boleh:
 

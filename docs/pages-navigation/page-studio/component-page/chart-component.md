@@ -28,16 +28,17 @@ Contoh penggunaan:
 | Trend dengan kawasan berwarna      | Area                   |
 
 ----
-
+::: info Tetapan **General**
 | Ruangan | Penerangan                                            |
 | ------- | ----------------------------------------------------- |
 | Title   | Nama component yang dipaparkan dalam Page Studio.     |
 | Name    | Nama teknikal component dalam sistem.                 |
 | Type    | Jenis component. Untuk carta, pilih **Chart**.        |
 | Status  | Menentukan sama ada component aktif atau tidak aktif. |
+:::
+---
 
-
-::: info Tetapan Layout / Mode
+::: info Tetapan **Layout / Mode**
 Bahagian Layout / Mode digunakan untuk mengawal cara chart dipaparkan dalam page.
 
 | Tetapan                             | Kegunaan                                                        |
@@ -52,7 +53,7 @@ Bahagian Layout / Mode digunakan untuk mengawal cara chart dipaparkan dalam page
 
 :::
 ---
-::: info SQL Query
+::: info **SQL Query**
 
 Bahagian SQL Query digunakan untuk mengambil data yang akan dipaparkan dalam chart.
 
@@ -131,11 +132,9 @@ FROM sales
 GROUP BY DATE_FORMAT(sale_date, '%Y-%m')
 ORDER BY Month;
 ```
----
+--
 
-### Display
-
-::: info Display 
+::: info **Display**
 | Ruangan     | Penerangan                                          |
 | ----------- | --------------------------------------------------- |
 | Position    | Kedudukan chart dalam page.                         |

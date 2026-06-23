@@ -3,13 +3,10 @@
 ::: info Tujuan
 
 **Datatable Component** digunakan untuk memaparkan senarai data dalam bentuk jadual. Component ini sesuai untuk page seperti senarai customer, staff, aktiviti, transaksi atau permohonan.
-
 Datatable juga boleh mempunyai **Action Column** untuk tindakan seperti **View**, **Edit** dan **Delete**.
-
 :::
 
 ::: info Datatable Config
-
 Bahagian ini digunakan untuk tetapan sumber data dan fungsi table.
 
 
@@ -25,6 +22,7 @@ Bahagian ini digunakan untuk tetapan sumber data dan fungsi table.
 | Filter               | Jenis filter untuk carian data.                |
 | Freeze Left Cols     | Bekukan column sebelah kiri.                   |
 | Freeze Right Cols    | Bekukan column sebelah kanan.                  |
+:::
 
 Contoh:
 
@@ -35,7 +33,6 @@ Contoh:
 | Length Options | `5,10,25,50,100` |
 | Filter         | Smart            |
 
-:::
 ---
 
 ::: info Fungsi Tambahan
@@ -65,6 +62,8 @@ Column Definitions digunakan untuk menentukan column yang akan dipaparkan dalam 
 | Key      | Nama field daripada data API.       |
 | Sort     | Tetapan sorting column.             |
 
+:::
+
 Contoh:
 | Title BM | Title BI | Key          |
 | -------- | -------- | ------------ |
@@ -74,8 +73,6 @@ Contoh:
 | Date     | Date     | `act_date`   |
 | Status   | Status   | `act_status` |
 
-
-:::
 ---
 ### Cara Edit Columns
 

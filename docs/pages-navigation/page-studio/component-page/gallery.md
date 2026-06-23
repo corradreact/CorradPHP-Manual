@@ -27,9 +27,7 @@ Contoh penggunaan:
 :::
 ----
 
-### SQL Query
-::: info SQL Query
-
+::: info **SQL Query**
 Bahagian **SQL Query** digunakan untuk mengambil data yang akan dipaparkan dalam Card Gallery.
 
 Setiap column dalam query akan digunakan semula dalam bahagian **Card Gallery Configuration** seperti Title Column, Subtitle Column, Image Column dan Badge Column.
@@ -71,9 +69,7 @@ Contoh alias yang mudah digunakan:
 :::
 ---
 
-### Card Gallery Configuration
-
-::: info Card Gallery Configuration
+::: info **Card Gallery Configuration**
 
 Bahagian **Card Gallery** Configuration digunakan untuk menentukan column mana daripada SQL Query yang akan dipaparkan pada card.
 
@@ -94,7 +90,6 @@ Bahagian **Card Gallery** Configuration digunakan untuk menentukan column mana d
 
 
 ### Contoh Configuration
-
 ::: tip Contoh Tetapan Card Gallery
 
 Berdasarkan SQL Query berikut:
@@ -135,10 +130,7 @@ Maksudnya:
 :::
 ---
 
-### Badge Color Column
-
-::: info Badge Color
-
+::: info **Badge Color**
 Badge Color Column digunakan untuk menentukan warna badge pada card.
 
 Jika warna adalah sama untuk semua card, boleh masukkan nilai tetap seperti:
@@ -154,10 +146,8 @@ Jika warna adalah sama untuk semua card, boleh masukkan nilai tetap seperti:
 :::
 ---
 
-### Link Column
 
-::: info Link Column
-
+::: info **Link Column**
 Link Column digunakan jika card perlu boleh diklik dan membawa user ke page lain.
 
 Contoh SQL Query dengan link:
@@ -179,8 +169,7 @@ Kemudian teteapkan :
 :::
 ---
 
-###  Image Fit
-::: info Image Fit
+::: info **Image Fit**
 
 Image Fit menentukan cara imej dipaparkan dalam card.
 

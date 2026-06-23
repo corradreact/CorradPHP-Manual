@@ -27,9 +27,7 @@ Contoh penggunaan:
 | Status Tracking    | Papar perubahan status rekod.      |
 ----
 
-### SQL Query
-::: info SQL Query
-
+::: info **SQL Query**
 Bahagian **SQL Query** digunakan untuk mengambil data yang akan dipaparkan dalam Timeline.
 
 Setiap column dalam query perlu mempunyai alias yang jelas supaya boleh digunakan dalam bahagian **Timeline Configuration.**
@@ -79,8 +77,7 @@ Alias yang dicadangkan:
 :::
 ---
 
-### Timeline Configuration
-::: info Timeline Configuration
+::: info **Timeline Configuration**
 Bahagian **Timeline Configuration** digunakan untuk menentukan column mana daripada SQL Query yang akan digunakan dalam timeline.
 
 | Ruangan              | Penerangan                                         |
@@ -139,8 +136,7 @@ Maksudnya:
 :::
 ---
 
-### Status Color Mapping
-::: info Status Color Mapping
+::: info **Status Color Mapping**
 **Status Color Mapping** digunakan untuk menetapkan warna timeline berdasarkan nilai status
 
 | Status Value | Color   |
@@ -154,8 +150,7 @@ Maksudnya, jika query menghasilkan nilai task pada column STATUS, timeline akan 
 :::
 ---
 
-### Date Format
-::: info Date Format
+::: info **Date Format**
 **Date Format** digunakan untuk menetapkan bentuk paparan tarikh dalam timeline
 
 | Format      | Contoh Paparan    |
@@ -168,8 +163,7 @@ Maksudnya, jika query menghasilkan nilai task pada column STATUS, timeline akan 
 :::
 ---
 
-###  Limit
-::: info Limit
+::: info **Limit**
 - Limit digunakan untuk menghadkan jumlah rekod timeline yang dipaparkan.
 Maksudnya, hanya 20 rekod timeline akan dipaparkan.
 - Gunakan limit supaya page tidak terlalu panjang dan lebih cepat dimuatkan.

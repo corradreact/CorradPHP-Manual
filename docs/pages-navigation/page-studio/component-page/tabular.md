@@ -69,8 +69,7 @@ Contoh:
 :::
 ---
 
-### Add Row
-::: info Add Row
+::: info **Add Row**
 Bahagian Add Row digunakan untuk membenarkan pengguna menambah row baharu terus dalam table.
 | Tetapan             | Penerangan                                       |
 | ------------------- | ------------------------------------------------ |
@@ -93,9 +92,7 @@ Contoh kegunaan Add Row JS:
 :::
 ---
 
-### Delete Row
-::: info Delete Row
-
+::: info **Delete Row**
 Bahagian Delete Row digunakan untuk membenarkan pengguna memadam row daripada table.
 | Tetapan             | Penerangan                                            |
 | ------------------- | ----------------------------------------------------- |
@@ -115,8 +112,7 @@ Contoh kegunaan Delete Row JS:
 
 
 ### Contoh Konfigurasi
-
-::: tip Contoh Products Inline Edit
+::: tip Contoh Product Inline Edit
 | Tetapan           | Nilai                  |
 | ----------------- | ---------------------- |
 | Title             | Products — Inline Edit |

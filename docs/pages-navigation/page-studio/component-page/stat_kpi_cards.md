@@ -32,7 +32,6 @@ Bahagian ini digunakan untuk menetapkan bilangan card dan kandungan KPI.
 --- 
 
 ### Edit KPI Cards
-
 ::: tip Langkah Edit KPI Cards
 
 1. Pada panel kanan, pergi ke bahagian **STATS / KPI CARDS**.
@@ -52,9 +51,7 @@ Bahagian ini digunakan untuk menetapkan bilangan card dan kandungan KPI.
 
 --- 
 
-### Keterangan Ruangan Edit KPI Cards
-
-:::info Keterangan Ruangan
+:::info Keterangan Ruangan Edit KPI Cards
 
 | Ruangan   | Penerangan                                                               |
 | --------- | ------------------------------------------------------------------------ |
@@ -68,7 +65,6 @@ Bahagian ini digunakan untuk menetapkan bilangan card dan kandungan KPI.
 ---
 
 ### Contoh KPI Cards
-
 ::: info Contoh 
 
 | Label          | SQL Query                                            | Format |
