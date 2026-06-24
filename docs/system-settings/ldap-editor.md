@@ -29,14 +29,14 @@ LDAP Editor membolehkan CORRAD berhubung ke server direktori (LDAP/AD). Setelah 
 4) Jika anda mahu mengecualikan objek tertentu, gunakan `Filter Exclude`.
 5) Isi `Username (Bind DN)` dan `Password` untuk akaun bind.
 6) Klik **Test Connection** untuk mengesahkan sambungan.
-[Add Connection](/image/sistem/addconnection.png) 
+![Add Connection](/image/sistem/addconnection.png) 
 :::
 ---
 
 ::: info **Ujian Sambungan (Test Connection)**
 - Gunakan butang **Test Connection** untuk memastikan host, port, bind DN dan kata laluan betul.
 - Jika gagal, semak firewall, credentials dan Base DN.
-[Test Connection](/image/sistem/testconn.png) 
+![Test Connection](/image/sistem/testconn.png) 
 
 ### Mengimport Pengguna (Import Users)
 

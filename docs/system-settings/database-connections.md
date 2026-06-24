@@ -17,26 +17,26 @@
 
 ::: tip **Tambah Sambungan (Add Connection)**
 1) Klik **+ Tambah Sambungan**.
-[Button Tambah](/image/sistem/tbtntambah.png) 
+![Button Tambah](/image/sistem/tbtntambah.png) 
 
 2) Isi ruangan: `Nama Sambungan`, `Jenis`, `Port`, `Host`, (pilihan) `Pangkalan Data`, `Nama Pengguna`, `Kata Laluan`, dan `Status`.
 3) Jika anda mahu sambungan meliputi semua database pada host, biarkan ruangan `Pangkalan Data` kosong (server-level connection).
 4) Klik **Uji Sambungan** untuk mengesahkan kredensial.
 5) Klik **Simpan**.
 
-[Tambah sambungan](/image/sistem/tambahsambungan.png) 
+![Tambah sambungan](/image/sistem/tambahsambungan.png) 
 
 :::
 ---
 
 ::: tip **Edit Sambungan (Edit Sambungan)**
 1) Klik **Edit Sambungan** pada baris sambungan.
-[Edit sambungan](/image/sistem/edit.png) 
+![Edit sambungan](/image/sistem/edit.png) 
 
 2) Ubah ruangan yang diperlukan.
 3) Jika anda tidak mahu menukar kata laluan semasa, biarkan ruangan `Kata Laluan` kosong untuk mengekalkan kata laluan sedia ada.
 4) Klik **Uji Sambungan** selepas perubahan, kemudian **Simpan**.
-[Edit](/image/sistem/editsambungan.png) 
+![Edit](/image/sistem/editsambungan.png) 
 :::
 ---
 
