@@ -10,30 +10,31 @@ Membantu pengguna mengemaskini maklumat profil peribadi mereka dalam sistem. Tuj
 1) Log masuk ke dalam sistem.
 2) Pilih menu **Profil** atau cari pautan **Edit Profil**.
 3) Sistem akan memaparkan halaman profil dengan halaman maklumat peribadi.
+ ![Profil](/image/profil/editprofil.png) 
 :::
 
 ## 2. Semak Maklumat Profil
 Pada halaman ini, anda akan melihat maklumat seperti:
-- **Username**
-- **Full Name**
-- **IC Number**
-- **Date of Birth**
-- **Gender**
-- **Race**
-- **Religion**
-- **Email**
-- **Mobile Phone**
-- **Office Phone**
-- **Home Phone**
-- **Address**
-- **Postcode**
-- **City**
-- **State**
-- **Designation**
-- **Department**
-- **User Group**
-- **Color Theme**
-- **Layout**
+- **Nama Pengguna**
+- **MNama Penuh**
+- **No. KP**
+- **Tarikh Lahir**
+- **Jantina**
+- **Bangsa**
+- **Agama**
+- **Emel**
+- **Telefon Bimbit**
+- **Telefon Pejabat**
+- **Telefon Rumah**
+- **Alamat**
+- **Poskod**
+- **Bandar**
+- **Negeri**
+- **Jawatan**
+- **Jabatan**
+- **Kumpulan Pengguna**
+- **Tema Warna**
+- **Susun Atur**
 
 ## 3. Mengemaskini Maklumat Peribadi
 
@@ -46,17 +47,19 @@ Pada halaman ini, anda akan melihat maklumat seperti:
 ### Mengubah Maklumat Pekerjaan
 - Periksa medan **Designation**, **Department**, dan **User Group**.
 - Ubah hanya jika anda mempunyai kebenaran untuk mengemaskini maklumat jabatan.
+![Edit](/image/profil/edit.png) 
 
 ## 4. Menyimpan Perubahan
 
 ::: tip Langkah 3
-1) Selepas selesai mengemaskini, klik butang **Save**.
-2) Jika anda tidak mahu menyimpan perubahan, klik **Cancel**.
+1) Selepas selesai mengemaskini, klik butang **Simpan**.
+2) Jika anda tidak mahu menyimpan perubahan, klik **Batal**.
+ ![Sb](/image/profil/sb.png) 
 :::
 
 ### Selepas Menyimpan
 - Sistem akan menyimpan maklumat terkini ke profil anda.
-- Pastikan tiada ralat atau bahagian kosong sebelum klik **Save**.
+- Pastikan tiada ralat atau bahagian kosong sebelum klik **Simpan**.
 
 ::: warning Nota
 - Jangan ubah username kecuali dibenarkan oleh pentadbir.

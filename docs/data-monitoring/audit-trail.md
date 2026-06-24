@@ -5,7 +5,7 @@
 Audit Trail merekod setiap perubahan data yang dibuat melalui sistem CORRAD. Setiap entri menangkap siapa yang membuat perubahan, bila ia dibuat, dari mana, dan bagaimana data kelihatan sebelum dan selepas perubahan.
 
 ### Apa yang direkod
-
+::: info Tujuan yang direkod
 - **INSERT** — rekod baru dicipta
 - **UPDATE** — rekod sedia ada diubah
 - **DELETE** — rekod dipadam
@@ -13,10 +13,11 @@ Audit Trail merekod setiap perubahan data yang dibuat melalui sistem CORRAD. Set
 
 > Nota: Hanya tindakan yang dilakukan melalui antara muka CORRAD direkod dalam audit trail. Perubahan terus ke pangkalan data akan memintas audit trail.
 
+:::
 ---
 
 ## Penapis Carian
-
+::: info Tujuan
 Gunakan penapis untuk mengecilkan keputusan kepada tempoh masa atau kriteria tertentu.
 
 ### Julat Tarikh
@@ -32,15 +33,16 @@ Gunakan penapis untuk mengecilkan keputusan kepada tempoh masa atau kriteria ter
 - **Table** — masukkan nama jadual pangkalan data (contohnya `FLC_USER`).
 - **Menu** — tapis mengikut laluan menu / halaman di mana tindakan dijalankan.
 - **Browser** — tapis mengikut user-agent pelayar.
-
-### Tip
-
-Gabungkan penapis dengan bebas — contohnya, tapis mengikut `Username + Date Range` untuk mengaudit apa yang dilakukan oleh pengguna tertentu dalam tempoh tertentu.
-
+:::
 ---
 
-## Rekod Audit
+## Tip
+::: info Tujuan Tip
+Gabungkan penapis dengan bebas — contohnya, tapis mengikut `Username + Date Range` untuk mengaudit apa yang dilakukan oleh pengguna tertentu dalam tempoh tertentu.
+:::
 
+### Rekod Audit
+::: info Rekod Audit
 Senarai Audit Records memaparkan entri log audit dalam bentuk jadual:
 
 - **Date** — tarikh dan masa tindakan.
@@ -52,15 +54,14 @@ Senarai Audit Records memaparkan entri log audit dalam bentuk jadual:
 - **SQL** — butang untuk melihat pertanyaan SQL jika tersedia.
 
 ### Tindakan pada senarai
-
 - **Dashboard** — paparan ringkas statistik audit.
 - **Retention** — pengurusan simpanan rekod audit.
 - **Purge All** — hapus semua rekod audit secara kekal.
-
+:::
 ---
 
 ## Audit Dashboard
-
+::: info Audit Dashboard
 Dashboard audit menampilkan metrik utama:
 
 - **Total Events** — jumlah keseluruhan peristiwa audit.
@@ -68,7 +69,6 @@ Dashboard audit menampilkan metrik utama:
 - **Active Days** — bilangan hari aktif dengan peristiwa.
 
 ### Pecahan Severity
-
 Memaparkan bilangan peristiwa mengikut tahap:
 
 - critical
@@ -76,7 +76,6 @@ Memaparkan bilangan peristiwa mengikut tahap:
 - info
 
 ### Agihan Tindakan
-
 Graf menunjukkan jenis tindakan yang paling banyak berlaku:
 
 - Crud
@@ -106,17 +105,16 @@ Memaparkan jadual yang sering menerima perubahan, seperti:
 - `FLC_TRIGGER_PARAMETER`
 
 ### Logins vs Failed (30 Hari Terakhir)
-
 Carta membandingkan kejayaan login dengan kegagalan login dalam tempoh 30 hari.
 
+:::
 ---
 
 ## Pengurusan Retensi
-
+::: info Pengurusan Retensi
 Retensi mengawal penyimpanan rekod audit mengikut jenis tindakan.
 
 ### Maklumat Simpanan Semasa
-
 Untuk setiap aksi, paparkan:
 
 - jumlah baris
@@ -130,17 +128,18 @@ Untuk setiap aksi, paparkan:
 - **Older Than (days)** — masukkan bilangan hari; entri lebih lama daripada nilai ini akan dipilih.
 - **Type CONFIRM to enable purge button** — taip `CONFIRM` untuk mengaktifkan butang `Purge Selected`.
 
+:::
 ---
 
 ## Pembersihan Semua Rekod Audit
-
+::: info Pembersihan Semua Rekod Audit
 Pilihan `Purge All` akan memadamkan semua rekod audit secara kekal.
 
 - Mesej amaran akan muncul: "This will permanently delete all audit records."
 - Taip `CONFIRM` untuk meneruskan.
 
 > Amaran: Tindakan ini tidak boleh dibatalkan.
-
+:::
 ---
 
 ## Kegunaan Utama

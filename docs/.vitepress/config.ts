@@ -27,18 +27,19 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Profile',
+        text: 'Profil',
         collapsed: false,
         items: [
-          { text: 'Edit Profile', link: '/profile/edit-profile' },
-          { text: 'Change Password', link: '/profile/change-password' },
-          { text: 'Forgot Password', link: '/profile/forgot-password' },
-          { text: 'Reset Password', link: '/profile/reset-password' },
-          { text: 'Active Sessions', link: '/profile/active-sessions' }
+          { text: 'Edit Profil', link: '/profile/edit-profile' },
+          { text: 'Tema', link: '/profile/tema' },
+          { text: 'Tukar Kata Laluan', link: '/profile/change-password' },
+          { text: 'Lupa Kata Laluan', link: '/profile/forgot-password' },
+          { text: 'Reset Kata Laluan', link: '/profile/reset-password' },
+          { text: 'Sesi Aktif', link: '/profile/active-sessions' }
         ]
       },
       {
-        text: 'System Settings',
+        text: 'Pentadbir Sistem',
         collapsed: false,
         items: [
           { text: 'System Configuration', link: '/system-settings/system-configuration' },
@@ -49,7 +50,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Editors & Tools',
+        text: 'Editor & Alat',
         collapsed: false,
         items: [
           { text: 'Message Editor', link: '/editors-tools/message-editor' },
@@ -59,7 +60,7 @@ export default defineConfig({
         ]
       },
         {
-        text: 'Pages & Navigation',
+        text: 'Halaman & Navigasi',
         collapsed: false,
         items: [
           // { text: 'Menu Editor', link: '/pages-navigation/menu-editor' },
@@ -123,7 +124,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Logic & API',
+        text: 'Logik & API',
         collapsed: false,
         items: [
           { text: 'BL Editor v5', link: '/logic-api/bi-editor-v5' },
@@ -132,7 +133,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Data & Monitoring',
+        text: 'Pemantauan Data',
         collapsed: false,
         items: [
           { text: 'Import Export v2', link: '/data-monitoring/import-export-v2' },
@@ -145,7 +146,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'User Administrator',
+        text: 'Pentadbir Pengguna',
         collapsed: false,
         items: [
           { text: 'User Management', link: '/useradministrator/usermngmt' },

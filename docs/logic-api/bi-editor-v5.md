@@ -11,7 +11,7 @@ Mempunyai akses penuh kepada fungsi CORRAD, sambungan database, dan data session
 :::
 ---
 
-::: info **JS(JavaScript)**
+::: info **JS (JavaScript)**
 Dijalankan di browser (client-side) selepas page dimuatkan.
 Mempunyai akses kepada jQuery, komponen page, dan API JavaScript CORRAD.
 :::
