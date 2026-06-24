@@ -17,7 +17,7 @@
 
 ::: tip **Tambah Sambungan (Add Connection)**
 1) Klik **+ Tambah Sambungan**.
-![Button Tambah](/image/sistem/tbtntambah.png) 
+![Button Tambah](/image/sistem/btntambah.png) 
 
 2) Isi ruangan: `Nama Sambungan`, `Jenis`, `Port`, `Host`, (pilihan) `Pangkalan Data`, `Nama Pengguna`, `Kata Laluan`, dan `Status`.
 3) Jika anda mahu sambungan meliputi semua database pada host, biarkan ruangan `Pangkalan Data` kosong (server-level connection).
