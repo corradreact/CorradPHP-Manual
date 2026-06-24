@@ -17,7 +17,7 @@ Pada halaman ini, isi ruangan berikut:
 1) Taip kata laluan baharu di ruangan pertama.
 2) Taip semula kata laluan yang sama di ruangan kedua.
 3) Semak semula kedua-dua ruangan untuk memastikan padanan.
-![Reset](/image/profil/reset.png) 
+![Reset](/image/profil/Reset.png) 
 
 :::
 
