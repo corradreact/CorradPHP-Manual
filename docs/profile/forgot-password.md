@@ -8,7 +8,7 @@ Fungsi Lupa Kata Laluan digunakan untuk membantu pengguna menetapkan semula kata
 
 ::: tip Langkah 1
 1) Pada halaman log masuk, pilih pautan **Forgot Password** atau **Lupa Kata Laluan**.
-2) Sistem akan memaparkan halaman untuk memasukkan maklumat pengguna.
+2) Sistem akan memaparkan halaman Forgot Password.
 :::
 
 ## 2. Isikan Maklumat Pengguna
@@ -16,11 +16,14 @@ Fungsi Lupa Kata Laluan digunakan untuk membantu pengguna menetapkan semula kata
 Pada halaman lupa kata laluan, isi ruangan input berikut:
 - **USERNAME / NAMA PENGGUNA**: masukkan nama pengguna berdaftar.
 - **E-MEL / EMAIL**: masukkan alamat email yang didaftarkan.
+![Lupa](/image/profil/lupa.png) 
 
 ::: tip Langkah 2
 1) Taip nama pengguna anda dalam ruangan input **USERNAME / NAMA PENGGUNA**.
 2) Taip alamat email anda dalam ruangan input **E-MEL / EMAIL**.
 3) Klik butang **Submit**.
+![Lupam](/image/profil/lupam.png) 
+
 :::
 
 ## 3. Terima Pautan Reset

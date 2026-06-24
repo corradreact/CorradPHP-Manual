@@ -1,5 +1,4 @@
 # Edit Profil
-
 ::: info Tujuan
 Membantu pengguna mengemaskini maklumat profil peribadi mereka dalam sistem. Tujuan edit profil bagi mengubah maklumat peribadi, dan menyimpan perubahan.
 :::
@@ -62,7 +61,7 @@ Pada halaman ini, anda akan melihat maklumat seperti:
 - Pastikan tiada ralat atau bahagian kosong sebelum klik **Simpan**.
 
 ::: warning Nota
-- Jangan ubah username kecuali dibenarkan oleh pentadbir.
+- Jangan ubah Nama Pengguna kecuali dibenarkan oleh pentadbir.
 - Gunakan email dan nombor telefon yang sah untuk kemudahan sokongan.
 - Perubahan profil mungkin mengambil sedikit masa untuk dikemaskini di seluruh sistem.
 :::

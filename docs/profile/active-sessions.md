@@ -1,5 +1,4 @@
 # Aktifkan Sesi
-
 ::: info Tujuan
 Membantu pengguna memantau sesi aktif pada akaun mereka. Panduan ini menerangkan cara melihat peranti aktif, menyegarkan senarai, dan log keluar dari peranti lain.
 :::
@@ -10,6 +9,8 @@ Membantu pengguna memantau sesi aktif pada akaun mereka. Panduan ini menerangkan
 1) Log masuk ke dalam sistem.
 2) Pergi ke halaman **Sesi Aktif** di bawah profil anda.
 3) Sistem akan memaparkan semua peranti dan sesi yang sedang aktif untuk akaun anda.
+![Sesi Aktif](/image/profil/sesiaktif.png) 
+
 :::
 
 ## 2. Semak Maklumat Sesi
@@ -37,5 +38,5 @@ Jika anda mahu melihat kemaskini terkini:
 
 ::: warning Nota
 - Pastikan hanya sesi anda yang sah kekal aktif.
-- Jika anda melihat peranti asing, log keluar semua peranti lain dan tukar kata laluan segera.
+- Jika anda melihat peranti asing, log keluar semua peranti lain `dan tukar kata laluan segera.
 :::
