@@ -3,11 +3,11 @@
 Membantu pengguna menetapkan semula kata laluan selepas menerima pautan reset. Panduan ini menerangkan cara mengisi kata laluan baharu dan mengesahkan kata laluan tersebut.
 :::
 
-## 1. Buka Halaman Tetap Semula Kata Laluan
+### 1. Buka Halaman Tetap Semula Kata Laluan
 
 Apabila anda klik pautan reset dari email, sistem akan membawa anda ke halaman **Tetap Semula Kata Laluan**.
 
-## 2. Isi Kata Laluan Baharu
+### 2. Isi Kata Laluan Baharu
 
 Pada halaman ini, isi ruangan berikut:
 - **KATA LALUAN BAHARU / NEW PASSWORD**: taip kata laluan baharu.
@@ -21,14 +21,14 @@ Pada halaman ini, isi ruangan berikut:
 
 :::
 
-## 3. Syarat Kata Laluan Selamat
+### 3. Syarat Kata Laluan Selamat
 
 Pastikan kata laluan baharu memenuhi kriteria keselamatan berikut:
 - Minimum panjang yang disarankan.
 - Gabungkan huruf besar dan kecil.
 - Sertakan nombor dan aksara khas jika sistem memerlukannya.
 
-## 4. Simpan Kata Laluan Baharu
+### 4. Simpan Kata Laluan Baharu
 
 ::: tip Langkah 2
 1) Klik butang **Tetap Semula Kata Laluan**.

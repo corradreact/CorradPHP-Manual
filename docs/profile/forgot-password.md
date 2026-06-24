@@ -1,17 +1,17 @@
 # Lupa Kata Laluan
 
 ::: info Tujuan
-Fungsi Lupa Kata Laluan digunakan untuk membantu pengguna menetapkan semula kata laluan akaun. Pengguna perlu memasukkan nama pengguna dan email yang berdaftar, kemudian sistem akan menghantar pautan reset kata laluan melalui email tersebut.
+Fungsi **Lupa Kata Laluan** digunakan untuk membantu pengguna menetapkan semula kata laluan akaun. Pengguna perlu memasukkan nama pengguna dan email yang berdaftar, kemudian sistem akan menghantar pautan reset kata laluan melalui email tersebut.
 :::
 
-## 1. Buka Halaman Lupa Kata Laluan
+### 1. Buka Halaman Lupa Kata Laluan
 
 ::: tip Langkah 1
 1) Pada halaman log masuk, pilih pautan **Forgot Password** atau **Lupa Kata Laluan**.
 2) Sistem akan memaparkan halaman Forgot Password.
 :::
 
-## 2. Isikan Maklumat Pengguna
+### 2. Isikan Maklumat Pengguna
 
 Pada halaman lupa kata laluan, isi ruangan input berikut:
 - **USERNAME / NAMA PENGGUNA**: masukkan nama pengguna berdaftar.
@@ -26,7 +26,7 @@ Pada halaman lupa kata laluan, isi ruangan input berikut:
 
 :::
 
-## 3. Terima Pautan Reset
+### 3. Terima Pautan Reset
 
 Selepas menghantar maklumat yang betul:
 - Sistem akan menghantar pautan reset kata laluan ke alamat email anda.

@@ -3,7 +3,7 @@
 Membantu pengguna mengemaskini maklumat profil peribadi mereka dalam sistem. Tujuan edit profil bagi mengubah maklumat peribadi, dan menyimpan perubahan.
 :::
 
-## 1. Buka Halaman Edit Profil
+### 1. Buka Halaman Edit Profil
 
 ::: tip Langkah 1
 1) Log masuk ke dalam sistem.
@@ -12,7 +12,7 @@ Membantu pengguna mengemaskini maklumat profil peribadi mereka dalam sistem. Tuj
  ![Profil](/image/profil/editprofil.png) 
 :::
 
-## 2. Semak Maklumat Profil
+### 2. Semak Maklumat Profil
 Pada halaman ini, anda akan melihat maklumat seperti:
 - **Nama Pengguna**
 - **MNama Penuh**
@@ -35,7 +35,7 @@ Pada halaman ini, anda akan melihat maklumat seperti:
 - **Tema Warna**
 - **Susun Atur**
 
-## 3. Mengemaskini Maklumat Peribadi
+### 3. Mengemaskini Maklumat Peribadi
 
 ::: tip Langkah 2
 1) Klik pada bahagian yang ingin dikemaskini.
@@ -48,7 +48,7 @@ Pada halaman ini, anda akan melihat maklumat seperti:
 - Ubah hanya jika anda mempunyai kebenaran untuk mengemaskini maklumat jabatan.
 ![Edit](/image/profil/edit.png) 
 
-## 4. Menyimpan Perubahan
+### 4. Menyimpan Perubahan
 
 ::: tip Langkah 3
 1) Selepas selesai mengemaskini, klik butang **Simpan**.

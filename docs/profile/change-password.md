@@ -3,7 +3,7 @@
 Membantu pengguna menukar kata laluan akaun mereka dengan selamat. Panduan ini menerangkan cara menukar kata laluan, mengisi maklumat kata laluan semasa dan baru, dan menyimpan perubahan.
 :::
 
-## 1. Buka Halaman Tukar Kata Laluan
+### 1. Buka Halaman Tukar Kata Laluan
 
 ::: tip Langkah 1
 1) Log masuk ke dalam sistem.
@@ -11,7 +11,7 @@ Membantu pengguna menukar kata laluan akaun mereka dengan selamat. Panduan ini m
 3) Pilih pilihan **Change Password** atau **Tukar Kata Laluan**.
 :::
 
-## 2. Isi Maklumat Kata Laluan
+### 2. Isi Maklumat Kata Laluan
 
 Pada halaman tukar kata laluan, anda akan melihat tiga ruangan input:
 - **Kata Laluan Semasa**: masukkan kata laluan semasa anda.
@@ -25,7 +25,7 @@ Pada halaman tukar kata laluan, anda akan melihat tiga ruangan input:
 3) Sahkan kata laluan baru dengan memasukkannya semula dalam ruangan input **Sahkan Kata Laluan Baru**.
 :::
 
-## 3. Tips Kata Laluan Selamat
+### 3. Tips Kata Laluan Selamat
 
 Pastikan kata laluan baharu memenuhi syarat berikut:
 - Minimum 12 aksara.
@@ -33,7 +33,8 @@ Pastikan kata laluan baharu memenuhi syarat berikut:
 - Mengandungi sekurang-kurangnya satu nombor.
 - Mengandungi aksara khas seperti `@`, `#`, atau `!`.
 ![Tukar Katalaluan](/image/profil/tukarkt.png) 
-## 4. Simpan Perubahan
+
+### 4. Simpan Perubahan
 
 ::: tip Langkah 3
 1) Klik butang **Simpan** untuk mengemas kini kata laluan.
