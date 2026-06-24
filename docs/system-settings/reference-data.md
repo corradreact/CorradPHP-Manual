@@ -24,7 +24,7 @@ Paparan **Kod Am** terdiri daripada:
 - Untuk tambah baris cepat gunakan medan `+ Tambah Baris` di bawah jadual: isi `Kod` dan `Label`, kemudian klik **Add Row**.
 - Untuk sunting baris, klik ikon **Edit** di lajur Actions, ubah `Kod` atau `Label` dan simpan.
 - Untuk padam baris, klik ikon **Delete** dan sahkan. Padam adalah kekal.
-![Gender](/image/sistem/gedber.png)
+![Gender](/image/sistem/gebder.png)
 :::
 ---
 
