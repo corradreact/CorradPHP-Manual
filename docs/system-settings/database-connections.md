@@ -51,7 +51,6 @@
 :::
 ---
 
-### Uji Sambungan
 ::: info **Uji Sambungan**
 - Sentiasa gunakan butang **Test Connection** selepas tambah atau ubah sambungan untuk memastikan akses berjaya.
 - Jika test gagal, semak host, port, firewall, dan pengesahan.

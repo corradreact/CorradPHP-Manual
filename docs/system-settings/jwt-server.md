@@ -1,33 +1,38 @@
 # JWT Server
-
 ::: info Tujuan
 JWT (JSON Web Token) Server membolehkan sistem luar mengakses CORRAD API dengan selamat menggunakan token yang telah ditandatangani. Akses kepada API dikawal melalui empat HTTP header yang wajib disertakan dalam setiap request.
 :::
 
 ## Langkah Ringkas (Setup Flow)
 
-1. **Register Application** — daftar aplikasi/klien baru untuk menerima `Client ID` dan `Client Secret`.
-2. **Issue Token** — hasilkan token untuk aplikasi tersebut; token mengandungi string token (`TOKEN_STR`) yang digunakan dalam setiap panggilan API.
+1. **Application Registration** — daftar aplikasi/klien baru untuk menerima `Client ID` dan `Client Secret`.
+2. **Tokens** — hasilkan token untuk aplikasi tersebut; token mengandungi string token (`TOKEN_STR`) yang digunakan dalam setiap panggilan API.
 
-## Applications (Pendaftaran Aplikasi)
-
+::: tip **Applications (Pendaftaran Aplikasi)**
 - Klik **+ New Application** untuk mendaftarkan aplikasi baru.
-- Isikan `Application Name`, (pilihan) `Redirect URL`, dan `Allowed Source IPs` untuk sekatan IP (satu IP atau subnet per baris).
+- Isikan `Application Name` dan `Allowed Source IPs` untuk sekatan IP (satu IP atau subnet per baris).
+![New Application](/image/sistem/newapp.png) 
+
 - Sistem akan menjana `Client Secret` (salin dan simpan dengan selamat kerana ia hanya dipaparkan di senarai).
 - Memadam aplikasi akan membatalkan semua token yang berkaitan.
 
-## Tokens (Menerbit & Pengurusan)
+:::
 
+::: tip **Tokens (Menerbit & Pengurusan)**
 - Klik **+ New Token** untuk menerbitkan token kepada aplikasi terdaftar.
+![_+ Token](/image/sistem/btn_token.png) 
+
 - Pilih `Application`, `Algorithm` (contoh: `HS256`), dan `Expiry` (dalam saat).
 - Token dihasilkan sebagai `TOKEN_STR` dan boleh disalin dari senarai token. Token boleh digunakan sehingga ia tamat tempoh atau dibatalkan.
 - Disyorkan menggunakan tempoh luput panjang (contoh sehingga 1 tahun).
+![New Token](/image/sistem/newtoken.png) 
+:::
 
-## Token Fields & Algoritma
-
+::: tip **Token Fields & Algoritma**
 - `Method / Algorithm`: pilihan termasuk `NONE` (tanpa tandatangan), `HS256`, `HS384`, `HS512` (HMAC), atau `RS256`/`RS512` (RSA - memerlukan kekunci persendirian).
 - `Key`: kunci rahsia untuk HMAC atau kunci RSA untuk RSA. Jika menggunakan HMAC, pastikan `Client Secret` atau `Key` tersimpan selamat.
 - `Expiry`: nilai dalam saat (contoh `3600` = 1 jam, `86400` = 1 hari, `31536000` = 1 tahun).
+:::
 
 ## API Usage (Header Required)
 

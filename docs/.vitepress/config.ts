@@ -42,7 +42,6 @@ export default defineConfig({
         text: 'Pentadbir Sistem',
         collapsed: false,
         items: [
-          { text: 'System Configuration', link: '/system-settings/system-configuration' },
           { text: 'Database Connections', link: '/system-settings/database-connections' },
           { text: 'Reference Data', link: '/system-settings/reference-data' },
           { text: 'LDAP Editor', link: '/system-settings/ldap-editor' },
