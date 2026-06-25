@@ -1,17 +1,14 @@
 
 # Fungsi Toolbar
 
-```md
 | Button | Gambar | Penerangan |
-|---|---|---|
+|--- |---|---|
 | Preview | ![Preview Button](/image/pagestudio/button-preview.png) | Melihat paparan page sebelum digunakan oleh user. |
 | Split View | ![Split View Button](/image/pagestudio/button-split-view.png) | Memaparkan page dan setting secara sebelah-menyebelah. |
 | Quick Page | ![Quick Page Button](/image/pagestudio/button-quick-page.png) | Membantu create page dengan setting asas secara lebih cepat. |
 | Duplicate Page | ![Duplicate Page Button](/image/pagestudio/button-duplicate-page.png) | Menyalin struktur page sedia ada. |
 | Component | ![Component Button](/image/pagestudio/button-component.png) | Menambah layout, section atau container dalam page. |
 | Control | ![Control Button](/image/pagestudio/button-control.png) | Menambah field, input, button atau kawalan dalam page. |
-```
-
 ---
 
 # Panel Setting Kanan
