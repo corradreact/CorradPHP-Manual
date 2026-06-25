@@ -2,15 +2,16 @@
 # Fungsi Toolbar
 
 | Button | Gambar | Penerangan |
-|--- |---|---|
-| Preview | ![Preview Button](/image/pagestudio/button-preview.png) | Melihat paparan page sebelum digunakan oleh user. |
-| Split View | ![Split View Button](/image/pagestudio/button-split-view.png) | Memaparkan page dan setting secara sebelah-menyebelah. |
-| Quick Page | ![Quick Page Button](/image/pagestudio/button-quick-page.png) | Membantu create page dengan setting asas secara lebih cepat. |
-| Duplicate Page | ![Duplicate Page Button](/image/pagestudio/button-duplicate-page.png) | Menyalin struktur page sedia ada. |
-| Component | ![Component Button](/image/pagestudio/button-component.png) | Menambah layout, section atau container dalam page. |
-| Control | ![Control Button](/image/pagestudio/button-control.png) | Menambah field, input, button atau kawalan dalam page. |
+|---|---|---|
+| Preview | ![Preview](/image/pagestudio/preview.png) | Melihat paparan page sebelum digunakan oleh pengguna. |
+| Split View | ![Split View](/image/pagestudio/splitview.png) | Memaparkan page dan panel tetapan secara bersebelahan. |
+| Quick Page | ![Quick Page](/image/pagestudio/quick.png) | Membantu membina page dengan tetapan asas dengan lebih cepat. |
+| Duplicate Page | ![Duplicate Page](/image/pagestudio/duplicate.png) | Menyalin struktur dan tetapan page sedia ada. |
+| Component | ![Tambah Component](/image/pagestudio/component.png) | Menambah component seperti form, datatable, chart atau report ke dalam page. |
+| Control | ![Tambah Control](/image/pagestudio/control.png) | Menambah control seperti Save, Submit, Back, Delete atau Print. |
 ---
 
+   
 # Panel Setting Kanan
 
 Panel setting kanan digunakan untuk mengubah maklumat menu dan page.
