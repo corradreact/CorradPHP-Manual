@@ -8,7 +8,7 @@
 | Quick Page | ![Quick Page](/image/pagestudio/quick.png) | Membantu membina page dengan tetapan asas dengan lebih cepat. |
 | Duplicate Page | ![Duplicate Page](/image/pagestudio/duplicate.png) | Menyalin struktur dan tetapan page sedia ada. |
 | Component | ![Tambah Component](/image/pagestudio/component.png) | Menambah component seperti form, datatable, chart atau report ke dalam page. |
-| Control | ![Tambah Control](/image/pagestudio/control.png) | Menambah control seperti Save, Submit, Back, Delete atau Print. |
+| Control | ![Tambah Control](/image/pagestudio/controlbtn.png) | Menambah control seperti Save, Submit, Back, Delete atau Print. |
 ---
 
    
@@ -16,7 +16,7 @@
 
 Panel setting kanan digunakan untuk mengubah maklumat menu dan page.
 
-## Menu Setting
+### Menu Setting
 
 | Field | Penerangan |
 |---|---|
@@ -24,8 +24,9 @@ Panel setting kanan digunakan untuk mengubah maklumat menu dan page.
 | Status | Menentukan sama ada menu/page aktif atau tidak aktif. |
 | Icon | Icon untuk menu, jika diperlukan. |
 | Notes | Catatan tambahan berkaitan menu/page. |
+![Menu Settings](/image/pagestudio/menusettings.png)
 
-## Page Setting
+### Page Setting
 
 | Field | Penerangan |
 |---|---|
@@ -35,25 +36,10 @@ Panel setting kanan digunakan untuk mengubah maklumat menu dan page.
 | Pre-Process | Proses yang dijalankan sebelum page dimuatkan, jika dikonfigurasi. |
 | Post-Process | Proses yang dijalankan selepas tindakan tertentu, jika dikonfigurasi. |
 | CSS Class | Class CSS khas untuk layout atau styling page. |
+![Page settings](/image/pagestudio/pagesettings.png)
 
 ---
-
-# Jenis Field Yang Biasa Digunakan
-
-| Field Type | Kegunaan |
-|---|---|
-| Text | Input pendek seperti nama, kod, nombor atau tajuk. |
-| Textarea | Input panjang seperti alamat, catatan atau penerangan. |
-| Dropdown | Pilihan nilai daripada senarai. |
-| Date | Pilihan tarikh sahaja. |
-| Datetime | Pilihan tarikh dan masa. |
-| Checkbox | Pilihan ya/tidak atau multiple selection. |
-| File Upload | Upload dokumen atau attachment. |
-
----
-
-# Amalan Terbaik
-
+::: warning Nota
 - Gunakan nama page yang jelas dan ringkas.
 - Susun field mengikut kumpulan yang berkaitan.
 - Elakkan terlalu banyak field dalam satu section.
@@ -63,13 +49,11 @@ Panel setting kanan digunakan untuk mengubah maklumat menu dan page.
 - Uji page menggunakan role user yang berbeza.
 - Pastikan backend logic sudah siap sebelum page digunakan untuk data sebenar.
 - Jangan release page kepada user sebelum CRUD/API/report diuji.
-
+:::
 ---
 
-# Isu Biasa
-
-## Page tidak muncul dalam sidebar
-
+::: danger Isu Biasa
+#### Page tidak muncul dalam sidebar
 Kemungkinan punca:
 
 - Status page tidak aktif.
@@ -77,8 +61,7 @@ Kemungkinan punca:
 - Menu belum reload.
 - Page belum disimpan dengan betul.
 
-## Field tidak menyimpan data
-
+#### Field tidak menyimpan data
 Kemungkinan punca:
 
 - Backend logic belum dikonfigurasi.
@@ -86,20 +69,18 @@ Kemungkinan punca:
 - Field name tidak sama dengan mapping backend.
 - Validation gagal.
 
-## Dashboard tidak memaparkan data
-
+#### Dashboard tidak memaparkan data
 Kemungkinan punca:
 
 - Data source belum dikonfigurasi.
 - API tidak mengembalikan data.
 - User tiada permission untuk melihat data tersebut.
 
-## Report tidak boleh export
-
+#### Report tidak boleh export
 Kemungkinan punca:
 
 - Fungsi export belum dikonfigurasi.
 - Query report mempunyai error.
 - User role tiada permission untuk export data.
-
+:::
 ---
